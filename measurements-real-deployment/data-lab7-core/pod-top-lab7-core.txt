@@ -1,0 +1,438 @@
+#time;pod_name;cpu_usage;memory_usage;containers
+1785910679.758476;mnsec-proxy-7d45f4d94-gfjhx;0.69m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "170384n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "524066n", "memory": "13564Ki"}}
+1785910685.090702;mnsec-proxy-7d45f4d94-gfjhx;0.69m;140.23Mi;{"auth-service": {"cpu": "170384n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "524066n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910690.460634;mnsec-proxy-7d45f4d94-gfjhx;0.69m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "170384n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "524066n", "memory": "13564Ki"}}
+1785910695.7902348;mnsec-proxy-7d45f4d94-gfjhx;0.69m;140.23Mi;{"auth-service": {"cpu": "170384n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "524066n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910701.1559591;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "187899n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58324n", "memory": "13564Ki"}}
+1785910706.485045;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "187899n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58324n", "memory": "13564Ki"}}
+1785910711.845645;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.23Mi;{"auth-service": {"cpu": "187899n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58324n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910717.186116;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "172369n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "69618n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910722.5531478;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "172369n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "69618n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910727.8750458;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "172369n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "69618n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910733.239491;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"kubectl-service": {"cpu": "39204n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "172369n", "memory": "88792Ki"}}
+1785910738.562538;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"kubectl-service": {"cpu": "39204n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "172369n", "memory": "88792Ki"}}
+1785910743.925143;coreemu-634bf129b74243-65fd89679c-jq76l;302.56m;729.02Mi;{"coreemu": {"cpu": "302561721n", "memory": "746512Ki"}}
+1785910743.925143;mnsec-proxy-7d45f4d94-gfjhx;0.26m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "189720n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "66771n", "memory": "13564Ki"}}
+1785910749.260484;coreemu-634bf129b74243-65fd89679c-jq76l;302.56m;729.02Mi;{"coreemu": {"cpu": "302561721n", "memory": "746512Ki"}}
+1785910749.260484;mnsec-proxy-7d45f4d94-gfjhx;0.26m;140.23Mi;{"kubectl-service": {"cpu": "66771n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "189720n", "memory": "88792Ki"}}
+1785910754.618219;coreemu-634bf129b74243-65fd89679c-jq76l;302.56m;729.02Mi;{"coreemu": {"cpu": "302561721n", "memory": "746512Ki"}}
+1785910754.618219;mnsec-proxy-7d45f4d94-gfjhx;0.26m;140.23Mi;{"kubectl-service": {"cpu": "66771n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "189720n", "memory": "88792Ki"}}
+1785910759.9426718;coreemu-634bf129b74243-65fd89679c-jq76l;25.86m;728.69Mi;{"coreemu": {"cpu": "25862292n", "memory": "746180Ki"}}
+1785910759.9426718;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "177824n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "47897n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910765.319072;coreemu-634bf129b74243-65fd89679c-jq76l;25.86m;728.69Mi;{"coreemu": {"cpu": "25862292n", "memory": "746180Ki"}}
+1785910765.319072;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "177824n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "47897n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910770.648044;coreemu-634bf129b74243-65fd89679c-jq76l;25.86m;728.69Mi;{"coreemu": {"cpu": "25862292n", "memory": "746180Ki"}}
+1785910770.648044;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "177824n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "47897n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910776.010627;coreemu-634bf129b74243-65fd89679c-jq76l;520.32m;820.79Mi;{"coreemu": {"cpu": "520324224n", "memory": "840484Ki"}}
+1785910776.010627;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "188518n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50381n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910781.3361979;coreemu-634bf129b74243-65fd89679c-jq76l;520.32m;820.79Mi;{"coreemu": {"cpu": "520324224n", "memory": "840484Ki"}}
+1785910781.3361979;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "188518n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50381n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910786.698498;coreemu-634bf129b74243-65fd89679c-jq76l;520.32m;820.79Mi;{"coreemu": {"cpu": "520324224n", "memory": "840484Ki"}}
+1785910786.698498;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "188518n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50381n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910792.024214;coreemu-634bf129b74243-65fd89679c-jq76l;420.10m;821.20Mi;{"coreemu": {"cpu": "420101753n", "memory": "840912Ki"}}
+1785910792.024214;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "168062n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "59585n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910797.386167;coreemu-634bf129b74243-65fd89679c-jq76l;420.10m;821.20Mi;{"coreemu": {"cpu": "420101753n", "memory": "840912Ki"}}
+1785910797.386167;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "59585n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "168062n", "memory": "88792Ki"}}
+1785910802.7099361;coreemu-634bf129b74243-65fd89679c-jq76l;420.10m;821.20Mi;{"coreemu": {"cpu": "420101753n", "memory": "840912Ki"}}
+1785910802.7099361;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "168062n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "59585n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910808.0702379;coreemu-634bf129b74243-65fd89679c-jq76l;638.13m;832.48Mi;{"coreemu": {"cpu": "638133136n", "memory": "852464Ki"}}
+1785910808.0702379;mnsec-proxy-7d45f4d94-gfjhx;0.94m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "166140n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "774562n", "memory": "13564Ki"}}
+1785910813.394602;coreemu-634bf129b74243-65fd89679c-jq76l;638.13m;832.48Mi;{"coreemu": {"cpu": "638133136n", "memory": "852464Ki"}}
+1785910813.394602;mnsec-proxy-7d45f4d94-gfjhx;0.94m;140.23Mi;{"auth-service": {"cpu": "166140n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "774562n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910818.757403;coreemu-634bf129b74243-65fd89679c-jq76l;638.13m;832.48Mi;{"coreemu": {"cpu": "638133136n", "memory": "852464Ki"}}
+1785910818.757403;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "170512n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "70902n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910824.083936;coreemu-634bf129b74243-65fd89679c-jq76l;638.13m;832.48Mi;{"coreemu": {"cpu": "638133136n", "memory": "852464Ki"}}
+1785910824.083936;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "170512n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "70902n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910829.446752;coreemu-634bf129b74243-65fd89679c-jq76l;638.13m;832.48Mi;{"coreemu": {"cpu": "638133136n", "memory": "852464Ki"}}
+1785910829.446752;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "170512n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "70902n", "memory": "13564Ki"}}
+1785910834.777712;coreemu-634bf129b74243-65fd89679c-jq76l;533.57m;844.53Mi;{"coreemu": {"cpu": "533572119n", "memory": "864796Ki"}}
+1785910834.777712;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "178601n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50282n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910840.137572;coreemu-634bf129b74243-65fd89679c-jq76l;533.57m;844.53Mi;{"coreemu": {"cpu": "533572119n", "memory": "864796Ki"}}
+1785910840.137572;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "178601n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50282n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910845.459003;coreemu-634bf129b74243-65fd89679c-jq76l;533.57m;844.53Mi;{"coreemu": {"cpu": "533572119n", "memory": "864796Ki"}}
+1785910845.459003;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "178601n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50282n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910850.821362;coreemu-634bf129b74243-65fd89679c-jq76l;469.64m;843.75Mi;{"coreemu": {"cpu": "469641777n", "memory": "863996Ki"}}
+1785910850.821362;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "176034n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58354n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910856.1533492;coreemu-634bf129b74243-65fd89679c-jq76l;469.64m;843.75Mi;{"coreemu": {"cpu": "469641777n", "memory": "863996Ki"}}
+1785910856.1533492;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "176034n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58354n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910861.513839;coreemu-634bf129b74243-65fd89679c-jq76l;469.64m;843.75Mi;{"coreemu": {"cpu": "469641777n", "memory": "863996Ki"}}
+1785910861.513839;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "176034n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58354n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910866.842528;coreemu-634bf129b74243-65fd89679c-jq76l;460.71m;843.96Mi;{"coreemu": {"cpu": "460709889n", "memory": "864216Ki"}}
+1785910866.842528;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "176034n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58354n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910872.2154272;coreemu-634bf129b74243-65fd89679c-jq76l;460.71m;843.96Mi;{"coreemu": {"cpu": "460709889n", "memory": "864216Ki"}}
+1785910872.2154272;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "176034n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58354n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910877.5548842;coreemu-634bf129b74243-65fd89679c-jq76l;460.71m;843.96Mi;{"coreemu": {"cpu": "460709889n", "memory": "864216Ki"}}
+1785910877.5548842;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "176034n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58354n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910882.922155;coreemu-634bf129b74243-65fd89679c-jq76l;531.69m;845.04Mi;{"coreemu": {"cpu": "531688321n", "memory": "865324Ki"}}
+1785910882.922155;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "185096n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "39934n", "memory": "13564Ki"}}
+1785910888.253412;coreemu-634bf129b74243-65fd89679c-jq76l;531.69m;845.04Mi;{"coreemu": {"cpu": "531688321n", "memory": "865324Ki"}}
+1785910888.253412;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "185096n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "39934n", "memory": "13564Ki"}}
+1785910893.62182;coreemu-634bf129b74243-65fd89679c-jq76l;531.69m;845.04Mi;{"coreemu": {"cpu": "531688321n", "memory": "865324Ki"}}
+1785910893.62182;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "185096n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "39934n", "memory": "13564Ki"}}
+1785910898.956394;coreemu-634bf129b74243-65fd89679c-jq76l;531.69m;845.04Mi;{"coreemu": {"cpu": "531688321n", "memory": "865324Ki"}}
+1785910898.956394;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "178910n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "49699n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910904.320873;coreemu-634bf129b74243-65fd89679c-jq76l;531.69m;845.04Mi;{"coreemu": {"cpu": "531688321n", "memory": "865324Ki"}}
+1785910904.320873;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "178910n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "49699n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910909.65995;coreemu-634bf129b74243-65fd89679c-jq76l;455.30m;845.04Mi;{"coreemu": {"cpu": "455296603n", "memory": "865324Ki"}}
+1785910909.65995;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "163394n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54463n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910915.017523;coreemu-634bf129b74243-65fd89679c-jq76l;455.30m;845.04Mi;{"coreemu": {"cpu": "455296603n", "memory": "865324Ki"}}
+1785910915.017523;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "163394n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54463n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910920.3508108;coreemu-634bf129b74243-65fd89679c-jq76l;455.30m;845.04Mi;{"coreemu": {"cpu": "455296603n", "memory": "865324Ki"}}
+1785910920.3508108;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "163394n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54463n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910925.713054;coreemu-634bf129b74243-65fd89679c-jq76l;461.43m;845.13Mi;{"coreemu": {"cpu": "461426029n", "memory": "865412Ki"}}
+1785910925.713054;mnsec-proxy-7d45f4d94-gfjhx;0.91m;140.23Mi;{"auth-service": {"cpu": "176395n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "729215n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910931.045587;coreemu-634bf129b74243-65fd89679c-jq76l;461.43m;845.13Mi;{"coreemu": {"cpu": "461426029n", "memory": "865412Ki"}}
+1785910931.045587;mnsec-proxy-7d45f4d94-gfjhx;0.91m;140.23Mi;{"auth-service": {"cpu": "176395n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "729215n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910936.4129841;coreemu-634bf129b74243-65fd89679c-jq76l;461.43m;845.13Mi;{"coreemu": {"cpu": "461426029n", "memory": "865412Ki"}}
+1785910936.4129841;mnsec-proxy-7d45f4d94-gfjhx;0.91m;140.23Mi;{"auth-service": {"cpu": "176395n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "729215n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910941.743086;coreemu-634bf129b74243-65fd89679c-jq76l;452.28m;844.74Mi;{"coreemu": {"cpu": "452275817n", "memory": "865012Ki"}}
+1785910941.743086;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "50542n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "186762n", "memory": "88792Ki"}}
+1785910947.1015391;coreemu-634bf129b74243-65fd89679c-jq76l;452.28m;844.74Mi;{"coreemu": {"cpu": "452275817n", "memory": "865012Ki"}}
+1785910947.1015391;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "50542n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "186762n", "memory": "88792Ki"}}
+1785910952.427728;coreemu-634bf129b74243-65fd89679c-jq76l;452.28m;844.74Mi;{"coreemu": {"cpu": "452275817n", "memory": "865012Ki"}}
+1785910952.427728;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "50542n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "186762n", "memory": "88792Ki"}}
+1785910957.7915788;coreemu-634bf129b74243-65fd89679c-jq76l;457.73m;844.80Mi;{"coreemu": {"cpu": "457730151n", "memory": "865080Ki"}}
+1785910957.7915788;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "48210n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177027n", "memory": "88792Ki"}}
+1785910963.125221;coreemu-634bf129b74243-65fd89679c-jq76l;457.73m;844.80Mi;{"coreemu": {"cpu": "457730151n", "memory": "865080Ki"}}
+1785910963.125221;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "177027n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "48210n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910968.486471;coreemu-634bf129b74243-65fd89679c-jq76l;457.73m;844.80Mi;{"coreemu": {"cpu": "457730151n", "memory": "865080Ki"}}
+1785910968.486471;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "177027n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "48210n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910973.818048;coreemu-634bf129b74243-65fd89679c-jq76l;553.88m;846.94Mi;{"coreemu": {"cpu": "553881195n", "memory": "867268Ki"}}
+1785910973.818048;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "169799n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50504n", "memory": "13564Ki"}}
+1785910979.1828558;coreemu-634bf129b74243-65fd89679c-jq76l;553.88m;846.94Mi;{"coreemu": {"cpu": "553881195n", "memory": "867268Ki"}}
+1785910979.1828558;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "169799n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50504n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910984.5215738;coreemu-634bf129b74243-65fd89679c-jq76l;540.37m;846.75Mi;{"coreemu": {"cpu": "540370343n", "memory": "867072Ki"}}
+1785910984.5215738;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "177908n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50636n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910989.882337;coreemu-634bf129b74243-65fd89679c-jq76l;540.37m;846.75Mi;{"coreemu": {"cpu": "540370343n", "memory": "867072Ki"}}
+1785910989.882337;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "177908n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50636n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910995.212954;coreemu-634bf129b74243-65fd89679c-jq76l;540.37m;846.75Mi;{"coreemu": {"cpu": "540370343n", "memory": "867072Ki"}}
+1785910995.212954;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177908n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50636n", "memory": "13564Ki"}}
+1785911000.5728629;coreemu-634bf129b74243-65fd89679c-jq76l;506.88m;847.09Mi;{"coreemu": {"cpu": "506881258n", "memory": "867420Ki"}}
+1785911000.5728629;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "62775n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177784n", "memory": "88792Ki"}}
+1785911005.9145432;coreemu-634bf129b74243-65fd89679c-jq76l;506.88m;847.09Mi;{"coreemu": {"cpu": "506881258n", "memory": "867420Ki"}}
+1785911005.9145432;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "62775n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177784n", "memory": "88792Ki"}}
+1785911011.271958;coreemu-634bf129b74243-65fd89679c-jq76l;506.88m;847.09Mi;{"coreemu": {"cpu": "506881258n", "memory": "867420Ki"}}
+1785911011.271958;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "62775n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177784n", "memory": "88792Ki"}}
+1785911016.628342;coreemu-634bf129b74243-65fd89679c-jq76l;670.23m;848.14Mi;{"coreemu": {"cpu": "670234984n", "memory": "868496Ki"}}
+1785911016.628342;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "182615n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "43090n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911022.004745;coreemu-634bf129b74243-65fd89679c-jq76l;670.23m;848.14Mi;{"coreemu": {"cpu": "670234984n", "memory": "868496Ki"}}
+1785911022.004745;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "182615n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "43090n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911027.334234;coreemu-634bf129b74243-65fd89679c-jq76l;670.23m;848.14Mi;{"coreemu": {"cpu": "670234984n", "memory": "868496Ki"}}
+1785911027.334234;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "182615n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "43090n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911032.691405;coreemu-634bf129b74243-65fd89679c-jq76l;574.52m;851.01Mi;{"coreemu": {"cpu": "574521262n", "memory": "871436Ki"}}
+1785911032.691405;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181360n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "43090n", "memory": "13564Ki"}}
+1785911038.020098;coreemu-634bf129b74243-65fd89679c-jq76l;574.52m;851.01Mi;{"coreemu": {"cpu": "574521262n", "memory": "871436Ki"}}
+1785911038.020098;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181360n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "43090n", "memory": "13564Ki"}}
+1785911043.384574;coreemu-634bf129b74243-65fd89679c-jq76l;574.52m;851.01Mi;{"coreemu": {"cpu": "574521262n", "memory": "871436Ki"}}
+1785911043.384574;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "43090n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181360n", "memory": "88792Ki"}}
+1785911048.71678;coreemu-634bf129b74243-65fd89679c-jq76l;486.23m;851.12Mi;{"coreemu": {"cpu": "486234377n", "memory": "871544Ki"}}
+1785911048.71678;mnsec-proxy-7d45f4d94-gfjhx;0.52m;140.23Mi;{"kubectl-service": {"cpu": "347289n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "174556n", "memory": "88792Ki"}}
+1785911054.077194;coreemu-634bf129b74243-65fd89679c-jq76l;486.23m;851.12Mi;{"coreemu": {"cpu": "486234377n", "memory": "871544Ki"}}
+1785911054.077194;mnsec-proxy-7d45f4d94-gfjhx;0.52m;140.23Mi;{"kubectl-service": {"cpu": "347289n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "174556n", "memory": "88792Ki"}}
+1785911059.403934;coreemu-634bf129b74243-65fd89679c-jq76l;472.81m;850.36Mi;{"coreemu": {"cpu": "472814766n", "memory": "870764Ki"}}
+1785911059.403934;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "181290n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "56673n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911064.772377;coreemu-634bf129b74243-65fd89679c-jq76l;472.81m;850.36Mi;{"coreemu": {"cpu": "472814766n", "memory": "870764Ki"}}
+1785911064.772377;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "181290n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "56673n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911070.1011798;coreemu-634bf129b74243-65fd89679c-jq76l;472.81m;850.36Mi;{"coreemu": {"cpu": "472814766n", "memory": "870764Ki"}}
+1785911070.1011798;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "56673n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181290n", "memory": "88792Ki"}}
+1785911075.47601;coreemu-634bf129b74243-65fd89679c-jq76l;486.75m;850.98Mi;{"coreemu": {"cpu": "486754876n", "memory": "871404Ki"}}
+1785911075.47601;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "172307n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "45811n", "memory": "13564Ki"}}
+1785911080.802838;coreemu-634bf129b74243-65fd89679c-jq76l;486.75m;850.98Mi;{"coreemu": {"cpu": "486754876n", "memory": "871404Ki"}}
+1785911080.802838;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "172307n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "45811n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911086.165308;coreemu-634bf129b74243-65fd89679c-jq76l;486.75m;850.98Mi;{"coreemu": {"cpu": "486754876n", "memory": "871404Ki"}}
+1785911086.165308;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "172307n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "45811n", "memory": "13564Ki"}}
+1785911091.506173;coreemu-634bf129b74243-65fd89679c-jq76l;486.75m;850.98Mi;{"coreemu": {"cpu": "486754876n", "memory": "871404Ki"}}
+1785911091.506173;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177112n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "44962n", "memory": "13564Ki"}}
+1785911096.872975;coreemu-634bf129b74243-65fd89679c-jq76l;486.75m;850.98Mi;{"coreemu": {"cpu": "486754876n", "memory": "871404Ki"}}
+1785911096.872975;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "44962n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177112n", "memory": "88792Ki"}}
+1785911102.2002401;coreemu-634bf129b74243-65fd89679c-jq76l;486.75m;850.98Mi;{"coreemu": {"cpu": "486754876n", "memory": "871404Ki"}}
+1785911102.2002401;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "44962n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177112n", "memory": "88792Ki"}}
+1785911107.565353;coreemu-634bf129b74243-65fd89679c-jq76l;505.37m;850.72Mi;{"coreemu": {"cpu": "505371495n", "memory": "871136Ki"}}
+1785911107.565353;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "53730n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "184626n", "memory": "88792Ki"}}
+1785911112.898261;coreemu-634bf129b74243-65fd89679c-jq76l;505.37m;850.72Mi;{"coreemu": {"cpu": "505371495n", "memory": "871136Ki"}}
+1785911112.898261;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "53730n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "184626n", "memory": "88792Ki"}}
+1785911118.261533;coreemu-634bf129b74243-65fd89679c-jq76l;505.37m;850.72Mi;{"coreemu": {"cpu": "505371495n", "memory": "871136Ki"}}
+1785911118.261533;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "53730n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "184626n", "memory": "88792Ki"}}
+1785911123.589937;coreemu-634bf129b74243-65fd89679c-jq76l;458.36m;850.70Mi;{"coreemu": {"cpu": "458360729n", "memory": "871116Ki"}}
+1785911123.589937;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "63056n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "171900n", "memory": "88792Ki"}}
+1785911128.953553;coreemu-634bf129b74243-65fd89679c-jq76l;458.36m;850.70Mi;{"coreemu": {"cpu": "458360729n", "memory": "871116Ki"}}
+1785911128.953553;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "171900n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "63056n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911134.2814121;coreemu-634bf129b74243-65fd89679c-jq76l;575.14m;857.11Mi;{"coreemu": {"cpu": "575136277n", "memory": "877680Ki"}}
+1785911134.2814121;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "168612n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "63994n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911139.648034;coreemu-634bf129b74243-65fd89679c-jq76l;575.14m;857.11Mi;{"coreemu": {"cpu": "575136277n", "memory": "877680Ki"}}
+1785911139.648034;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "168612n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "63994n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911144.975935;coreemu-634bf129b74243-65fd89679c-jq76l;575.14m;857.11Mi;{"coreemu": {"cpu": "575136277n", "memory": "877680Ki"}}
+1785911144.975935;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "168612n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "63994n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911150.34431;coreemu-634bf129b74243-65fd89679c-jq76l;646.19m;860.38Mi;{"coreemu": {"cpu": "646186776n", "memory": "881032Ki"}}
+1785911150.34431;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "172599n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "63994n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911155.6775181;coreemu-634bf129b74243-65fd89679c-jq76l;646.19m;860.38Mi;{"coreemu": {"cpu": "646186776n", "memory": "881032Ki"}}
+1785911155.6775181;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "172599n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "63994n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911161.037289;coreemu-634bf129b74243-65fd89679c-jq76l;646.19m;860.38Mi;{"coreemu": {"cpu": "646186776n", "memory": "881032Ki"}}
+1785911161.037289;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "172599n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "63994n", "memory": "13564Ki"}}
+1785911166.3748312;coreemu-634bf129b74243-65fd89679c-jq76l;464.24m;860.57Mi;{"coreemu": {"cpu": "464235418n", "memory": "881228Ki"}}
+1785911166.3748312;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "166391n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "57223n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911171.7377799;coreemu-634bf129b74243-65fd89679c-jq76l;464.24m;860.57Mi;{"coreemu": {"cpu": "464235418n", "memory": "881228Ki"}}
+1785911171.7377799;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "166391n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "57223n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911177.065985;coreemu-634bf129b74243-65fd89679c-jq76l;464.24m;860.57Mi;{"coreemu": {"cpu": "464235418n", "memory": "881228Ki"}}
+1785911177.065985;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "166391n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "57223n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911182.4311092;coreemu-634bf129b74243-65fd89679c-jq76l;463.33m;860.29Mi;{"coreemu": {"cpu": "463334973n", "memory": "880932Ki"}}
+1785911182.4311092;mnsec-proxy-7d45f4d94-gfjhx;0.57m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "166391n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "406314n", "memory": "13564Ki"}}
+1785911187.7558;coreemu-634bf129b74243-65fd89679c-jq76l;463.33m;860.29Mi;{"coreemu": {"cpu": "463334973n", "memory": "880932Ki"}}
+1785911187.7558;mnsec-proxy-7d45f4d94-gfjhx;0.57m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "166391n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "406314n", "memory": "13564Ki"}}
+1785911193.117082;coreemu-634bf129b74243-65fd89679c-jq76l;463.33m;860.29Mi;{"coreemu": {"cpu": "463334973n", "memory": "880932Ki"}}
+1785911193.117082;mnsec-proxy-7d45f4d94-gfjhx;0.57m;140.23Mi;{"auth-service": {"cpu": "166391n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "406314n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911198.450679;coreemu-634bf129b74243-65fd89679c-jq76l;468.24m;860.54Mi;{"coreemu": {"cpu": "468239667n", "memory": "881192Ki"}}
+1785911198.450679;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "172911n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "45243n", "memory": "13564Ki"}}
+1785911203.810694;coreemu-634bf129b74243-65fd89679c-jq76l;468.24m;860.54Mi;{"coreemu": {"cpu": "468239667n", "memory": "881192Ki"}}
+1785911203.810694;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "45243n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "172911n", "memory": "88792Ki"}}
+1785911209.1392891;coreemu-634bf129b74243-65fd89679c-jq76l;458.99m;860.34Mi;{"coreemu": {"cpu": "458991853n", "memory": "880992Ki"}}
+1785911209.1392891;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "65872n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173233n", "memory": "88792Ki"}}
+1785911214.50818;coreemu-634bf129b74243-65fd89679c-jq76l;458.99m;860.34Mi;{"coreemu": {"cpu": "458991853n", "memory": "880992Ki"}}
+1785911214.50818;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "65872n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173233n", "memory": "88792Ki"}}
+1785911219.840333;coreemu-634bf129b74243-65fd89679c-jq76l;458.99m;860.34Mi;{"coreemu": {"cpu": "458991853n", "memory": "880992Ki"}}
+1785911219.840333;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "65872n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173233n", "memory": "88792Ki"}}
+1785911225.214402;coreemu-634bf129b74243-65fd89679c-jq76l;458.99m;860.34Mi;{"coreemu": {"cpu": "458991853n", "memory": "880992Ki"}}
+1785911225.214402;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173233n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "47195n", "memory": "13564Ki"}}
+1785911230.543922;coreemu-634bf129b74243-65fd89679c-jq76l;458.99m;860.34Mi;{"coreemu": {"cpu": "458991853n", "memory": "880992Ki"}}
+1785911230.543922;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173233n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "47195n", "memory": "13564Ki"}}
+1785911235.902378;coreemu-634bf129b74243-65fd89679c-jq76l;458.99m;860.34Mi;{"coreemu": {"cpu": "458991853n", "memory": "880992Ki"}}
+1785911235.902378;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173233n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "47195n", "memory": "13564Ki"}}
+1785911241.233443;coreemu-634bf129b74243-65fd89679c-jq76l;453.28m;860.75Mi;{"coreemu": {"cpu": "453284229n", "memory": "881408Ki"}}
+1785911241.233443;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "182298n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "46318n", "memory": "13564Ki"}}
+1785911246.5948758;coreemu-634bf129b74243-65fd89679c-jq76l;453.28m;860.75Mi;{"coreemu": {"cpu": "453284229n", "memory": "881408Ki"}}
+1785911246.5948758;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "182298n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "46318n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911251.921857;coreemu-634bf129b74243-65fd89679c-jq76l;453.28m;860.75Mi;{"coreemu": {"cpu": "453284229n", "memory": "881408Ki"}}
+1785911251.921857;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "182298n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "46318n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911257.290258;coreemu-634bf129b74243-65fd89679c-jq76l;467.15m;860.50Mi;{"coreemu": {"cpu": "467145653n", "memory": "881156Ki"}}
+1785911257.290258;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "185329n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "62320n", "memory": "13564Ki"}}
+1785911262.619971;coreemu-634bf129b74243-65fd89679c-jq76l;467.15m;860.50Mi;{"coreemu": {"cpu": "467145653n", "memory": "881156Ki"}}
+1785911262.619971;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "185329n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "62320n", "memory": "13564Ki"}}
+1785911267.980886;coreemu-634bf129b74243-65fd89679c-jq76l;467.15m;860.50Mi;{"coreemu": {"cpu": "467145653n", "memory": "881156Ki"}}
+1785911267.980886;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "185329n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "62320n", "memory": "13564Ki"}}
+1785911273.307937;coreemu-634bf129b74243-65fd89679c-jq76l;461.80m;860.76Mi;{"coreemu": {"cpu": "461804677n", "memory": "881420Ki"}}
+1785911273.307937;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"auth-service": {"cpu": "177513n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "28930n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911278.671675;coreemu-634bf129b74243-65fd89679c-jq76l;461.80m;860.76Mi;{"coreemu": {"cpu": "461804677n", "memory": "881420Ki"}}
+1785911278.671675;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"auth-service": {"cpu": "177513n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "28930n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911284.001187;coreemu-634bf129b74243-65fd89679c-jq76l;440.96m;860.50Mi;{"coreemu": {"cpu": "440960720n", "memory": "881148Ki"}}
+1785911284.001187;mnsec-proxy-7d45f4d94-gfjhx;0.20m;140.23Mi;{"auth-service": {"cpu": "172126n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "28930n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911289.373218;coreemu-634bf129b74243-65fd89679c-jq76l;440.96m;860.50Mi;{"coreemu": {"cpu": "440960720n", "memory": "881148Ki"}}
+1785911289.373218;mnsec-proxy-7d45f4d94-gfjhx;0.20m;140.23Mi;{"auth-service": {"cpu": "172126n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "28930n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911294.713779;coreemu-634bf129b74243-65fd89679c-jq76l;440.96m;860.50Mi;{"coreemu": {"cpu": "440960720n", "memory": "881148Ki"}}
+1785911294.713779;mnsec-proxy-7d45f4d94-gfjhx;0.20m;140.23Mi;{"auth-service": {"cpu": "172126n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "28930n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911300.0765471;coreemu-634bf129b74243-65fd89679c-jq76l;462.27m;860.59Mi;{"coreemu": {"cpu": "462271810n", "memory": "881248Ki"}}
+1785911300.0765471;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "180863n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "56635n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911305.402405;coreemu-634bf129b74243-65fd89679c-jq76l;462.27m;860.59Mi;{"coreemu": {"cpu": "462271810n", "memory": "881248Ki"}}
+1785911305.402405;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "180863n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "56635n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911310.764502;coreemu-634bf129b74243-65fd89679c-jq76l;462.27m;860.59Mi;{"coreemu": {"cpu": "462271810n", "memory": "881248Ki"}}
+1785911310.764502;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "180863n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "56635n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911316.0949068;coreemu-634bf129b74243-65fd89679c-jq76l;474.67m;859.56Mi;{"coreemu": {"cpu": "474674467n", "memory": "880192Ki"}}
+1785911316.0949068;mnsec-proxy-7d45f4d94-gfjhx;0.77m;140.23Mi;{"auth-service": {"cpu": "185697n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "583335n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911321.460751;coreemu-634bf129b74243-65fd89679c-jq76l;474.67m;859.56Mi;{"coreemu": {"cpu": "474674467n", "memory": "880192Ki"}}
+1785911321.460751;mnsec-proxy-7d45f4d94-gfjhx;0.77m;140.23Mi;{"auth-service": {"cpu": "185697n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "583335n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911326.807442;coreemu-634bf129b74243-65fd89679c-jq76l;474.67m;859.56Mi;{"coreemu": {"cpu": "474674467n", "memory": "880192Ki"}}
+1785911326.807442;mnsec-proxy-7d45f4d94-gfjhx;0.77m;140.23Mi;{"auth-service": {"cpu": "185697n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "583335n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911332.168351;coreemu-634bf129b74243-65fd89679c-jq76l;474.67m;859.56Mi;{"coreemu": {"cpu": "474674467n", "memory": "880192Ki"}}
+1785911332.168351;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "55522n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175237n", "memory": "88792Ki"}}
+1785911337.491327;coreemu-634bf129b74243-65fd89679c-jq76l;474.67m;859.56Mi;{"coreemu": {"cpu": "474674467n", "memory": "880192Ki"}}
+1785911337.491327;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "55522n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175237n", "memory": "88792Ki"}}
+1785911342.857121;coreemu-634bf129b74243-65fd89679c-jq76l;474.67m;859.56Mi;{"coreemu": {"cpu": "474674467n", "memory": "880192Ki"}}
+1785911342.857121;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "55522n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175237n", "memory": "88792Ki"}}
+1785911348.199487;coreemu-634bf129b74243-65fd89679c-jq76l;557.90m;859.58Mi;{"coreemu": {"cpu": "557895470n", "memory": "880208Ki"}}
+1785911348.199487;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "52336n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "164773n", "memory": "88792Ki"}}
+1785911353.5742779;coreemu-634bf129b74243-65fd89679c-jq76l;557.90m;859.58Mi;{"coreemu": {"cpu": "557895470n", "memory": "880208Ki"}}
+1785911353.5742779;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "52336n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "164773n", "memory": "88792Ki"}}
+1785911358.901168;coreemu-634bf129b74243-65fd89679c-jq76l;598.13m;859.29Mi;{"coreemu": {"cpu": "598131058n", "memory": "879912Ki"}}
+1785911358.901168;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "57389n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181731n", "memory": "88792Ki"}}
+1785911364.2669241;coreemu-634bf129b74243-65fd89679c-jq76l;598.13m;859.29Mi;{"coreemu": {"cpu": "598131058n", "memory": "879912Ki"}}
+1785911364.2669241;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "57389n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181731n", "memory": "88792Ki"}}
+1785911369.5937018;coreemu-634bf129b74243-65fd89679c-jq76l;598.13m;859.29Mi;{"coreemu": {"cpu": "598131058n", "memory": "879912Ki"}}
+1785911369.5937018;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "57389n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181731n", "memory": "88792Ki"}}
+1785911374.957322;coreemu-634bf129b74243-65fd89679c-jq76l;586.54m;860.41Mi;{"coreemu": {"cpu": "586542488n", "memory": "881056Ki"}}
+1785911374.957322;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "64814n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175733n", "memory": "88792Ki"}}
+1785911380.299299;coreemu-634bf129b74243-65fd89679c-jq76l;586.54m;860.41Mi;{"coreemu": {"cpu": "586542488n", "memory": "881056Ki"}}
+1785911380.299299;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "64814n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175733n", "memory": "88792Ki"}}
+1785911385.6607502;coreemu-634bf129b74243-65fd89679c-jq76l;586.54m;860.41Mi;{"coreemu": {"cpu": "586542488n", "memory": "881056Ki"}}
+1785911385.6607502;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "64814n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175733n", "memory": "88792Ki"}}
+1785911390.9934568;coreemu-634bf129b74243-65fd89679c-jq76l;511.32m;859.59Mi;{"coreemu": {"cpu": "511324918n", "memory": "880220Ki"}}
+1785911390.9934568;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "175733n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54736n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911396.356853;coreemu-634bf129b74243-65fd89679c-jq76l;511.32m;859.59Mi;{"coreemu": {"cpu": "511324918n", "memory": "880220Ki"}}
+1785911396.356853;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175733n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54736n", "memory": "13564Ki"}}
+1785911401.685722;coreemu-634bf129b74243-65fd89679c-jq76l;511.32m;859.59Mi;{"coreemu": {"cpu": "511324918n", "memory": "880220Ki"}}
+1785911401.685722;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "175733n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54736n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911407.0465941;coreemu-634bf129b74243-65fd89679c-jq76l;648.78m;859.53Mi;{"coreemu": {"cpu": "648779457n", "memory": "880156Ki"}}
+1785911407.0465941;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "183503n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "59584n", "memory": "13564Ki"}}
+1785911412.3716328;coreemu-634bf129b74243-65fd89679c-jq76l;648.78m;859.53Mi;{"coreemu": {"cpu": "648779457n", "memory": "880156Ki"}}
+1785911412.3716328;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "183503n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "59584n", "memory": "13564Ki"}}
+1785911417.7421281;coreemu-634bf129b74243-65fd89679c-jq76l;648.78m;859.53Mi;{"coreemu": {"cpu": "648779457n", "memory": "880156Ki"}}
+1785911417.7421281;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "183503n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "59584n", "memory": "13564Ki"}}
+1785911423.081708;coreemu-634bf129b74243-65fd89679c-jq76l;498.83m;859.13Mi;{"coreemu": {"cpu": "498826506n", "memory": "879752Ki"}}
+1785911423.081708;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "176205n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "60530n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911428.4589388;coreemu-634bf129b74243-65fd89679c-jq76l;498.83m;859.13Mi;{"coreemu": {"cpu": "498826506n", "memory": "879752Ki"}}
+1785911428.4589388;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "176205n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "60530n", "memory": "13564Ki"}}
+1785911433.789963;coreemu-634bf129b74243-65fd89679c-jq76l;434.37m;859.34Mi;{"coreemu": {"cpu": "434371900n", "memory": "879964Ki"}}
+1785911433.789963;mnsec-proxy-7d45f4d94-gfjhx;1.06m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181152n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "880062n", "memory": "13564Ki"}}
+1785911439.1525178;coreemu-634bf129b74243-65fd89679c-jq76l;434.37m;859.34Mi;{"coreemu": {"cpu": "434371900n", "memory": "879964Ki"}}
+1785911439.1525178;mnsec-proxy-7d45f4d94-gfjhx;1.06m;140.23Mi;{"auth-service": {"cpu": "181152n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "880062n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911444.477126;coreemu-634bf129b74243-65fd89679c-jq76l;434.37m;859.34Mi;{"coreemu": {"cpu": "434371900n", "memory": "879964Ki"}}
+1785911444.477126;mnsec-proxy-7d45f4d94-gfjhx;1.06m;140.23Mi;{"auth-service": {"cpu": "181152n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "880062n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911449.836558;coreemu-634bf129b74243-65fd89679c-jq76l;425.81m;858.96Mi;{"coreemu": {"cpu": "425813136n", "memory": "879580Ki"}}
+1785911449.836558;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"auth-service": {"cpu": "167853n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "40686n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911455.1678321;coreemu-634bf129b74243-65fd89679c-jq76l;425.81m;858.96Mi;{"coreemu": {"cpu": "425813136n", "memory": "879580Ki"}}
+1785911455.1678321;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"auth-service": {"cpu": "167853n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "40686n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911460.529721;coreemu-634bf129b74243-65fd89679c-jq76l;425.81m;858.96Mi;{"coreemu": {"cpu": "425813136n", "memory": "879580Ki"}}
+1785911460.529721;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"auth-service": {"cpu": "167853n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "40686n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911465.863175;coreemu-634bf129b74243-65fd89679c-jq76l;598.66m;861.57Mi;{"coreemu": {"cpu": "598657936n", "memory": "882244Ki"}}
+1785911465.863175;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "178579n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "63066n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911471.230835;coreemu-634bf129b74243-65fd89679c-jq76l;598.66m;861.57Mi;{"coreemu": {"cpu": "598657936n", "memory": "882244Ki"}}
+1785911471.230835;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "178579n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "63066n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911476.576038;coreemu-634bf129b74243-65fd89679c-jq76l;598.66m;861.57Mi;{"coreemu": {"cpu": "598657936n", "memory": "882244Ki"}}
+1785911476.576038;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "178579n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "63066n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911481.9405792;coreemu-634bf129b74243-65fd89679c-jq76l;597.82m;835.32Mi;{"coreemu": {"cpu": "597823965n", "memory": "855368Ki"}}
+1785911481.9405792;mnsec-proxy-7d45f4d94-gfjhx;0.20m;140.23Mi;{"kubectl-service": {"cpu": "36641n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "162916n", "memory": "88792Ki"}}
+1785911487.271521;coreemu-634bf129b74243-65fd89679c-jq76l;597.82m;835.32Mi;{"coreemu": {"cpu": "597823965n", "memory": "855368Ki"}}
+1785911487.271521;mnsec-proxy-7d45f4d94-gfjhx;0.20m;140.23Mi;{"auth-service": {"cpu": "162916n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "36641n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911492.637811;coreemu-634bf129b74243-65fd89679c-jq76l;597.82m;835.32Mi;{"coreemu": {"cpu": "597823965n", "memory": "855368Ki"}}
+1785911492.637811;mnsec-proxy-7d45f4d94-gfjhx;0.20m;140.23Mi;{"auth-service": {"cpu": "162916n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "36641n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911497.964426;coreemu-634bf129b74243-65fd89679c-jq76l;750.80m;842.77Mi;{"coreemu": {"cpu": "750804584n", "memory": "862996Ki"}}
+1785911497.964426;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "172802n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "70876n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911503.330464;coreemu-634bf129b74243-65fd89679c-jq76l;750.80m;842.77Mi;{"coreemu": {"cpu": "750804584n", "memory": "862996Ki"}}
+1785911503.330464;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "172802n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "70876n", "memory": "13564Ki"}}
+1785911508.6629739;coreemu-634bf129b74243-65fd89679c-jq76l;750.80m;842.77Mi;{"coreemu": {"cpu": "750804584n", "memory": "862996Ki"}}
+1785911508.6629739;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "172802n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "70876n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911514.02394;coreemu-634bf129b74243-65fd89679c-jq76l;488.16m;851.88Mi;{"coreemu": {"cpu": "488161037n", "memory": "872324Ki"}}
+1785911514.02394;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "174296n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58023n", "memory": "13564Ki"}}
+1785911519.352941;coreemu-634bf129b74243-65fd89679c-jq76l;488.16m;851.88Mi;{"coreemu": {"cpu": "488161037n", "memory": "872324Ki"}}
+1785911519.352941;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "174296n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "58023n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911524.725206;coreemu-634bf129b74243-65fd89679c-jq76l;574.90m;852.57Mi;{"coreemu": {"cpu": "574895156n", "memory": "873028Ki"}}
+1785911524.725206;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "186450n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "44703n", "memory": "13564Ki"}}
+1785911530.063832;coreemu-634bf129b74243-65fd89679c-jq76l;574.90m;852.57Mi;{"coreemu": {"cpu": "574895156n", "memory": "873028Ki"}}
+1785911530.063832;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "186450n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "44703n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911535.426107;coreemu-634bf129b74243-65fd89679c-jq76l;574.90m;852.57Mi;{"coreemu": {"cpu": "574895156n", "memory": "873028Ki"}}
+1785911535.426107;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "186450n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "44703n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911540.759742;coreemu-634bf129b74243-65fd89679c-jq76l;461.35m;851.58Mi;{"coreemu": {"cpu": "461345260n", "memory": "872020Ki"}}
+1785911540.759742;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "165258n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "41138n", "memory": "13564Ki"}}
+1785911546.121799;coreemu-634bf129b74243-65fd89679c-jq76l;461.35m;851.58Mi;{"coreemu": {"cpu": "461345260n", "memory": "872020Ki"}}
+1785911546.121799;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "165258n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "41138n", "memory": "13564Ki"}}
+1785911551.4771478;coreemu-634bf129b74243-65fd89679c-jq76l;461.35m;851.58Mi;{"coreemu": {"cpu": "461345260n", "memory": "872020Ki"}}
+1785911551.4771478;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"auth-service": {"cpu": "165258n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "41138n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911556.838937;coreemu-634bf129b74243-65fd89679c-jq76l;461.35m;851.58Mi;{"coreemu": {"cpu": "461345260n", "memory": "872020Ki"}}
+1785911556.838937;mnsec-proxy-7d45f4d94-gfjhx;0.94m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "171618n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "769555n", "memory": "13564Ki"}}
+1785911562.182506;coreemu-634bf129b74243-65fd89679c-jq76l;461.35m;851.58Mi;{"coreemu": {"cpu": "461345260n", "memory": "872020Ki"}}
+1785911562.182506;mnsec-proxy-7d45f4d94-gfjhx;0.94m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "171618n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "769555n", "memory": "13564Ki"}}
+1785911567.555422;coreemu-634bf129b74243-65fd89679c-jq76l;461.35m;851.58Mi;{"coreemu": {"cpu": "461345260n", "memory": "872020Ki"}}
+1785911567.555422;mnsec-proxy-7d45f4d94-gfjhx;0.94m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "171618n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "769555n", "memory": "13564Ki"}}
+1785911572.881216;coreemu-634bf129b74243-65fd89679c-jq76l;461.09m;851.70Mi;{"coreemu": {"cpu": "461089105n", "memory": "872144Ki"}}
+1785911572.881216;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "171618n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50285n", "memory": "13564Ki"}}
+1785911578.243039;coreemu-634bf129b74243-65fd89679c-jq76l;461.09m;851.70Mi;{"coreemu": {"cpu": "461089105n", "memory": "872144Ki"}}
+1785911578.243039;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "50285n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "171618n", "memory": "88792Ki"}}
+1785911583.5757298;coreemu-634bf129b74243-65fd89679c-jq76l;461.09m;851.70Mi;{"coreemu": {"cpu": "461089105n", "memory": "872144Ki"}}
+1785911583.5757298;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "50285n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "171618n", "memory": "88792Ki"}}
+1785911588.941773;coreemu-634bf129b74243-65fd89679c-jq76l;456.78m;852.12Mi;{"coreemu": {"cpu": "456776936n", "memory": "872576Ki"}}
+1785911588.941773;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "187935n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "53827n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911594.2842429;coreemu-634bf129b74243-65fd89679c-jq76l;456.78m;852.12Mi;{"coreemu": {"cpu": "456776936n", "memory": "872576Ki"}}
+1785911594.2842429;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "53827n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "187935n", "memory": "88792Ki"}}
+1785911599.651432;coreemu-634bf129b74243-65fd89679c-jq76l;546.36m;856.77Mi;{"coreemu": {"cpu": "546364635n", "memory": "877336Ki"}}
+1785911599.651432;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177041n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "40913n", "memory": "13564Ki"}}
+1785911604.9826748;coreemu-634bf129b74243-65fd89679c-jq76l;546.36m;856.77Mi;{"coreemu": {"cpu": "546364635n", "memory": "877336Ki"}}
+1785911604.9826748;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "177041n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "40913n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911610.343051;coreemu-634bf129b74243-65fd89679c-jq76l;546.36m;856.77Mi;{"coreemu": {"cpu": "546364635n", "memory": "877336Ki"}}
+1785911610.343051;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "177041n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "40913n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911615.684217;coreemu-634bf129b74243-65fd89679c-jq76l;453.23m;856.93Mi;{"coreemu": {"cpu": "453225863n", "memory": "877500Ki"}}
+1785911615.684217;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "170041n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "53654n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911621.054523;coreemu-634bf129b74243-65fd89679c-jq76l;453.23m;856.93Mi;{"coreemu": {"cpu": "453225863n", "memory": "877500Ki"}}
+1785911621.054523;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "170041n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "53654n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911626.38376;coreemu-634bf129b74243-65fd89679c-jq76l;453.23m;856.93Mi;{"coreemu": {"cpu": "453225863n", "memory": "877500Ki"}}
+1785911626.38376;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "53654n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "170041n", "memory": "88792Ki"}}
+1785911631.750674;coreemu-634bf129b74243-65fd89679c-jq76l;533.69m;856.86Mi;{"coreemu": {"cpu": "533686624n", "memory": "877424Ki"}}
+1785911631.750674;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173892n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "48087n", "memory": "13564Ki"}}
+1785911637.0798872;coreemu-634bf129b74243-65fd89679c-jq76l;533.69m;856.86Mi;{"coreemu": {"cpu": "533686624n", "memory": "877424Ki"}}
+1785911637.0798872;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173892n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "48087n", "memory": "13564Ki"}}
+1785911642.441183;coreemu-634bf129b74243-65fd89679c-jq76l;533.69m;856.86Mi;{"coreemu": {"cpu": "533686624n", "memory": "877424Ki"}}
+1785911642.441183;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173892n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "48087n", "memory": "13564Ki"}}
+1785911647.770901;coreemu-634bf129b74243-65fd89679c-jq76l;455.10m;857.02Mi;{"coreemu": {"cpu": "455098180n", "memory": "877588Ki"}}
+1785911647.770901;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "173892n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "48087n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911653.136294;coreemu-634bf129b74243-65fd89679c-jq76l;455.10m;857.02Mi;{"coreemu": {"cpu": "455098180n", "memory": "877588Ki"}}
+1785911653.136294;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173892n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "48087n", "memory": "13564Ki"}}
+1785911658.469795;coreemu-634bf129b74243-65fd89679c-jq76l;455.10m;857.02Mi;{"coreemu": {"cpu": "455098180n", "memory": "877588Ki"}}
+1785911658.469795;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173892n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "48087n", "memory": "13564Ki"}}
+1785911663.834063;coreemu-634bf129b74243-65fd89679c-jq76l;470.87m;857.22Mi;{"coreemu": {"cpu": "470872787n", "memory": "877796Ki"}}
+1785911663.834063;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "190006n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "46146n", "memory": "13564Ki"}}
+1785911669.161421;coreemu-634bf129b74243-65fd89679c-jq76l;470.87m;857.22Mi;{"coreemu": {"cpu": "470872787n", "memory": "877796Ki"}}
+1785911669.161421;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "190006n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "46146n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911674.522391;coreemu-634bf129b74243-65fd89679c-jq76l;597.73m;857.10Mi;{"coreemu": {"cpu": "597730262n", "memory": "877672Ki"}}
+1785911674.522391;mnsec-proxy-7d45f4d94-gfjhx;1.09m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "172335n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "918102n", "memory": "13564Ki"}}
+1785911679.854771;coreemu-634bf129b74243-65fd89679c-jq76l;597.73m;857.10Mi;{"coreemu": {"cpu": "597730262n", "memory": "877672Ki"}}
+1785911679.854771;mnsec-proxy-7d45f4d94-gfjhx;1.09m;140.23Mi;{"auth-service": {"cpu": "172335n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "918102n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911685.214914;coreemu-634bf129b74243-65fd89679c-jq76l;597.73m;857.10Mi;{"coreemu": {"cpu": "597730262n", "memory": "877672Ki"}}
+1785911685.214914;mnsec-proxy-7d45f4d94-gfjhx;1.09m;140.23Mi;{"auth-service": {"cpu": "172335n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "918102n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911690.54383;coreemu-634bf129b74243-65fd89679c-jq76l;507.66m;857.55Mi;{"coreemu": {"cpu": "507659004n", "memory": "878128Ki"}}
+1785911690.54383;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "48774n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175113n", "memory": "88792Ki"}}
+1785911695.9079099;coreemu-634bf129b74243-65fd89679c-jq76l;507.66m;857.55Mi;{"coreemu": {"cpu": "507659004n", "memory": "878128Ki"}}
+1785911695.9079099;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "48774n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175113n", "memory": "88792Ki"}}
+1785911701.236744;coreemu-634bf129b74243-65fd89679c-jq76l;507.66m;857.55Mi;{"coreemu": {"cpu": "507659004n", "memory": "878128Ki"}}
+1785911701.236744;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "48774n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175113n", "memory": "88792Ki"}}
+1785911706.6025028;coreemu-634bf129b74243-65fd89679c-jq76l;446.42m;857.01Mi;{"coreemu": {"cpu": "446420982n", "memory": "877580Ki"}}
+1785911706.6025028;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "61289n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "171904n", "memory": "88792Ki"}}
+1785911711.9345658;coreemu-634bf129b74243-65fd89679c-jq76l;446.42m;857.01Mi;{"coreemu": {"cpu": "446420982n", "memory": "877580Ki"}}
+1785911711.9345658;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "61289n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "171904n", "memory": "88792Ki"}}
+1785911717.301812;coreemu-634bf129b74243-65fd89679c-jq76l;446.42m;857.01Mi;{"coreemu": {"cpu": "446420982n", "memory": "877580Ki"}}
+1785911717.301812;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "61289n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "171904n", "memory": "88792Ki"}}
+1785911722.642312;coreemu-634bf129b74243-65fd89679c-jq76l;579.80m;863.69Mi;{"coreemu": {"cpu": "579797667n", "memory": "884416Ki"}}
+1785911722.642312;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "173385n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "39430n", "memory": "13564Ki"}}
+1785911728.017183;coreemu-634bf129b74243-65fd89679c-jq76l;579.80m;863.69Mi;{"coreemu": {"cpu": "579797667n", "memory": "884416Ki"}}
+1785911728.017183;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"auth-service": {"cpu": "173385n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "39430n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911733.3485491;coreemu-634bf129b74243-65fd89679c-jq76l;579.80m;863.69Mi;{"coreemu": {"cpu": "579797667n", "memory": "884416Ki"}}
+1785911733.3485491;mnsec-proxy-7d45f4d94-gfjhx;0.21m;140.23Mi;{"auth-service": {"cpu": "173385n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "39430n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911738.713129;coreemu-634bf129b74243-65fd89679c-jq76l;424.08m;863.55Mi;{"coreemu": {"cpu": "424084136n", "memory": "884280Ki"}}
+1785911738.713129;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "51142n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "184457n", "memory": "88792Ki"}}
+1785911744.043295;coreemu-634bf129b74243-65fd89679c-jq76l;424.08m;863.55Mi;{"coreemu": {"cpu": "424084136n", "memory": "884280Ki"}}
+1785911744.043295;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "51142n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "184457n", "memory": "88792Ki"}}
+1785911749.4021;coreemu-634bf129b74243-65fd89679c-jq76l;433.58m;864.22Mi;{"coreemu": {"cpu": "433575497n", "memory": "884960Ki"}}
+1785911749.4021;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "177449n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "51142n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911754.732645;coreemu-634bf129b74243-65fd89679c-jq76l;433.58m;864.22Mi;{"coreemu": {"cpu": "433575497n", "memory": "884960Ki"}}
+1785911754.732645;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "177449n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "51142n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911760.0968351;coreemu-634bf129b74243-65fd89679c-jq76l;433.58m;864.22Mi;{"coreemu": {"cpu": "433575497n", "memory": "884960Ki"}}
+1785911760.0968351;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "51142n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177449n", "memory": "88792Ki"}}
+1785911765.4223518;coreemu-634bf129b74243-65fd89679c-jq76l;428.61m;863.32Mi;{"coreemu": {"cpu": "428614133n", "memory": "884044Ki"}}
+1785911765.4223518;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "180588n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50333n", "memory": "13564Ki"}}
+1785911770.786589;coreemu-634bf129b74243-65fd89679c-jq76l;428.61m;863.32Mi;{"coreemu": {"cpu": "428614133n", "memory": "884044Ki"}}
+1785911770.786589;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "180588n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50333n", "memory": "13564Ki"}}
+1785911776.117972;coreemu-634bf129b74243-65fd89679c-jq76l;428.61m;863.32Mi;{"coreemu": {"cpu": "428614133n", "memory": "884044Ki"}}
+1785911776.117972;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "180588n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "50333n", "memory": "13564Ki"}}
+1785911781.487587;coreemu-634bf129b74243-65fd89679c-jq76l;428.61m;863.32Mi;{"coreemu": {"cpu": "428614133n", "memory": "884044Ki"}}
+1785911781.487587;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"auth-service": {"cpu": "167455n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "57560n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911786.819989;coreemu-634bf129b74243-65fd89679c-jq76l;428.61m;863.32Mi;{"coreemu": {"cpu": "428614133n", "memory": "884044Ki"}}
+1785911786.819989;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "57560n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "167455n", "memory": "88792Ki"}}
+1785911792.191424;coreemu-634bf129b74243-65fd89679c-jq76l;428.61m;863.32Mi;{"coreemu": {"cpu": "428614133n", "memory": "884044Ki"}}
+1785911792.191424;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "57560n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "167455n", "memory": "88792Ki"}}
+1785911797.525032;coreemu-634bf129b74243-65fd89679c-jq76l;413.58m;863.18Mi;{"coreemu": {"cpu": "413582998n", "memory": "883900Ki"}}
+1785911797.525032;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "183956n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54636n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911802.891969;coreemu-634bf129b74243-65fd89679c-jq76l;413.58m;863.18Mi;{"coreemu": {"cpu": "413582998n", "memory": "883900Ki"}}
+1785911802.891969;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "183956n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54636n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911808.222049;coreemu-634bf129b74243-65fd89679c-jq76l;413.58m;863.18Mi;{"coreemu": {"cpu": "413582998n", "memory": "883900Ki"}}
+1785911808.222049;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"auth-service": {"cpu": "183956n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54636n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911813.5921128;coreemu-634bf129b74243-65fd89679c-jq76l;417.48m;863.98Mi;{"coreemu": {"cpu": "417477034n", "memory": "884716Ki"}}
+1785911813.5921128;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "183956n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54636n", "memory": "13564Ki"}}
+1785911818.930662;coreemu-634bf129b74243-65fd89679c-jq76l;417.48m;863.98Mi;{"coreemu": {"cpu": "417477034n", "memory": "884716Ki"}}
+1785911818.930662;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "183956n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "54636n", "memory": "13564Ki"}}
+1785911824.293091;coreemu-634bf129b74243-65fd89679c-jq76l;504.75m;863.98Mi;{"coreemu": {"cpu": "504750013n", "memory": "884720Ki"}}
+1785911824.293091;mnsec-proxy-7d45f4d94-gfjhx;0.74m;140.23Mi;{"kubectl-service": {"cpu": "560371n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "176661n", "memory": "88792Ki"}}
+1785911829.633209;coreemu-634bf129b74243-65fd89679c-jq76l;504.75m;863.98Mi;{"coreemu": {"cpu": "504750013n", "memory": "884720Ki"}}
+1785911829.633209;mnsec-proxy-7d45f4d94-gfjhx;0.74m;140.23Mi;{"auth-service": {"cpu": "176661n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "560371n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911835.0029619;coreemu-634bf129b74243-65fd89679c-jq76l;504.75m;863.98Mi;{"coreemu": {"cpu": "504750013n", "memory": "884720Ki"}}
+1785911835.0029619;mnsec-proxy-7d45f4d94-gfjhx;0.74m;140.23Mi;{"auth-service": {"cpu": "176661n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "560371n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911840.339;coreemu-634bf129b74243-65fd89679c-jq76l;471.45m;862.39Mi;{"coreemu": {"cpu": "471445673n", "memory": "883084Ki"}}
+1785911840.339;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.23Mi;{"auth-service": {"cpu": "192150n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "62789n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911845.701432;coreemu-634bf129b74243-65fd89679c-jq76l;471.45m;862.39Mi;{"coreemu": {"cpu": "471445673n", "memory": "883084Ki"}}
+1785911845.701432;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.23Mi;{"auth-service": {"cpu": "192150n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "62789n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911851.0280519;coreemu-634bf129b74243-65fd89679c-jq76l;471.45m;862.39Mi;{"coreemu": {"cpu": "471445673n", "memory": "883084Ki"}}
+1785911851.0280519;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.23Mi;{"auth-service": {"cpu": "192150n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "62789n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911856.398286;coreemu-634bf129b74243-65fd89679c-jq76l;384.10m;523.75Mi;{"coreemu": {"cpu": "384097241n", "memory": "536316Ki"}}
+1785911856.398286;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "62976n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181106n", "memory": "88792Ki"}}
+1785911861.728983;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "62976n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181106n", "memory": "88792Ki"}}
+1785911867.097152;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.23Mi;{"kubectl-service": {"cpu": "62976n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "181106n", "memory": "88792Ki"}}
+1785911872.427459;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "174717n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "42975n", "memory": "13564Ki"}}
+1785911877.793372;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"auth-service": {"cpu": "174717n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "42975n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785911883.140249;mnsec-proxy-7d45f4d94-gfjhx;0.22m;140.23Mi;{"kubectl-service": {"cpu": "42975n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "174717n", "memory": "88792Ki"}}
+1785911888.5079648;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "58357n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175266n", "memory": "88792Ki"}}
+1785911893.837448;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.23Mi;{"kubectl-service": {"cpu": "58357n", "memory": "13564Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "175266n", "memory": "88792Ki"}}

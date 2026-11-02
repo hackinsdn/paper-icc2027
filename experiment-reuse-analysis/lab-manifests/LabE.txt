@@ -1,0 +1,310 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-custom-topo-${pod_hash}
+data:
+  README.txt: |
+    Arquivos relacionados ao laboratorio do curso! Siga o roteiro de laboratório na plataforma HackInSDN.
+  RedeAtividade3.yaml: |
+    name: Rede Atividade 3 - Configuracao de Enderecos IPv4
+    hosts:
+      r1:
+        kind: k8spod
+        image: ghcr.io/hackinsdn/cisco_iol:17.16.01a
+        imagePullSecrets:
+          - my-secret-name
+        img_url: /assets/router.png
+        posX: 263.34
+        posY: 291.64
+        shell: sshpass -p admin ssh self
+        env:
+          - name: PARTIAL_CONFIG
+            value: /iol/startup-config.txt
+        preStart:
+          - |
+            cat << 'EOF' > /iol/startup-config.txt
+            interface Ethernet0/1
+             ip addr 172.16.20.30 255.255.255.224
+             no shut
+            !
+            interface eth0/2
+             ip address 172.16.20.129 255.255.255.224
+             no shut
+            !
+            int eth0/3
+             ip address 172.16.20.161 255.255.255.224
+             no shut
+            !
+            router RIP
+             version 2
+             network 172.16.0.0
+            !
+            no ip classless
+            EOF
+      r2:
+        kind: k8spod
+        image: ghcr.io/hackinsdn/cisco_iol:17.16.01a
+        imagePullSecrets:
+          - my-secret-name
+        img_url: /assets/router.png
+        posX: 395.93
+        posY: 291.57
+        shell: sshpass -p admin ssh self
+        env:
+          - name: PARTIAL_CONFIG
+            value: /iol/startup-config.txt
+        preStart:
+          - |
+            cat << 'EOF' > /iol/startup-config.txt
+            interface Ethernet0/1
+             ip addr 172.16.20.62 255.255.255.224
+             no shut
+            !
+            interface eth0/2
+             ip address 172.16.20.130 255.255.255.224
+             no shut
+            !
+            router RIP
+             version 2
+             network 172.16.0.0
+            !
+            no ip classless
+            EOF
+      r3:
+        kind: k8spod
+        image: ghcr.io/hackinsdn/cisco_iol:17.16.01a
+        imagePullSecrets:
+          - my-secret-name
+        img_url: /assets/router.png
+        posX: 311.9
+        posY: 563.9
+        shell: sshpass -p admin ssh self
+        env:
+          - name: PARTIAL_CONFIG
+            value: /iol/startup-config.txt
+        preStart:
+          - |
+            cat << 'EOF' > /iol/startup-config.txt
+            interface Ethernet0/1
+             ip addr 172.16.20.94 255.255.255.224
+             no shut
+            !
+            interface eth0/2
+             ip address 172.16.20.126 255.255.255.224
+             no shut
+            !
+            int eth0/3
+             ip address 172.16.20.162 255.255.255.224
+             no shut
+            !
+            router RIP
+             version 2
+             network 172.16.0.0
+            !
+            no ip classless
+            EOF
+      pc01:
+        ip: 172.16.20.1/27
+        defaultRoute: via 172.16.20.30
+        posX: 68.37
+        posY: 224.05
+      pc02:
+        ip: 172.16.20.2/27
+        defaultRoute: via 172.16.20.30
+        posX: 50.71
+        posY: 302.16
+      pc03:
+        ip: 172.16.20.3/27
+        defaultRoute: via 172.16.20.30
+        posX: 58.63
+        posY: 364.12
+      pc11:
+        ip: 172.16.20.33/27
+        defaultRoute: via 172.16.20.62
+        posX: 619.07
+        posY: 218.5
+      pc12:
+        ip: 172.16.20.34/27
+        defaultRoute: via 172.16.20.62
+        posX: 621.65
+        posY: 296.37
+      pc13:
+        ip: 172.16.20.35/27
+        defaultRoute: via 172.16.20.62
+        posX: 615.61
+        posY: 369.12
+      pc21:
+        ip: 172.16.20.65/27
+        defaultRoute: via 172.16.20.94
+        posX: 80.73
+        posY: 468.68
+      pc22:
+        ip: 172.16.20.66/27
+        defaultRoute: via 172.16.20.94
+        posX: 32.97
+        posY: 557.29
+      pc23:
+        ip: 172.16.20.67/27
+        defaultRoute: via 172.16.20.94
+        posX: 78.25
+        posY: 649.2
+      pc31:
+        ip: 172.16.20.97/27
+        defaultRoute: via 172.16.20.126
+        posX: 607.22
+        posY: 476.9
+      pc32:
+        ip: 172.16.20.98/27
+        defaultRoute: via 172.16.20.126
+        posX: 623.11
+        posY: 566.96
+      pc33:
+        ip: 172.16.20.99/27
+        defaultRoute: via 172.16.20.126
+        posX: 609.4
+        posY: 650.18
+    switches:
+      sw1:
+        kind: lxbr
+        posX: 127.31
+        posY: 290.31
+      sw2:
+        kind: lxbr
+        posX: 495.04
+        posY: 291.38
+      sw3:
+        kind: lxbr
+        posX: 157.44
+        posY: 563.64
+      sw4:
+        kind: lxbr
+        posX: 482.18
+        posY: 565.42
+    links:
+      - node1: sw1
+        node2: pc01
+      - node1: sw1
+        node2: pc02
+      - node1: sw1
+        node2: pc03
+      - node1: sw1
+        node2: r1
+        alias2: Ethernet0/1
+      - node1: sw2
+        node2: pc11
+      - node1: sw2
+        node2: pc12
+      - node1: sw2
+        node2: pc13
+      - node1: sw2
+        node2: r2
+        alias2: Ethernet0/1
+      - node1: sw3
+        node2: pc21
+      - node1: sw3
+        node2: pc22
+      - node1: sw3
+        node2: pc23
+      - node1: sw3
+        node2: r3
+        alias2: Ethernet0/1
+      - node1: sw4
+        node2: pc31
+      - node1: sw4
+        node2: pc32
+      - node1: sw4
+        node2: pc33
+      - node1: sw4
+        node2: r3
+        alias2: Ethernet0/2
+      - node1: r1
+        node2: r2
+        alias1: Ethernet0/2
+        alias2: Ethernet0/2
+      - node1: r1
+        node2: r3
+        alias1: Ethernet0/3
+        alias2: Ethernet0/3
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mininet-sec-${pod_hash}
+  labels:
+    app: mininet-sec-${pod_hash}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mininet-sec-${pod_hash}
+  template:
+    metadata:
+      name: mininet-sec-${pod_hash}
+      labels:
+        app: mininet-sec-${pod_hash}
+      annotations:
+        container.apparmor.security.beta.kubernetes.io/mininet-sec: unconfined
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: kubernetes.io/hostname
+                operator: In
+                values:
+                - ${choose_one_node}
+      containers:
+      - name: mininet-sec
+        image: hackinsdn/mininet-sec:latest
+        env:
+        - name: K8S_POD_HASH
+          value: ${pod_hash}
+        - name: K8S_NODE_AFFINITY
+          value: ${allowed_nodes_str}
+        - name: K8S_PROXY_CERT_FILE
+          value: /usr/local/etc/mnsec-proxy-ca.crt
+        - name: K8S_PROXY_HOST
+          value: mnsec-proxy-service.hackinsdn.svc.cnacv5
+        ports:
+        - containerPort: 8050
+        args: ["mnsec", "--topofile", "/home/ADR-015/Sessao3/RedeAtividade3.yaml"]
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN", "SYS_MODULE", "SYS_ADMIN"]
+        volumeMounts:
+        - name: config-custom-topo-${pod_hash}-volume
+          mountPath: "/home/ADR-015/Sessao3"
+        - name: lib-modules
+          mountPath: /lib/modules
+        - name: mnsec-proxy-ca-volume
+          mountPath: /usr/local/etc/mnsec-proxy-ca.crt
+          readOnly: true
+          subPath: ca.crt
+      volumes:
+      - name: config-custom-topo-${pod_hash}-volume
+        configMap:
+          name: config-custom-topo-${pod_hash}
+      - name: lib-modules
+        hostPath:
+          path: /lib/modules
+          type: Directory
+      - name: mnsec-proxy-ca-volume
+        configMap:
+          defaultMode: 0600
+          name: mnsec-proxy-ca-configmap
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mininet-sec-${pod_hash}
+  labels:
+    app: mininet-sec-${pod_hash}
+spec:
+  type: NodePort
+  ports:
+  - port: 8050
+    targetPort: 8050
+    name: http-mininet-sec
+  selector:
+    app: mininet-sec-${pod_hash}

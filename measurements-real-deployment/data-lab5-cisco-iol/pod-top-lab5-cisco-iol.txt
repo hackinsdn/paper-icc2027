@@ -1,0 +1,468 @@
+#time;pod_name;cpu_usage;memory_usage;containers
+1785909737.5055518;mnsec-proxy-7d45f4d94-gfjhx;0.24m;140.50Mi;{"auth-service": {"cpu": "199717n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "44254n", "memory": "13720Ki"}, "nginx": {"cpu": "0", "memory": "41356Ki"}}
+1785909742.8386931;mnsec-proxy-7d45f4d94-gfjhx;0.72m;140.50Mi;{"kubectl-service": {"cpu": "561419n", "memory": "13720Ki"}, "nginx": {"cpu": "0", "memory": "41356Ki"}, "auth-service": {"cpu": "159810n", "memory": "88792Ki"}}
+1785909748.197392;mnsec-proxy-7d45f4d94-gfjhx;0.72m;140.50Mi;{"kubectl-service": {"cpu": "561419n", "memory": "13720Ki"}, "nginx": {"cpu": "0", "memory": "41356Ki"}, "auth-service": {"cpu": "159810n", "memory": "88792Ki"}}
+1785909753.5220401;mnsec-proxy-7d45f4d94-gfjhx;0.72m;140.50Mi;{"auth-service": {"cpu": "159810n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "561419n", "memory": "13720Ki"}, "nginx": {"cpu": "0", "memory": "41356Ki"}}
+1785909758.884556;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.50Mi;{"kubectl-service": {"cpu": "57371n", "memory": "13720Ki"}, "nginx": {"cpu": "0", "memory": "41356Ki"}, "auth-service": {"cpu": "174864n", "memory": "88792Ki"}}
+1785909764.21489;mnsec-proxy-7d45f4d94-gfjhx;0.23m;140.50Mi;{"auth-service": {"cpu": "174864n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "57371n", "memory": "13720Ki"}, "nginx": {"cpu": "0", "memory": "41356Ki"}}
+1785909769.577178;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.50Mi;{"nginx": {"cpu": "0", "memory": "41356Ki"}, "auth-service": {"cpu": "187389n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "59454n", "memory": "13720Ki"}}
+1785909774.90151;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.50Mi;{"auth-service": {"cpu": "187389n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "59454n", "memory": "13720Ki"}, "nginx": {"cpu": "0", "memory": "41356Ki"}}
+1785909780.2738528;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.50Mi;{"auth-service": {"cpu": "187389n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "59454n", "memory": "13720Ki"}, "nginx": {"cpu": "0", "memory": "41356Ki"}}
+1785909785.607517;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.50Mi;{"kubectl-service": {"cpu": "75035n", "memory": "13720Ki"}, "nginx": {"cpu": "0", "memory": "41356Ki"}, "auth-service": {"cpu": "171693n", "memory": "88792Ki"}}
+1785909790.968574;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.50Mi;{"kubectl-service": {"cpu": "75035n", "memory": "13720Ki"}, "nginx": {"cpu": "0", "memory": "41356Ki"}, "auth-service": {"cpu": "171693n", "memory": "88792Ki"}}
+1785909796.299975;mnsec-proxy-7d45f4d94-gfjhx;0.25m;140.50Mi;{"nginx": {"cpu": "0", "memory": "41356Ki"}, "auth-service": {"cpu": "171693n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "75035n", "memory": "13720Ki"}}
+1785909801.661603;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;339.86m;128.36Mi;{"mininet-sec": {"cpu": "339864433n", "memory": "131436Ki"}}
+1785909801.661603;mnsec-proxy-7d45f4d94-gfjhx;44.01m;141.46Mi;{"nginx": {"cpu": "15358097n", "memory": "41228Ki"}, "auth-service": {"cpu": "21858394n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "6796006n", "memory": "14836Ki"}}
+1785909806.991284;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;339.86m;128.36Mi;{"mininet-sec": {"cpu": "339864433n", "memory": "131436Ki"}}
+1785909806.991284;mnsec-proxy-7d45f4d94-gfjhx;44.01m;141.46Mi;{"nginx": {"cpu": "15358097n", "memory": "41228Ki"}, "auth-service": {"cpu": "21858394n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "6796006n", "memory": "14836Ki"}}
+1785909812.35333;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;339.86m;128.36Mi;{"mininet-sec": {"cpu": "339864433n", "memory": "131436Ki"}}
+1785909812.35333;mnsec-proxy-7d45f4d94-gfjhx;44.01m;141.46Mi;{"nginx": {"cpu": "15358097n", "memory": "41228Ki"}, "auth-service": {"cpu": "21858394n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "6796006n", "memory": "14836Ki"}}
+1785909817.6798909;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;105.48m;170.07Mi;{"mininet-sec": {"cpu": "105476402n", "memory": "174156Ki"}}
+1785909817.6798909;mnsec-proxy-7d45f4d94-gfjhx;35.18m;142.89Mi;{"auth-service": {"cpu": "10886035n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "8933085n", "memory": "16296Ki"}, "nginx": {"cpu": "15358097n", "memory": "41228Ki"}}
+1785909817.6798909;mnsec-router-4391cadb27ee4e;10.91m;2.44Mi;{"mnsec-sidecar": {"cpu": "8474220n", "memory": "968Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "2431845n", "memory": "1532Ki"}}
+1785909817.6798909;mnsec-sw1-4391cadb27ee4e;7.25m;2.10Mi;{"mnsec-sidecar": {"cpu": "2666320n", "memory": "820Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "4582501n", "memory": "1332Ki"}}
+1785909817.6798909;mnsec-sw2-4391cadb27ee4e;3.36m;1.58Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "3301757n", "memory": "1296Ki"}, "mnsec-sidecar": {"cpu": "56757n", "memory": "324Ki"}}
+1785909817.6798909;mnsec-sw3-4391cadb27ee4e;3.80m;1.11Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "3740892n", "memory": "824Ki"}, "mnsec-sidecar": {"cpu": "55378n", "memory": "312Ki"}}
+1785909823.044291;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;105.48m;170.07Mi;{"mininet-sec": {"cpu": "105476402n", "memory": "174156Ki"}}
+1785909823.044291;mnsec-proxy-7d45f4d94-gfjhx;35.18m;142.89Mi;{"auth-service": {"cpu": "10886035n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "8933085n", "memory": "16296Ki"}, "nginx": {"cpu": "15358097n", "memory": "41228Ki"}}
+1785909823.044291;mnsec-router-4391cadb27ee4e;10.91m;2.44Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "2431845n", "memory": "1532Ki"}, "mnsec-sidecar": {"cpu": "8474220n", "memory": "968Ki"}}
+1785909823.044291;mnsec-sw1-4391cadb27ee4e;7.25m;2.10Mi;{"mnsec-sidecar": {"cpu": "2666320n", "memory": "820Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "4582501n", "memory": "1332Ki"}}
+1785909823.044291;mnsec-sw2-4391cadb27ee4e;3.36m;1.58Mi;{"mnsec-sidecar": {"cpu": "56757n", "memory": "324Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "3301757n", "memory": "1296Ki"}}
+1785909823.044291;mnsec-sw3-4391cadb27ee4e;3.80m;1.11Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "3740892n", "memory": "824Ki"}, "mnsec-sidecar": {"cpu": "55378n", "memory": "312Ki"}}
+1785909828.367593;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;105.48m;170.07Mi;{"mininet-sec": {"cpu": "105476402n", "memory": "174156Ki"}}
+1785909828.367593;mnsec-proxy-7d45f4d94-gfjhx;35.18m;142.89Mi;{"auth-service": {"cpu": "10886035n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "8933085n", "memory": "16296Ki"}, "nginx": {"cpu": "15358097n", "memory": "41228Ki"}}
+1785909828.367593;mnsec-router-4391cadb27ee4e;10.91m;2.44Mi;{"mnsec-sidecar": {"cpu": "8474220n", "memory": "968Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "2431845n", "memory": "1532Ki"}}
+1785909828.367593;mnsec-sw1-4391cadb27ee4e;7.25m;2.10Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "4582501n", "memory": "1332Ki"}, "mnsec-sidecar": {"cpu": "2666320n", "memory": "820Ki"}}
+1785909828.367593;mnsec-sw2-4391cadb27ee4e;3.36m;1.58Mi;{"mnsec-sidecar": {"cpu": "56757n", "memory": "324Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "3301757n", "memory": "1296Ki"}}
+1785909828.367593;mnsec-sw3-4391cadb27ee4e;3.80m;1.11Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "3740892n", "memory": "824Ki"}, "mnsec-sidecar": {"cpu": "55378n", "memory": "312Ki"}}
+1785909833.7315469;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;106.73m;225.77Mi;{"mininet-sec": {"cpu": "106728701n", "memory": "231184Ki"}}
+1785909833.7315469;mnsec-proxy-7d45f4d94-gfjhx;35.13m;143.51Mi;{"kubectl-service": {"cpu": "7821613n", "memory": "16932Ki"}, "nginx": {"cpu": "17506583n", "memory": "41232Ki"}, "auth-service": {"cpu": "9805429n", "memory": "88792Ki"}}
+1785909833.7315469;mnsec-router-4391cadb27ee4e;2.30m;2.44Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "2243531n", "memory": "1532Ki"}, "mnsec-sidecar": {"cpu": "53847n", "memory": "968Ki"}}
+1785909833.7315469;mnsec-sw1-4391cadb27ee4e;7.18m;2.50Mi;{"mnsec-sidecar": {"cpu": "3936082n", "memory": "952Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "3248533n", "memory": "1604Ki"}}
+1785909833.7315469;mnsec-sw2-4391cadb27ee4e;29.63m;2.20Mi;{"mnsec-sidecar": {"cpu": "27113815n", "memory": "1136Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "2515883n", "memory": "1112Ki"}}
+1785909833.7315469;mnsec-sw3-4391cadb27ee4e;8.84m;2.00Mi;{"mnsec-sidecar": {"cpu": "5111445n", "memory": "952Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "3730005n", "memory": "1100Ki"}}
+1785909839.0975502;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;106.73m;225.77Mi;{"mininet-sec": {"cpu": "106728701n", "memory": "231184Ki"}}
+1785909839.0975502;mnsec-proxy-7d45f4d94-gfjhx;35.13m;143.51Mi;{"nginx": {"cpu": "17506583n", "memory": "41232Ki"}, "auth-service": {"cpu": "9805429n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "7821613n", "memory": "16932Ki"}}
+1785909839.0975502;mnsec-router-4391cadb27ee4e;2.30m;2.44Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "2243531n", "memory": "1532Ki"}, "mnsec-sidecar": {"cpu": "53847n", "memory": "968Ki"}}
+1785909839.0975502;mnsec-sw1-4391cadb27ee4e;7.18m;2.50Mi;{"mnsec-sidecar": {"cpu": "3936082n", "memory": "952Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "3248533n", "memory": "1604Ki"}}
+1785909839.0975502;mnsec-sw2-4391cadb27ee4e;29.63m;2.20Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "2515883n", "memory": "1112Ki"}, "mnsec-sidecar": {"cpu": "27113815n", "memory": "1136Ki"}}
+1785909839.0975502;mnsec-sw3-4391cadb27ee4e;8.84m;2.00Mi;{"mnsec-sidecar": {"cpu": "5111445n", "memory": "952Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "3730005n", "memory": "1100Ki"}}
+1785909844.464478;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;157.88m;214.81Mi;{"mininet-sec": {"cpu": "157879619n", "memory": "219964Ki"}}
+1785909844.464478;mnsec-proxy-7d45f4d94-gfjhx;40.66m;143.61Mi;{"auth-service": {"cpu": "14991590n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "6884204n", "memory": "17028Ki"}, "nginx": {"cpu": "18785228n", "memory": "41232Ki"}}
+1785909844.464478;mnsec-router-4391cadb27ee4e;3.87m;2.59Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "2158349n", "memory": "1676Ki"}, "mnsec-sidecar": {"cpu": "1711260n", "memory": "972Ki"}}
+1785909844.464478;mnsec-sw1-4391cadb27ee4e;11.99m;2.59Mi;{"mnsec-sidecar": {"cpu": "9600954n", "memory": "992Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "2384470n", "memory": "1656Ki"}}
+1785909844.464478;mnsec-sw2-4391cadb27ee4e;9.25m;2.25Mi;{"mnsec-sidecar": {"cpu": "6929931n", "memory": "1008Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "2323100n", "memory": "1300Ki"}}
+1785909844.464478;mnsec-sw3-4391cadb27ee4e;8.97m;2.32Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "2288409n", "memory": "1300Ki"}, "mnsec-sidecar": {"cpu": "6682969n", "memory": "1072Ki"}}
+1785909849.7960992;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;157.88m;214.81Mi;{"mininet-sec": {"cpu": "157879619n", "memory": "219964Ki"}}
+1785909849.7960992;mnsec-proxy-7d45f4d94-gfjhx;40.66m;143.61Mi;{"auth-service": {"cpu": "14991590n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "6884204n", "memory": "17028Ki"}, "nginx": {"cpu": "18785228n", "memory": "41232Ki"}}
+1785909849.7960992;mnsec-router-4391cadb27ee4e;3.87m;2.59Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "2158349n", "memory": "1676Ki"}, "mnsec-sidecar": {"cpu": "1711260n", "memory": "972Ki"}}
+1785909849.7960992;mnsec-sw1-4391cadb27ee4e;11.99m;2.59Mi;{"mnsec-sidecar": {"cpu": "9600954n", "memory": "992Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "2384470n", "memory": "1656Ki"}}
+1785909849.7960992;mnsec-sw2-4391cadb27ee4e;9.25m;2.25Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "2323100n", "memory": "1300Ki"}, "mnsec-sidecar": {"cpu": "6929931n", "memory": "1008Ki"}}
+1785909849.7960992;mnsec-sw3-4391cadb27ee4e;8.97m;2.32Mi;{"mnsec-sidecar": {"cpu": "6682969n", "memory": "1072Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "2288409n", "memory": "1300Ki"}}
+1785909855.164806;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;157.88m;214.81Mi;{"mininet-sec": {"cpu": "157879619n", "memory": "219964Ki"}}
+1785909855.164806;mnsec-proxy-7d45f4d94-gfjhx;40.66m;143.61Mi;{"auth-service": {"cpu": "14991590n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "6884204n", "memory": "17028Ki"}, "nginx": {"cpu": "18785228n", "memory": "41232Ki"}}
+1785909855.164806;mnsec-router-4391cadb27ee4e;3.87m;2.59Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "2158349n", "memory": "1676Ki"}, "mnsec-sidecar": {"cpu": "1711260n", "memory": "972Ki"}}
+1785909855.164806;mnsec-sw1-4391cadb27ee4e;11.99m;2.59Mi;{"mnsec-sidecar": {"cpu": "9600954n", "memory": "992Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "2384470n", "memory": "1656Ki"}}
+1785909855.164806;mnsec-sw2-4391cadb27ee4e;9.25m;2.25Mi;{"mnsec-sidecar": {"cpu": "6929931n", "memory": "1008Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "2323100n", "memory": "1300Ki"}}
+1785909855.164806;mnsec-sw3-4391cadb27ee4e;8.97m;2.32Mi;{"mnsec-sidecar": {"cpu": "6682969n", "memory": "1072Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "2288409n", "memory": "1300Ki"}}
+1785909860.491981;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;84.47m;218.26Mi;{"mininet-sec": {"cpu": "84474375n", "memory": "223496Ki"}}
+1785909860.491981;mnsec-proxy-7d45f4d94-gfjhx;24.26m;143.61Mi;{"auth-service": {"cpu": "5642731n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "4872207n", "memory": "17032Ki"}, "nginx": {"cpu": "13742412n", "memory": "41236Ki"}}
+1785909860.491981;mnsec-router-4391cadb27ee4e;233.71m;180.44Mi;{"mnsec-sidecar": {"cpu": "246265n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "233459389n", "memory": "183796Ki"}}
+1785909860.491981;mnsec-sw1-4391cadb27ee4e;24.71m;41.82Mi;{"mnsec-sidecar": {"cpu": "281441n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "24426302n", "memory": "41824Ki"}}
+1785909860.491981;mnsec-sw2-4391cadb27ee4e;22.32m;37.96Mi;{"mnsec-sidecar": {"cpu": "280358n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "22040805n", "memory": "37876Ki"}}
+1785909860.491981;mnsec-sw3-4391cadb27ee4e;167.59m;156.95Mi;{"mnsec-sidecar": {"cpu": "5154029n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "162435429n", "memory": "159720Ki"}}
+1785909865.852438;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;84.47m;218.26Mi;{"mininet-sec": {"cpu": "84474375n", "memory": "223496Ki"}}
+1785909865.852438;mnsec-proxy-7d45f4d94-gfjhx;24.26m;143.61Mi;{"nginx": {"cpu": "13742412n", "memory": "41236Ki"}, "auth-service": {"cpu": "5642731n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "4872207n", "memory": "17032Ki"}}
+1785909865.852438;mnsec-router-4391cadb27ee4e;233.71m;180.44Mi;{"mnsec-sidecar": {"cpu": "246265n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "233459389n", "memory": "183796Ki"}}
+1785909865.852438;mnsec-sw1-4391cadb27ee4e;24.71m;41.82Mi;{"mnsec-sidecar": {"cpu": "281441n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "24426302n", "memory": "41824Ki"}}
+1785909865.852438;mnsec-sw2-4391cadb27ee4e;22.32m;37.96Mi;{"mnsec-sidecar": {"cpu": "280358n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "22040805n", "memory": "37876Ki"}}
+1785909865.852438;mnsec-sw3-4391cadb27ee4e;167.59m;156.95Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "162435429n", "memory": "159720Ki"}, "mnsec-sidecar": {"cpu": "5154029n", "memory": "996Ki"}}
+1785909871.195264;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;84.47m;218.26Mi;{"mininet-sec": {"cpu": "84474375n", "memory": "223496Ki"}}
+1785909871.195264;mnsec-proxy-7d45f4d94-gfjhx;24.26m;143.61Mi;{"nginx": {"cpu": "13742412n", "memory": "41236Ki"}, "auth-service": {"cpu": "5642731n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "4872207n", "memory": "17032Ki"}}
+1785909871.195264;mnsec-router-4391cadb27ee4e;233.71m;180.44Mi;{"mnsec-sidecar": {"cpu": "246265n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "233459389n", "memory": "183796Ki"}}
+1785909871.195264;mnsec-sw1-4391cadb27ee4e;24.71m;41.82Mi;{"mnsec-sidecar": {"cpu": "281441n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "24426302n", "memory": "41824Ki"}}
+1785909871.195264;mnsec-sw2-4391cadb27ee4e;22.32m;37.96Mi;{"mnsec-sidecar": {"cpu": "280358n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "22040805n", "memory": "37876Ki"}}
+1785909871.195264;mnsec-sw3-4391cadb27ee4e;167.59m;156.95Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "162435429n", "memory": "159720Ki"}, "mnsec-sidecar": {"cpu": "5154029n", "memory": "996Ki"}}
+1785909876.555846;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.47m;226.63Mi;{"mininet-sec": {"cpu": "12471139n", "memory": "232072Ki"}}
+1785909876.555846;mnsec-proxy-7d45f4d94-gfjhx;3.60m;143.61Mi;{"kubectl-service": {"cpu": "1386180n", "memory": "17032Ki"}, "nginx": {"cpu": "2046033n", "memory": "41236Ki"}, "auth-service": {"cpu": "172779n", "memory": "88792Ki"}}
+1785909876.555846;mnsec-router-4391cadb27ee4e;48.93m;182.75Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "48878140n", "memory": "186164Ki"}, "mnsec-sidecar": {"cpu": "53662n", "memory": "972Ki"}}
+1785909876.555846;mnsec-sw1-4391cadb27ee4e;205.89m;161.41Mi;{"mnsec-sidecar": {"cpu": "53129n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "205839817n", "memory": "164288Ki"}}
+1785909876.555846;mnsec-sw2-4391cadb27ee4e;320.83m;156.75Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "320775876n", "memory": "159516Ki"}, "mnsec-sidecar": {"cpu": "50975n", "memory": "996Ki"}}
+1785909876.555846;mnsec-sw3-4391cadb27ee4e;167.59m;156.95Mi;{"mnsec-sidecar": {"cpu": "5154029n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "162435429n", "memory": "159720Ki"}}
+1785909881.888753;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.47m;226.63Mi;{"mininet-sec": {"cpu": "12471139n", "memory": "232072Ki"}}
+1785909881.888753;mnsec-proxy-7d45f4d94-gfjhx;3.60m;143.61Mi;{"kubectl-service": {"cpu": "1386180n", "memory": "17032Ki"}, "nginx": {"cpu": "2046033n", "memory": "41236Ki"}, "auth-service": {"cpu": "172779n", "memory": "88792Ki"}}
+1785909881.888753;mnsec-router-4391cadb27ee4e;48.93m;182.75Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "48878140n", "memory": "186164Ki"}, "mnsec-sidecar": {"cpu": "53662n", "memory": "972Ki"}}
+1785909881.888753;mnsec-sw1-4391cadb27ee4e;205.89m;161.41Mi;{"mnsec-sidecar": {"cpu": "53129n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "205839817n", "memory": "164288Ki"}}
+1785909881.888753;mnsec-sw2-4391cadb27ee4e;320.83m;156.75Mi;{"mnsec-sidecar": {"cpu": "50975n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "320775876n", "memory": "159516Ki"}}
+1785909881.888753;mnsec-sw3-4391cadb27ee4e;167.59m;156.95Mi;{"mnsec-sidecar": {"cpu": "5154029n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "162435429n", "memory": "159720Ki"}}
+1785909887.25005;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.47m;226.63Mi;{"mininet-sec": {"cpu": "12471139n", "memory": "232072Ki"}}
+1785909887.25005;mnsec-proxy-7d45f4d94-gfjhx;3.60m;143.61Mi;{"kubectl-service": {"cpu": "1386180n", "memory": "17032Ki"}, "nginx": {"cpu": "2046033n", "memory": "41236Ki"}, "auth-service": {"cpu": "172779n", "memory": "88792Ki"}}
+1785909887.25005;mnsec-router-4391cadb27ee4e;48.93m;182.75Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "48878140n", "memory": "186164Ki"}, "mnsec-sidecar": {"cpu": "53662n", "memory": "972Ki"}}
+1785909887.25005;mnsec-sw1-4391cadb27ee4e;205.89m;161.41Mi;{"mnsec-sidecar": {"cpu": "53129n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "205839817n", "memory": "164288Ki"}}
+1785909887.25005;mnsec-sw2-4391cadb27ee4e;320.83m;156.75Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "320775876n", "memory": "159516Ki"}, "mnsec-sidecar": {"cpu": "50975n", "memory": "996Ki"}}
+1785909887.25005;mnsec-sw3-4391cadb27ee4e;167.59m;156.95Mi;{"mnsec-sidecar": {"cpu": "5154029n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "162435429n", "memory": "159720Ki"}}
+1785909892.58193;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.47m;226.63Mi;{"mininet-sec": {"cpu": "12471139n", "memory": "232072Ki"}}
+1785909892.58193;mnsec-proxy-7d45f4d94-gfjhx;2.60m;143.61Mi;{"auth-service": {"cpu": "170448n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1322413n", "memory": "17032Ki"}, "nginx": {"cpu": "1106108n", "memory": "41236Ki"}}
+1785909892.58193;mnsec-router-4391cadb27ee4e;38.63m;185.15Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "38577176n", "memory": "188620Ki"}, "mnsec-sidecar": {"cpu": "50390n", "memory": "972Ki"}}
+1785909892.58193;mnsec-sw1-4391cadb27ee4e;37.69m;164.59Mi;{"mnsec-sidecar": {"cpu": "52896n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "37640050n", "memory": "167548Ki"}}
+1785909892.58193;mnsec-sw2-4391cadb27ee4e;37.46m;160.96Mi;{"mnsec-sidecar": {"cpu": "50430n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "37407405n", "memory": "163832Ki"}}
+1785909892.58193;mnsec-sw3-4391cadb27ee4e;32.99m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "32936586n", "memory": "163884Ki"}, "mnsec-sidecar": {"cpu": "51564n", "memory": "996Ki"}}
+1785909897.9395032;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.47m;226.63Mi;{"mininet-sec": {"cpu": "12471139n", "memory": "232072Ki"}}
+1785909897.9395032;mnsec-proxy-7d45f4d94-gfjhx;2.60m;143.61Mi;{"nginx": {"cpu": "1106108n", "memory": "41236Ki"}, "auth-service": {"cpu": "170448n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1322413n", "memory": "17032Ki"}}
+1785909897.9395032;mnsec-router-4391cadb27ee4e;38.63m;185.15Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "38577176n", "memory": "188620Ki"}, "mnsec-sidecar": {"cpu": "50390n", "memory": "972Ki"}}
+1785909897.9395032;mnsec-sw1-4391cadb27ee4e;37.69m;164.59Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "37640050n", "memory": "167548Ki"}, "mnsec-sidecar": {"cpu": "52896n", "memory": "996Ki"}}
+1785909897.9395032;mnsec-sw2-4391cadb27ee4e;37.46m;160.96Mi;{"mnsec-sidecar": {"cpu": "50430n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "37407405n", "memory": "163832Ki"}}
+1785909897.9395032;mnsec-sw3-4391cadb27ee4e;32.99m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "32936586n", "memory": "163884Ki"}, "mnsec-sidecar": {"cpu": "51564n", "memory": "996Ki"}}
+1785909903.301733;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.47m;226.63Mi;{"mininet-sec": {"cpu": "12471139n", "memory": "232072Ki"}}
+1785909903.301733;mnsec-proxy-7d45f4d94-gfjhx;2.60m;143.61Mi;{"nginx": {"cpu": "1106108n", "memory": "41236Ki"}, "auth-service": {"cpu": "170448n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1322413n", "memory": "17032Ki"}}
+1785909903.301733;mnsec-router-4391cadb27ee4e;38.63m;185.15Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "38577176n", "memory": "188620Ki"}, "mnsec-sidecar": {"cpu": "50390n", "memory": "972Ki"}}
+1785909903.301733;mnsec-sw1-4391cadb27ee4e;37.69m;164.59Mi;{"mnsec-sidecar": {"cpu": "52896n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "37640050n", "memory": "167548Ki"}}
+1785909903.301733;mnsec-sw2-4391cadb27ee4e;37.46m;160.96Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "37407405n", "memory": "163832Ki"}, "mnsec-sidecar": {"cpu": "50430n", "memory": "996Ki"}}
+1785909903.301733;mnsec-sw3-4391cadb27ee4e;32.99m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "32936586n", "memory": "163884Ki"}, "mnsec-sidecar": {"cpu": "51564n", "memory": "996Ki"}}
+1785909908.6625988;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;13.13m;238.09Mi;{"mininet-sec": {"cpu": "13128203n", "memory": "243808Ki"}}
+1785909908.6625988;mnsec-proxy-7d45f4d94-gfjhx;2.67m;143.61Mi;{"auth-service": {"cpu": "168006n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1339009n", "memory": "17032Ki"}, "nginx": {"cpu": "1166628n", "memory": "41236Ki"}}
+1785909908.6625988;mnsec-router-4391cadb27ee4e;20.29m;186.54Mi;{"mnsec-sidecar": {"cpu": "53101n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "20233212n", "memory": "190040Ki"}}
+1785909908.6625988;mnsec-sw1-4391cadb27ee4e;26.34m;164.85Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "26282725n", "memory": "167808Ki"}, "mnsec-sidecar": {"cpu": "52428n", "memory": "996Ki"}}
+1785909908.6625988;mnsec-sw2-4391cadb27ee4e;21.39m;160.96Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "21340907n", "memory": "163828Ki"}, "mnsec-sidecar": {"cpu": "51915n", "memory": "996Ki"}}
+1785909908.6625988;mnsec-sw3-4391cadb27ee4e;23.50m;161.02Mi;{"mnsec-sidecar": {"cpu": "57769n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "23442752n", "memory": "163888Ki"}}
+1785909914.000691;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;13.13m;238.09Mi;{"mininet-sec": {"cpu": "13128203n", "memory": "243808Ki"}}
+1785909914.000691;mnsec-proxy-7d45f4d94-gfjhx;2.67m;143.61Mi;{"nginx": {"cpu": "1166628n", "memory": "41236Ki"}, "auth-service": {"cpu": "168006n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1339009n", "memory": "17032Ki"}}
+1785909914.000691;mnsec-router-4391cadb27ee4e;20.29m;186.54Mi;{"mnsec-sidecar": {"cpu": "53101n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "20233212n", "memory": "190040Ki"}}
+1785909914.000691;mnsec-sw1-4391cadb27ee4e;26.34m;164.85Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "26282725n", "memory": "167808Ki"}, "mnsec-sidecar": {"cpu": "52428n", "memory": "996Ki"}}
+1785909914.000691;mnsec-sw2-4391cadb27ee4e;21.39m;160.96Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "21340907n", "memory": "163828Ki"}, "mnsec-sidecar": {"cpu": "51915n", "memory": "996Ki"}}
+1785909914.000691;mnsec-sw3-4391cadb27ee4e;23.50m;161.02Mi;{"mnsec-sidecar": {"cpu": "57769n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "23442752n", "memory": "163888Ki"}}
+1785909919.371728;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.40m;238.93Mi;{"mininet-sec": {"cpu": "18398873n", "memory": "244660Ki"}}
+1785909919.371728;mnsec-proxy-7d45f4d94-gfjhx;2.55m;143.61Mi;{"auth-service": {"cpu": "180054n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1371325n", "memory": "17032Ki"}, "nginx": {"cpu": "996126n", "memory": "41236Ki"}}
+1785909919.371728;mnsec-router-4391cadb27ee4e;19.65m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "19595527n", "memory": "190008Ki"}, "mnsec-sidecar": {"cpu": "51824n", "memory": "972Ki"}}
+1785909919.371728;mnsec-sw1-4391cadb27ee4e;26.34m;164.85Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "26282725n", "memory": "167808Ki"}, "mnsec-sidecar": {"cpu": "55300n", "memory": "996Ki"}}
+1785909919.371728;mnsec-sw2-4391cadb27ee4e;18.27m;161.09Mi;{"mnsec-sidecar": {"cpu": "51915n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18221445n", "memory": "163960Ki"}}
+1785909919.371728;mnsec-sw3-4391cadb27ee4e;19.85m;161.02Mi;{"mnsec-sidecar": {"cpu": "51325n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19793713n", "memory": "163884Ki"}}
+1785909924.703638;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.40m;238.93Mi;{"mininet-sec": {"cpu": "18398873n", "memory": "244660Ki"}}
+1785909924.703638;mnsec-proxy-7d45f4d94-gfjhx;2.55m;143.61Mi;{"auth-service": {"cpu": "180054n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1371325n", "memory": "17032Ki"}, "nginx": {"cpu": "996126n", "memory": "41236Ki"}}
+1785909924.703638;mnsec-router-4391cadb27ee4e;19.65m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "19595527n", "memory": "190008Ki"}, "mnsec-sidecar": {"cpu": "51824n", "memory": "972Ki"}}
+1785909924.703638;mnsec-sw1-4391cadb27ee4e;26.34m;164.85Mi;{"mnsec-sidecar": {"cpu": "55300n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "26282725n", "memory": "167808Ki"}}
+1785909924.703638;mnsec-sw2-4391cadb27ee4e;18.27m;161.09Mi;{"mnsec-sidecar": {"cpu": "51915n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18221445n", "memory": "163960Ki"}}
+1785909924.703638;mnsec-sw3-4391cadb27ee4e;19.85m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "19793713n", "memory": "163884Ki"}, "mnsec-sidecar": {"cpu": "51325n", "memory": "996Ki"}}
+1785909930.065439;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.40m;238.93Mi;{"mininet-sec": {"cpu": "18398873n", "memory": "244660Ki"}}
+1785909930.065439;mnsec-proxy-7d45f4d94-gfjhx;2.55m;143.61Mi;{"kubectl-service": {"cpu": "1371325n", "memory": "17032Ki"}, "nginx": {"cpu": "996126n", "memory": "41236Ki"}, "auth-service": {"cpu": "180054n", "memory": "88792Ki"}}
+1785909930.065439;mnsec-router-4391cadb27ee4e;19.65m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "19595527n", "memory": "190008Ki"}, "mnsec-sidecar": {"cpu": "51824n", "memory": "972Ki"}}
+1785909930.065439;mnsec-sw1-4391cadb27ee4e;26.34m;164.85Mi;{"mnsec-sidecar": {"cpu": "55300n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "26282725n", "memory": "167808Ki"}}
+1785909930.065439;mnsec-sw2-4391cadb27ee4e;18.27m;161.09Mi;{"mnsec-sidecar": {"cpu": "51915n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18221445n", "memory": "163960Ki"}}
+1785909930.065439;mnsec-sw3-4391cadb27ee4e;19.85m;161.02Mi;{"mnsec-sidecar": {"cpu": "51325n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19793713n", "memory": "163884Ki"}}
+1785909935.392027;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;14.86m;238.61Mi;{"mininet-sec": {"cpu": "14859721n", "memory": "244340Ki"}}
+1785909935.392027;mnsec-proxy-7d45f4d94-gfjhx;2.84m;143.62Mi;{"kubectl-service": {"cpu": "1707531n", "memory": "17036Ki"}, "nginx": {"cpu": "966252n", "memory": "41236Ki"}, "auth-service": {"cpu": "165921n", "memory": "88792Ki"}}
+1785909935.392027;mnsec-router-4391cadb27ee4e;15.67m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "15616704n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "51345n", "memory": "972Ki"}}
+1785909935.392027;mnsec-sw1-4391cadb27ee4e;18.70m;164.60Mi;{"mnsec-sidecar": {"cpu": "51607n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18647888n", "memory": "167552Ki"}}
+1785909935.392027;mnsec-sw2-4391cadb27ee4e;18.78m;160.98Mi;{"mnsec-sidecar": {"cpu": "44791n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18733094n", "memory": "163844Ki"}}
+1785909935.392027;mnsec-sw3-4391cadb27ee4e;18.53m;161.15Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "18476994n", "memory": "164020Ki"}, "mnsec-sidecar": {"cpu": "51792n", "memory": "996Ki"}}
+1785909940.753002;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;14.86m;238.61Mi;{"mininet-sec": {"cpu": "14859721n", "memory": "244340Ki"}}
+1785909940.753002;mnsec-proxy-7d45f4d94-gfjhx;2.84m;143.62Mi;{"auth-service": {"cpu": "165921n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1707531n", "memory": "17036Ki"}, "nginx": {"cpu": "966252n", "memory": "41236Ki"}}
+1785909940.753002;mnsec-router-4391cadb27ee4e;15.67m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "15616704n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "51345n", "memory": "972Ki"}}
+1785909940.753002;mnsec-sw1-4391cadb27ee4e;18.70m;164.60Mi;{"mnsec-sidecar": {"cpu": "51607n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18647888n", "memory": "167552Ki"}}
+1785909940.753002;mnsec-sw2-4391cadb27ee4e;18.78m;160.98Mi;{"mnsec-sidecar": {"cpu": "44791n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18733094n", "memory": "163844Ki"}}
+1785909940.753002;mnsec-sw3-4391cadb27ee4e;18.53m;161.15Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "18476994n", "memory": "164020Ki"}, "mnsec-sidecar": {"cpu": "51792n", "memory": "996Ki"}}
+1785909946.111572;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;14.86m;238.61Mi;{"mininet-sec": {"cpu": "14859721n", "memory": "244340Ki"}}
+1785909946.111572;mnsec-proxy-7d45f4d94-gfjhx;2.84m;143.62Mi;{"auth-service": {"cpu": "165921n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1707531n", "memory": "17036Ki"}, "nginx": {"cpu": "966252n", "memory": "41236Ki"}}
+1785909946.111572;mnsec-router-4391cadb27ee4e;15.67m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "15616704n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "51345n", "memory": "972Ki"}}
+1785909946.111572;mnsec-sw1-4391cadb27ee4e;18.70m;164.60Mi;{"mnsec-sidecar": {"cpu": "51607n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18647888n", "memory": "167552Ki"}}
+1785909946.111572;mnsec-sw2-4391cadb27ee4e;18.78m;160.98Mi;{"mnsec-sidecar": {"cpu": "44791n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18733094n", "memory": "163844Ki"}}
+1785909946.111572;mnsec-sw3-4391cadb27ee4e;18.53m;161.15Mi;{"mnsec-sidecar": {"cpu": "51792n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "18476994n", "memory": "164020Ki"}}
+1785909951.468575;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;15.80m;238.41Mi;{"mininet-sec": {"cpu": "15802598n", "memory": "244136Ki"}}
+1785909951.468575;mnsec-proxy-7d45f4d94-gfjhx;2.43m;143.62Mi;{"kubectl-service": {"cpu": "1291794n", "memory": "17036Ki"}, "nginx": {"cpu": "966252n", "memory": "41236Ki"}, "auth-service": {"cpu": "167927n", "memory": "88792Ki"}}
+1785909951.468575;mnsec-router-4391cadb27ee4e;14.44m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "14389881n", "memory": "190000Ki"}, "mnsec-sidecar": {"cpu": "50028n", "memory": "972Ki"}}
+1785909951.468575;mnsec-sw1-4391cadb27ee4e;18.70m;164.60Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "18647888n", "memory": "167552Ki"}, "mnsec-sidecar": {"cpu": "50861n", "memory": "996Ki"}}
+1785909951.468575;mnsec-sw2-4391cadb27ee4e;21.70m;160.97Mi;{"mnsec-sidecar": {"cpu": "49620n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "21654195n", "memory": "163836Ki"}}
+1785909951.468575;mnsec-sw3-4391cadb27ee4e;19.97m;160.91Mi;{"mnsec-sidecar": {"cpu": "51792n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19913284n", "memory": "163772Ki"}}
+1785909956.796405;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;15.80m;238.41Mi;{"mininet-sec": {"cpu": "15802598n", "memory": "244136Ki"}}
+1785909956.796405;mnsec-proxy-7d45f4d94-gfjhx;2.43m;143.62Mi;{"nginx": {"cpu": "966252n", "memory": "41236Ki"}, "auth-service": {"cpu": "167927n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1291794n", "memory": "17036Ki"}}
+1785909956.796405;mnsec-router-4391cadb27ee4e;14.44m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "14389881n", "memory": "190000Ki"}, "mnsec-sidecar": {"cpu": "50028n", "memory": "972Ki"}}
+1785909956.796405;mnsec-sw1-4391cadb27ee4e;18.70m;164.60Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "18647888n", "memory": "167552Ki"}, "mnsec-sidecar": {"cpu": "50861n", "memory": "996Ki"}}
+1785909956.796405;mnsec-sw2-4391cadb27ee4e;21.70m;160.97Mi;{"mnsec-sidecar": {"cpu": "49620n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "21654195n", "memory": "163836Ki"}}
+1785909956.796405;mnsec-sw3-4391cadb27ee4e;19.97m;160.91Mi;{"mnsec-sidecar": {"cpu": "51792n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19913284n", "memory": "163772Ki"}}
+1785909962.1580641;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;15.80m;238.41Mi;{"mininet-sec": {"cpu": "15802598n", "memory": "244136Ki"}}
+1785909962.1580641;mnsec-proxy-7d45f4d94-gfjhx;2.43m;143.62Mi;{"nginx": {"cpu": "966252n", "memory": "41236Ki"}, "auth-service": {"cpu": "167927n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1291794n", "memory": "17036Ki"}}
+1785909962.1580641;mnsec-router-4391cadb27ee4e;14.44m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "14389881n", "memory": "190000Ki"}, "mnsec-sidecar": {"cpu": "50028n", "memory": "972Ki"}}
+1785909962.1580641;mnsec-sw1-4391cadb27ee4e;18.70m;164.60Mi;{"mnsec-sidecar": {"cpu": "50861n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18647888n", "memory": "167552Ki"}}
+1785909962.1580641;mnsec-sw2-4391cadb27ee4e;21.70m;160.97Mi;{"mnsec-sidecar": {"cpu": "49620n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "21654195n", "memory": "163836Ki"}}
+1785909962.1580641;mnsec-sw3-4391cadb27ee4e;19.97m;160.91Mi;{"mnsec-sidecar": {"cpu": "51792n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19913284n", "memory": "163772Ki"}}
+1785909967.4851358;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.91m;238.42Mi;{"mininet-sec": {"cpu": "12911106n", "memory": "244144Ki"}}
+1785909967.4851358;mnsec-proxy-7d45f4d94-gfjhx;2.51m;143.62Mi;{"nginx": {"cpu": "1031483n", "memory": "41236Ki"}, "auth-service": {"cpu": "169875n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1307575n", "memory": "17036Ki"}}
+1785909967.4851358;mnsec-router-4391cadb27ee4e;15.75m;186.50Mi;{"mnsec-sidecar": {"cpu": "50553n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "15698012n", "memory": "190004Ki"}}
+1785909967.4851358;mnsec-sw1-4391cadb27ee4e;20.32m;164.84Mi;{"mnsec-sidecar": {"cpu": "56526n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "20263050n", "memory": "167804Ki"}}
+1785909967.4851358;mnsec-sw2-4391cadb27ee4e;17.19m;160.97Mi;{"mnsec-sidecar": {"cpu": "51703n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "17143223n", "memory": "163836Ki"}}
+1785909967.4851358;mnsec-sw3-4391cadb27ee4e;17.86m;161.03Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "17802236n", "memory": "163896Ki"}, "mnsec-sidecar": {"cpu": "54328n", "memory": "996Ki"}}
+1785909972.849838;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.91m;238.42Mi;{"mininet-sec": {"cpu": "12911106n", "memory": "244144Ki"}}
+1785909972.849838;mnsec-proxy-7d45f4d94-gfjhx;2.51m;143.62Mi;{"kubectl-service": {"cpu": "1307575n", "memory": "17036Ki"}, "nginx": {"cpu": "1031483n", "memory": "41236Ki"}, "auth-service": {"cpu": "169875n", "memory": "88792Ki"}}
+1785909972.849838;mnsec-router-4391cadb27ee4e;15.75m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "15698012n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "50553n", "memory": "972Ki"}}
+1785909972.849838;mnsec-sw1-4391cadb27ee4e;20.32m;164.84Mi;{"mnsec-sidecar": {"cpu": "56526n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "20263050n", "memory": "167804Ki"}}
+1785909972.849838;mnsec-sw2-4391cadb27ee4e;17.19m;160.97Mi;{"mnsec-sidecar": {"cpu": "51703n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "17143223n", "memory": "163836Ki"}}
+1785909972.849838;mnsec-sw3-4391cadb27ee4e;17.86m;161.03Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "17802236n", "memory": "163896Ki"}, "mnsec-sidecar": {"cpu": "54328n", "memory": "996Ki"}}
+1785909978.180143;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.91m;238.42Mi;{"mininet-sec": {"cpu": "12911106n", "memory": "244144Ki"}}
+1785909978.180143;mnsec-proxy-7d45f4d94-gfjhx;2.51m;143.62Mi;{"nginx": {"cpu": "1031483n", "memory": "41236Ki"}, "auth-service": {"cpu": "169875n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1307575n", "memory": "17036Ki"}}
+1785909978.180143;mnsec-router-4391cadb27ee4e;15.75m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "15698012n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "50553n", "memory": "972Ki"}}
+1785909978.180143;mnsec-sw1-4391cadb27ee4e;20.32m;164.84Mi;{"mnsec-sidecar": {"cpu": "56526n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "20263050n", "memory": "167804Ki"}}
+1785909978.180143;mnsec-sw2-4391cadb27ee4e;17.19m;160.97Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "17143223n", "memory": "163836Ki"}, "mnsec-sidecar": {"cpu": "51703n", "memory": "996Ki"}}
+1785909978.180143;mnsec-sw3-4391cadb27ee4e;17.86m;161.03Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "17802236n", "memory": "163896Ki"}, "mnsec-sidecar": {"cpu": "54328n", "memory": "996Ki"}}
+1785909983.5426052;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.91m;238.42Mi;{"mininet-sec": {"cpu": "12911106n", "memory": "244144Ki"}}
+1785909983.5426052;mnsec-proxy-7d45f4d94-gfjhx;2.61m;143.62Mi;{"auth-service": {"cpu": "182612n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1367643n", "memory": "17036Ki"}, "nginx": {"cpu": "1058493n", "memory": "41236Ki"}}
+1785909983.5426052;mnsec-router-4391cadb27ee4e;20.03m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "19979604n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "49237n", "memory": "972Ki"}}
+1785909983.5426052;mnsec-sw1-4391cadb27ee4e;19.05m;164.72Mi;{"mnsec-sidecar": {"cpu": "51369n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18994755n", "memory": "167676Ki"}}
+1785909983.5426052;mnsec-sw2-4391cadb27ee4e;18.97m;161.22Mi;{"mnsec-sidecar": {"cpu": "51098n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18921694n", "memory": "164096Ki"}}
+1785909983.5426052;mnsec-sw3-4391cadb27ee4e;17.34m;161.02Mi;{"mnsec-sidecar": {"cpu": "53286n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "17282381n", "memory": "163892Ki"}}
+1785909988.872155;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.91m;238.42Mi;{"mininet-sec": {"cpu": "12911106n", "memory": "244144Ki"}}
+1785909988.872155;mnsec-proxy-7d45f4d94-gfjhx;2.61m;143.62Mi;{"nginx": {"cpu": "1058493n", "memory": "41236Ki"}, "auth-service": {"cpu": "182612n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1367643n", "memory": "17036Ki"}}
+1785909988.872155;mnsec-router-4391cadb27ee4e;20.03m;186.50Mi;{"mnsec-sidecar": {"cpu": "49237n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "19979604n", "memory": "190004Ki"}}
+1785909988.872155;mnsec-sw1-4391cadb27ee4e;19.05m;164.72Mi;{"mnsec-sidecar": {"cpu": "51369n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18994755n", "memory": "167676Ki"}}
+1785909988.872155;mnsec-sw2-4391cadb27ee4e;18.97m;161.22Mi;{"mnsec-sidecar": {"cpu": "51098n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18921694n", "memory": "164096Ki"}}
+1785909988.872155;mnsec-sw3-4391cadb27ee4e;17.34m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "17282381n", "memory": "163892Ki"}, "mnsec-sidecar": {"cpu": "53286n", "memory": "996Ki"}}
+1785909994.245489;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.68m;238.42Mi;{"mininet-sec": {"cpu": "12683314n", "memory": "244144Ki"}}
+1785909994.245489;mnsec-proxy-7d45f4d94-gfjhx;2.56m;143.62Mi;{"nginx": {"cpu": "1024642n", "memory": "41236Ki"}, "auth-service": {"cpu": "196427n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1337535n", "memory": "17036Ki"}}
+1785909994.245489;mnsec-router-4391cadb27ee4e;16.73m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "16676298n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "49237n", "memory": "972Ki"}}
+1785909994.245489;mnsec-sw1-4391cadb27ee4e;19.20m;165.10Mi;{"mnsec-sidecar": {"cpu": "51369n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "19149478n", "memory": "168068Ki"}}
+1785909994.245489;mnsec-sw2-4391cadb27ee4e;17.51m;160.85Mi;{"mnsec-sidecar": {"cpu": "49819n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "17461293n", "memory": "163716Ki"}}
+1785909994.245489;mnsec-sw3-4391cadb27ee4e;21.53m;161.03Mi;{"mnsec-sidecar": {"cpu": "54486n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "21478930n", "memory": "163896Ki"}}
+1785909999.574189;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.68m;238.42Mi;{"mininet-sec": {"cpu": "12683314n", "memory": "244144Ki"}}
+1785909999.574189;mnsec-proxy-7d45f4d94-gfjhx;2.56m;143.62Mi;{"kubectl-service": {"cpu": "1337535n", "memory": "17036Ki"}, "nginx": {"cpu": "1024642n", "memory": "41236Ki"}, "auth-service": {"cpu": "196427n", "memory": "88792Ki"}}
+1785909999.574189;mnsec-router-4391cadb27ee4e;16.73m;186.50Mi;{"mnsec-sidecar": {"cpu": "49237n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "16676298n", "memory": "190004Ki"}}
+1785909999.574189;mnsec-sw1-4391cadb27ee4e;19.20m;165.10Mi;{"mnsec-sidecar": {"cpu": "51369n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "19149478n", "memory": "168068Ki"}}
+1785909999.574189;mnsec-sw2-4391cadb27ee4e;17.51m;160.85Mi;{"mnsec-sidecar": {"cpu": "49819n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "17461293n", "memory": "163716Ki"}}
+1785909999.574189;mnsec-sw3-4391cadb27ee4e;21.53m;161.03Mi;{"mnsec-sidecar": {"cpu": "54486n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "21478930n", "memory": "163896Ki"}}
+1785910004.940338;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;12.68m;238.42Mi;{"mininet-sec": {"cpu": "12683314n", "memory": "244144Ki"}}
+1785910004.940338;mnsec-proxy-7d45f4d94-gfjhx;2.56m;143.62Mi;{"auth-service": {"cpu": "196427n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1337535n", "memory": "17036Ki"}, "nginx": {"cpu": "1024642n", "memory": "41236Ki"}}
+1785910004.940338;mnsec-router-4391cadb27ee4e;16.73m;186.50Mi;{"mnsec-sidecar": {"cpu": "49237n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "16676298n", "memory": "190004Ki"}}
+1785910004.940338;mnsec-sw1-4391cadb27ee4e;19.20m;165.10Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "19149478n", "memory": "168068Ki"}, "mnsec-sidecar": {"cpu": "51369n", "memory": "996Ki"}}
+1785910004.940338;mnsec-sw2-4391cadb27ee4e;17.51m;160.85Mi;{"mnsec-sidecar": {"cpu": "49819n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "17461293n", "memory": "163716Ki"}}
+1785910004.940338;mnsec-sw3-4391cadb27ee4e;21.53m;161.03Mi;{"mnsec-sidecar": {"cpu": "54486n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "21478930n", "memory": "163896Ki"}}
+1785910010.279573;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;15.96m;238.67Mi;{"mininet-sec": {"cpu": "15961062n", "memory": "244396Ki"}}
+1785910010.279573;mnsec-proxy-7d45f4d94-gfjhx;2.45m;143.62Mi;{"auth-service": {"cpu": "165930n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1293569n", "memory": "17036Ki"}, "nginx": {"cpu": "985636n", "memory": "41236Ki"}}
+1785910010.279573;mnsec-router-4391cadb27ee4e;17.34m;186.62Mi;{"mnsec-sidecar": {"cpu": "54406n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "17281781n", "memory": "190128Ki"}}
+1785910010.279573;mnsec-sw1-4391cadb27ee4e;19.20m;165.10Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "19149478n", "memory": "168068Ki"}, "mnsec-sidecar": {"cpu": "48892n", "memory": "996Ki"}}
+1785910010.279573;mnsec-sw2-4391cadb27ee4e;19.68m;160.98Mi;{"mnsec-sidecar": {"cpu": "49149n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "19634600n", "memory": "163844Ki"}}
+1785910010.279573;mnsec-sw3-4391cadb27ee4e;19.82m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "19768317n", "memory": "163892Ki"}, "mnsec-sidecar": {"cpu": "52805n", "memory": "996Ki"}}
+1785910015.6401439;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;15.96m;238.67Mi;{"mininet-sec": {"cpu": "15961062n", "memory": "244396Ki"}}
+1785910015.6401439;mnsec-proxy-7d45f4d94-gfjhx;2.45m;143.62Mi;{"nginx": {"cpu": "985636n", "memory": "41236Ki"}, "auth-service": {"cpu": "165930n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1293569n", "memory": "17036Ki"}}
+1785910015.6401439;mnsec-router-4391cadb27ee4e;17.34m;186.62Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17281781n", "memory": "190128Ki"}, "mnsec-sidecar": {"cpu": "54406n", "memory": "972Ki"}}
+1785910015.6401439;mnsec-sw1-4391cadb27ee4e;19.20m;165.10Mi;{"mnsec-sidecar": {"cpu": "48892n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "19149478n", "memory": "168068Ki"}}
+1785910015.6401439;mnsec-sw2-4391cadb27ee4e;19.68m;160.98Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "19634600n", "memory": "163844Ki"}, "mnsec-sidecar": {"cpu": "49149n", "memory": "996Ki"}}
+1785910015.6401439;mnsec-sw3-4391cadb27ee4e;19.82m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "19768317n", "memory": "163892Ki"}, "mnsec-sidecar": {"cpu": "52805n", "memory": "996Ki"}}
+1785910020.978601;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;15.96m;238.67Mi;{"mininet-sec": {"cpu": "15961062n", "memory": "244396Ki"}}
+1785910020.978601;mnsec-proxy-7d45f4d94-gfjhx;2.45m;143.62Mi;{"auth-service": {"cpu": "165930n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1293569n", "memory": "17036Ki"}, "nginx": {"cpu": "985636n", "memory": "41236Ki"}}
+1785910020.978601;mnsec-router-4391cadb27ee4e;17.34m;186.62Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17281781n", "memory": "190128Ki"}, "mnsec-sidecar": {"cpu": "54406n", "memory": "972Ki"}}
+1785910020.978601;mnsec-sw1-4391cadb27ee4e;19.20m;165.10Mi;{"mnsec-sidecar": {"cpu": "48892n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "19149478n", "memory": "168068Ki"}}
+1785910020.978601;mnsec-sw2-4391cadb27ee4e;19.68m;160.98Mi;{"mnsec-sidecar": {"cpu": "49149n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "19634600n", "memory": "163844Ki"}}
+1785910020.978601;mnsec-sw3-4391cadb27ee4e;19.82m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "19768317n", "memory": "163892Ki"}, "mnsec-sidecar": {"cpu": "52805n", "memory": "996Ki"}}
+1785910026.349633;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.31m;238.93Mi;{"mininet-sec": {"cpu": "18311741n", "memory": "244664Ki"}}
+1785910026.349633;mnsec-proxy-7d45f4d94-gfjhx;2.43m;143.62Mi;{"auth-service": {"cpu": "165930n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1253494n", "memory": "17036Ki"}, "nginx": {"cpu": "1009716n", "memory": "41236Ki"}}
+1785910026.349633;mnsec-router-4391cadb27ee4e;14.88m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "14825866n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "51769n", "memory": "972Ki"}}
+1785910026.349633;mnsec-sw1-4391cadb27ee4e;18.96m;164.60Mi;{"mnsec-sidecar": {"cpu": "51849n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18904554n", "memory": "167556Ki"}}
+1785910026.349633;mnsec-sw2-4391cadb27ee4e;18.31m;160.84Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "18261975n", "memory": "163708Ki"}, "mnsec-sidecar": {"cpu": "47652n", "memory": "996Ki"}}
+1785910026.349633;mnsec-sw3-4391cadb27ee4e;15.82m;161.02Mi;{"mnsec-sidecar": {"cpu": "51887n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "15765955n", "memory": "163892Ki"}}
+1785910031.7136462;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.31m;238.93Mi;{"mininet-sec": {"cpu": "18311741n", "memory": "244664Ki"}}
+1785910031.7136462;mnsec-proxy-7d45f4d94-gfjhx;2.43m;143.62Mi;{"nginx": {"cpu": "1009716n", "memory": "41236Ki"}, "auth-service": {"cpu": "165930n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1253494n", "memory": "17036Ki"}}
+1785910031.7136462;mnsec-router-4391cadb27ee4e;14.88m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "14825866n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "51769n", "memory": "972Ki"}}
+1785910031.7136462;mnsec-sw1-4391cadb27ee4e;18.96m;164.60Mi;{"mnsec-sidecar": {"cpu": "51849n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18904554n", "memory": "167556Ki"}}
+1785910031.7136462;mnsec-sw2-4391cadb27ee4e;18.31m;160.84Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "18261975n", "memory": "163708Ki"}, "mnsec-sidecar": {"cpu": "47652n", "memory": "996Ki"}}
+1785910031.7136462;mnsec-sw3-4391cadb27ee4e;15.82m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "15765955n", "memory": "163892Ki"}, "mnsec-sidecar": {"cpu": "51887n", "memory": "996Ki"}}
+1785910037.0803552;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.31m;238.93Mi;{"mininet-sec": {"cpu": "18311741n", "memory": "244664Ki"}}
+1785910037.0803552;mnsec-proxy-7d45f4d94-gfjhx;2.43m;143.62Mi;{"auth-service": {"cpu": "165930n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1253494n", "memory": "17036Ki"}, "nginx": {"cpu": "1009716n", "memory": "41236Ki"}}
+1785910037.0803552;mnsec-router-4391cadb27ee4e;14.88m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "14825866n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "51769n", "memory": "972Ki"}}
+1785910037.0803552;mnsec-sw1-4391cadb27ee4e;18.96m;164.60Mi;{"mnsec-sidecar": {"cpu": "51849n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18904554n", "memory": "167556Ki"}}
+1785910037.0803552;mnsec-sw2-4391cadb27ee4e;18.31m;160.84Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "18261975n", "memory": "163708Ki"}, "mnsec-sidecar": {"cpu": "47652n", "memory": "996Ki"}}
+1785910037.0803552;mnsec-sw3-4391cadb27ee4e;15.82m;161.02Mi;{"mnsec-sidecar": {"cpu": "51887n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "15765955n", "memory": "163892Ki"}}
+1785910042.4178839;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;17.39m;239.19Mi;{"mininet-sec": {"cpu": "17392237n", "memory": "244928Ki"}}
+1785910042.4178839;mnsec-proxy-7d45f4d94-gfjhx;2.52m;143.62Mi;{"auth-service": {"cpu": "188998n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1318151n", "memory": "17036Ki"}, "nginx": {"cpu": "1012251n", "memory": "41236Ki"}}
+1785910042.4178839;mnsec-router-4391cadb27ee4e;25.63m;186.62Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "25577747n", "memory": "190128Ki"}, "mnsec-sidecar": {"cpu": "51574n", "memory": "972Ki"}}
+1785910042.4178839;mnsec-sw1-4391cadb27ee4e;18.96m;164.60Mi;{"mnsec-sidecar": {"cpu": "51627n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18904554n", "memory": "167556Ki"}}
+1785910042.4178839;mnsec-sw2-4391cadb27ee4e;16.74m;160.85Mi;{"mnsec-sidecar": {"cpu": "49453n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "16686283n", "memory": "163712Ki"}}
+1785910042.4178839;mnsec-sw3-4391cadb27ee4e;18.07m;160.91Mi;{"mnsec-sidecar": {"cpu": "54383n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "18017187n", "memory": "163772Ki"}}
+1785910047.7775402;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;17.39m;239.19Mi;{"mininet-sec": {"cpu": "17392237n", "memory": "244928Ki"}}
+1785910047.7775402;mnsec-proxy-7d45f4d94-gfjhx;2.52m;143.62Mi;{"auth-service": {"cpu": "188998n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1318151n", "memory": "17036Ki"}, "nginx": {"cpu": "1012251n", "memory": "41236Ki"}}
+1785910047.7775402;mnsec-router-4391cadb27ee4e;25.63m;186.62Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "25577747n", "memory": "190128Ki"}, "mnsec-sidecar": {"cpu": "51574n", "memory": "972Ki"}}
+1785910047.7775402;mnsec-sw1-4391cadb27ee4e;18.96m;164.60Mi;{"mnsec-sidecar": {"cpu": "51627n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18904554n", "memory": "167556Ki"}}
+1785910047.7775402;mnsec-sw2-4391cadb27ee4e;16.74m;160.85Mi;{"mnsec-sidecar": {"cpu": "49453n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "16686283n", "memory": "163712Ki"}}
+1785910047.7775402;mnsec-sw3-4391cadb27ee4e;18.07m;160.91Mi;{"mnsec-sidecar": {"cpu": "54383n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "18017187n", "memory": "163772Ki"}}
+1785910053.106394;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;17.39m;239.19Mi;{"mininet-sec": {"cpu": "17392237n", "memory": "244928Ki"}}
+1785910053.106394;mnsec-proxy-7d45f4d94-gfjhx;2.52m;143.62Mi;{"kubectl-service": {"cpu": "1318151n", "memory": "17036Ki"}, "nginx": {"cpu": "1012251n", "memory": "41236Ki"}, "auth-service": {"cpu": "188998n", "memory": "88792Ki"}}
+1785910053.106394;mnsec-router-4391cadb27ee4e;25.63m;186.62Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "25577747n", "memory": "190128Ki"}, "mnsec-sidecar": {"cpu": "51574n", "memory": "972Ki"}}
+1785910053.106394;mnsec-sw1-4391cadb27ee4e;18.96m;164.60Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "18904554n", "memory": "167556Ki"}, "mnsec-sidecar": {"cpu": "51627n", "memory": "996Ki"}}
+1785910053.106394;mnsec-sw2-4391cadb27ee4e;16.74m;160.85Mi;{"mnsec-sidecar": {"cpu": "49453n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "16686283n", "memory": "163712Ki"}}
+1785910053.106394;mnsec-sw3-4391cadb27ee4e;18.07m;160.91Mi;{"mnsec-sidecar": {"cpu": "54383n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "18017187n", "memory": "163772Ki"}}
+1785910058.465781;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;15.21m;236.93Mi;{"mininet-sec": {"cpu": "15205336n", "memory": "242620Ki"}}
+1785910058.465781;mnsec-proxy-7d45f4d94-gfjhx;3.34m;141.47Mi;{"auth-service": {"cpu": "171204n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "2116595n", "memory": "14836Ki"}, "nginx": {"cpu": "1055940n", "memory": "41236Ki"}}
+1785910058.465781;mnsec-router-4391cadb27ee4e;15.09m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "15041812n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "52211n", "memory": "972Ki"}}
+1785910058.465781;mnsec-sw1-4391cadb27ee4e;18.16m;164.72Mi;{"mnsec-sidecar": {"cpu": "52330n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18108018n", "memory": "167676Ki"}}
+1785910058.465781;mnsec-sw2-4391cadb27ee4e;21.46m;160.84Mi;{"mnsec-sidecar": {"cpu": "49453n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "21408137n", "memory": "163708Ki"}}
+1785910058.465781;mnsec-sw3-4391cadb27ee4e;20.50m;161.04Mi;{"mnsec-sidecar": {"cpu": "52998n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "20449720n", "memory": "163904Ki"}}
+1785910063.79229;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;15.21m;236.93Mi;{"mininet-sec": {"cpu": "15205336n", "memory": "242620Ki"}}
+1785910063.79229;mnsec-proxy-7d45f4d94-gfjhx;3.34m;141.47Mi;{"auth-service": {"cpu": "171204n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "2116595n", "memory": "14836Ki"}, "nginx": {"cpu": "1055940n", "memory": "41236Ki"}}
+1785910063.79229;mnsec-router-4391cadb27ee4e;15.09m;186.50Mi;{"mnsec-sidecar": {"cpu": "52211n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "15041812n", "memory": "190004Ki"}}
+1785910063.79229;mnsec-sw1-4391cadb27ee4e;18.16m;164.72Mi;{"mnsec-sidecar": {"cpu": "52330n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18108018n", "memory": "167676Ki"}}
+1785910063.79229;mnsec-sw2-4391cadb27ee4e;21.46m;160.84Mi;{"mnsec-sidecar": {"cpu": "49453n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "21408137n", "memory": "163708Ki"}}
+1785910063.79229;mnsec-sw3-4391cadb27ee4e;20.50m;161.04Mi;{"mnsec-sidecar": {"cpu": "52998n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "20449720n", "memory": "163904Ki"}}
+1785910069.1602938;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;17.25m;236.41Mi;{"mininet-sec": {"cpu": "17253485n", "memory": "242084Ki"}}
+1785910069.1602938;mnsec-proxy-7d45f4d94-gfjhx;3.77m;141.76Mi;{"auth-service": {"cpu": "178187n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "2623425n", "memory": "15136Ki"}, "nginx": {"cpu": "969565n", "memory": "41236Ki"}}
+1785910069.1602938;mnsec-router-4391cadb27ee4e;17.43m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17378733n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "54920n", "memory": "972Ki"}}
+1785910069.1602938;mnsec-sw1-4391cadb27ee4e;19.09m;164.71Mi;{"mnsec-sidecar": {"cpu": "49925n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "19036753n", "memory": "167672Ki"}}
+1785910069.1602938;mnsec-sw2-4391cadb27ee4e;18.40m;160.84Mi;{"mnsec-sidecar": {"cpu": "53430n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18344649n", "memory": "163708Ki"}}
+1785910069.1602938;mnsec-sw3-4391cadb27ee4e;18.26m;160.91Mi;{"mnsec-sidecar": {"cpu": "49879n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "18211633n", "memory": "163772Ki"}}
+1785910074.493102;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;17.25m;236.41Mi;{"mininet-sec": {"cpu": "17253485n", "memory": "242084Ki"}}
+1785910074.493102;mnsec-proxy-7d45f4d94-gfjhx;3.77m;141.76Mi;{"auth-service": {"cpu": "178187n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "2623425n", "memory": "15136Ki"}, "nginx": {"cpu": "969565n", "memory": "41236Ki"}}
+1785910074.493102;mnsec-router-4391cadb27ee4e;17.43m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17378733n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "54920n", "memory": "972Ki"}}
+1785910074.493102;mnsec-sw1-4391cadb27ee4e;19.09m;164.71Mi;{"mnsec-sidecar": {"cpu": "49925n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "19036753n", "memory": "167672Ki"}}
+1785910074.493102;mnsec-sw2-4391cadb27ee4e;18.40m;160.84Mi;{"mnsec-sidecar": {"cpu": "53430n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18344649n", "memory": "163708Ki"}}
+1785910074.493102;mnsec-sw3-4391cadb27ee4e;18.26m;160.91Mi;{"mnsec-sidecar": {"cpu": "49879n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "18211633n", "memory": "163772Ki"}}
+1785910079.856928;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;17.25m;236.41Mi;{"mininet-sec": {"cpu": "17253485n", "memory": "242084Ki"}}
+1785910079.856928;mnsec-proxy-7d45f4d94-gfjhx;3.77m;141.76Mi;{"auth-service": {"cpu": "178187n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "2623425n", "memory": "15136Ki"}, "nginx": {"cpu": "969565n", "memory": "41236Ki"}}
+1785910079.856928;mnsec-router-4391cadb27ee4e;17.43m;186.50Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17378733n", "memory": "190004Ki"}, "mnsec-sidecar": {"cpu": "54920n", "memory": "972Ki"}}
+1785910079.856928;mnsec-sw1-4391cadb27ee4e;19.09m;164.71Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "19036753n", "memory": "167672Ki"}, "mnsec-sidecar": {"cpu": "49925n", "memory": "996Ki"}}
+1785910079.856928;mnsec-sw2-4391cadb27ee4e;18.40m;160.84Mi;{"mnsec-sidecar": {"cpu": "53430n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18344649n", "memory": "163708Ki"}}
+1785910079.856928;mnsec-sw3-4391cadb27ee4e;18.26m;160.91Mi;{"mnsec-sidecar": {"cpu": "49879n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "18211633n", "memory": "163772Ki"}}
+1785910085.18653;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;68.66m;273.73Mi;{"mininet-sec": {"cpu": "68658475n", "memory": "280296Ki"}}
+1785910085.18653;mnsec-proxy-7d45f4d94-gfjhx;19.02m;142.05Mi;{"auth-service": {"cpu": "3522430n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "5041430n", "memory": "15436Ki"}, "nginx": {"cpu": "10454592n", "memory": "41236Ki"}}
+1785910085.18653;mnsec-router-4391cadb27ee4e;29.93m;190.20Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "29878508n", "memory": "193792Ki"}, "mnsec-sidecar": {"cpu": "52651n", "memory": "972Ki"}}
+1785910085.18653;mnsec-sw1-4391cadb27ee4e;0.05m;164.60Mi;{"mnsec-sidecar": {"cpu": "53597n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "20259u", "memory": "167556Ki"}}
+1785910085.18653;mnsec-sw2-4391cadb27ee4e;17.93m;160.97Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "17884630n", "memory": "163836Ki"}, "mnsec-sidecar": {"cpu": "48701n", "memory": "996Ki"}}
+1785910085.18653;mnsec-sw3-4391cadb27ee4e;18.08m;161.15Mi;{"mnsec-sidecar": {"cpu": "54735n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "18028899n", "memory": "164020Ki"}}
+1785910090.545519;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;68.66m;273.73Mi;{"mininet-sec": {"cpu": "68658475n", "memory": "280296Ki"}}
+1785910090.545519;mnsec-proxy-7d45f4d94-gfjhx;19.02m;142.05Mi;{"auth-service": {"cpu": "3522430n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "5041430n", "memory": "15436Ki"}, "nginx": {"cpu": "10454592n", "memory": "41236Ki"}}
+1785910090.545519;mnsec-router-4391cadb27ee4e;29.93m;190.20Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "29878508n", "memory": "193792Ki"}, "mnsec-sidecar": {"cpu": "52651n", "memory": "972Ki"}}
+1785910090.545519;mnsec-sw1-4391cadb27ee4e;0.05m;164.60Mi;{"mnsec-sidecar": {"cpu": "53597n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "20259u", "memory": "167556Ki"}}
+1785910090.545519;mnsec-sw2-4391cadb27ee4e;17.93m;160.97Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "17884630n", "memory": "163836Ki"}, "mnsec-sidecar": {"cpu": "48701n", "memory": "996Ki"}}
+1785910090.545519;mnsec-sw3-4391cadb27ee4e;18.08m;161.15Mi;{"mnsec-sidecar": {"cpu": "54735n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "18028899n", "memory": "164020Ki"}}
+1785910095.8701608;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;68.66m;273.73Mi;{"mininet-sec": {"cpu": "68658475n", "memory": "280296Ki"}}
+1785910095.8701608;mnsec-proxy-7d45f4d94-gfjhx;19.02m;142.05Mi;{"auth-service": {"cpu": "3522430n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "5041430n", "memory": "15436Ki"}, "nginx": {"cpu": "10454592n", "memory": "41236Ki"}}
+1785910095.8701608;mnsec-router-4391cadb27ee4e;29.93m;190.20Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "29878508n", "memory": "193792Ki"}, "mnsec-sidecar": {"cpu": "52651n", "memory": "972Ki"}}
+1785910095.8701608;mnsec-sw1-4391cadb27ee4e;0.05m;164.60Mi;{"mnsec-sidecar": {"cpu": "53597n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "20259u", "memory": "167556Ki"}}
+1785910095.8701608;mnsec-sw2-4391cadb27ee4e;17.93m;160.97Mi;{"mnsec-sidecar": {"cpu": "48701n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "17884630n", "memory": "163836Ki"}}
+1785910095.8701608;mnsec-sw3-4391cadb27ee4e;18.08m;161.15Mi;{"mnsec-sidecar": {"cpu": "54735n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "18028899n", "memory": "164020Ki"}}
+1785910101.232374;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.83m;273.45Mi;{"mininet-sec": {"cpu": "18827589n", "memory": "280016Ki"}}
+1785910101.232374;mnsec-proxy-7d45f4d94-gfjhx;6.34m;142.05Mi;{"nginx": {"cpu": "1241047n", "memory": "41236Ki"}, "auth-service": {"cpu": "3522430n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1576006n", "memory": "15436Ki"}}
+1785910101.232374;mnsec-router-4391cadb27ee4e;16.66m;189.95Mi;{"mnsec-sidecar": {"cpu": "48823n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "16615693n", "memory": "193540Ki"}}
+1785910101.232374;mnsec-sw1-4391cadb27ee4e;18.48m;164.72Mi;{"mnsec-sidecar": {"cpu": "53864n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18423818n", "memory": "167680Ki"}}
+1785910101.232374;mnsec-sw2-4391cadb27ee4e;17.92m;161.09Mi;{"mnsec-sidecar": {"cpu": "49803n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "17872672n", "memory": "163964Ki"}}
+1785910101.232374;mnsec-sw3-4391cadb27ee4e;19.85m;161.02Mi;{"mnsec-sidecar": {"cpu": "56620n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19791500n", "memory": "163892Ki"}}
+1785910106.56242;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.83m;273.45Mi;{"mininet-sec": {"cpu": "18827589n", "memory": "280016Ki"}}
+1785910106.56242;mnsec-proxy-7d45f4d94-gfjhx;6.34m;142.05Mi;{"nginx": {"cpu": "1241047n", "memory": "41236Ki"}, "auth-service": {"cpu": "3522430n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1576006n", "memory": "15436Ki"}}
+1785910106.56242;mnsec-router-4391cadb27ee4e;16.66m;189.95Mi;{"mnsec-sidecar": {"cpu": "48823n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "16615693n", "memory": "193540Ki"}}
+1785910106.56242;mnsec-sw1-4391cadb27ee4e;18.48m;164.72Mi;{"mnsec-sidecar": {"cpu": "53864n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18423818n", "memory": "167680Ki"}}
+1785910106.56242;mnsec-sw2-4391cadb27ee4e;17.92m;161.09Mi;{"mnsec-sidecar": {"cpu": "49803n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "17872672n", "memory": "163964Ki"}}
+1785910106.56242;mnsec-sw3-4391cadb27ee4e;19.85m;161.02Mi;{"mnsec-sidecar": {"cpu": "56620n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19791500n", "memory": "163892Ki"}}
+1785910111.921234;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.83m;273.45Mi;{"mininet-sec": {"cpu": "18827589n", "memory": "280016Ki"}}
+1785910111.921234;mnsec-proxy-7d45f4d94-gfjhx;6.34m;142.05Mi;{"nginx": {"cpu": "1241047n", "memory": "41236Ki"}, "auth-service": {"cpu": "3522430n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1576006n", "memory": "15436Ki"}}
+1785910111.921234;mnsec-router-4391cadb27ee4e;16.66m;189.95Mi;{"mnsec-sidecar": {"cpu": "48823n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "16615693n", "memory": "193540Ki"}}
+1785910111.921234;mnsec-sw1-4391cadb27ee4e;18.48m;164.72Mi;{"mnsec-sidecar": {"cpu": "53864n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18423818n", "memory": "167680Ki"}}
+1785910111.921234;mnsec-sw2-4391cadb27ee4e;17.92m;161.09Mi;{"mnsec-sidecar": {"cpu": "49803n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "17872672n", "memory": "163964Ki"}}
+1785910111.921234;mnsec-sw3-4391cadb27ee4e;19.85m;161.02Mi;{"mnsec-sidecar": {"cpu": "56620n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19791500n", "memory": "163892Ki"}}
+1785910117.248886;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.41m;273.47Mi;{"mininet-sec": {"cpu": "18407197n", "memory": "280036Ki"}}
+1785910117.248886;mnsec-proxy-7d45f4d94-gfjhx;3.18m;142.05Mi;{"kubectl-service": {"cpu": "1724242n", "memory": "15436Ki"}, "nginx": {"cpu": "1277572n", "memory": "41236Ki"}, "auth-service": {"cpu": "182435n", "memory": "88792Ki"}}
+1785910117.248886;mnsec-router-4391cadb27ee4e;17.70m;190.07Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17650428n", "memory": "193664Ki"}, "mnsec-sidecar": {"cpu": "54199n", "memory": "972Ki"}}
+1785910117.248886;mnsec-sw1-4391cadb27ee4e;18.66m;164.60Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "18605179n", "memory": "167552Ki"}, "mnsec-sidecar": {"cpu": "50259n", "memory": "996Ki"}}
+1785910117.248886;mnsec-sw2-4391cadb27ee4e;22.63m;160.84Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "22570567n", "memory": "163708Ki"}, "mnsec-sidecar": {"cpu": "54669n", "memory": "996Ki"}}
+1785910117.248886;mnsec-sw3-4391cadb27ee4e;19.60m;161.03Mi;{"mnsec-sidecar": {"cpu": "53673n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19543808n", "memory": "163896Ki"}}
+1785910122.60641;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.41m;273.47Mi;{"mininet-sec": {"cpu": "18407197n", "memory": "280036Ki"}}
+1785910122.60641;mnsec-proxy-7d45f4d94-gfjhx;3.18m;142.05Mi;{"kubectl-service": {"cpu": "1724242n", "memory": "15436Ki"}, "nginx": {"cpu": "1277572n", "memory": "41236Ki"}, "auth-service": {"cpu": "182435n", "memory": "88792Ki"}}
+1785910122.60641;mnsec-router-4391cadb27ee4e;17.70m;190.07Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17650428n", "memory": "193664Ki"}, "mnsec-sidecar": {"cpu": "54199n", "memory": "972Ki"}}
+1785910122.60641;mnsec-sw1-4391cadb27ee4e;18.66m;164.60Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "18605179n", "memory": "167552Ki"}, "mnsec-sidecar": {"cpu": "50259n", "memory": "996Ki"}}
+1785910122.60641;mnsec-sw2-4391cadb27ee4e;22.63m;160.84Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "22570567n", "memory": "163708Ki"}, "mnsec-sidecar": {"cpu": "54669n", "memory": "996Ki"}}
+1785910122.60641;mnsec-sw3-4391cadb27ee4e;19.60m;161.03Mi;{"mnsec-sidecar": {"cpu": "53673n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19543808n", "memory": "163896Ki"}}
+1785910127.94369;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.41m;273.47Mi;{"mininet-sec": {"cpu": "18407197n", "memory": "280036Ki"}}
+1785910127.94369;mnsec-proxy-7d45f4d94-gfjhx;3.18m;142.05Mi;{"auth-service": {"cpu": "182435n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1724242n", "memory": "15436Ki"}, "nginx": {"cpu": "1277572n", "memory": "41236Ki"}}
+1785910127.94369;mnsec-router-4391cadb27ee4e;17.70m;190.07Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17650428n", "memory": "193664Ki"}, "mnsec-sidecar": {"cpu": "54199n", "memory": "972Ki"}}
+1785910127.94369;mnsec-sw1-4391cadb27ee4e;18.66m;164.60Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "18605179n", "memory": "167552Ki"}, "mnsec-sidecar": {"cpu": "50259n", "memory": "996Ki"}}
+1785910127.94369;mnsec-sw2-4391cadb27ee4e;22.63m;160.84Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "22570567n", "memory": "163708Ki"}, "mnsec-sidecar": {"cpu": "54669n", "memory": "996Ki"}}
+1785910127.94369;mnsec-sw3-4391cadb27ee4e;19.60m;161.03Mi;{"mnsec-sidecar": {"cpu": "53673n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "19543808n", "memory": "163896Ki"}}
+1785910133.312124;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.82m;273.48Mi;{"mininet-sec": {"cpu": "18817440n", "memory": "280044Ki"}}
+1785910133.312124;mnsec-proxy-7d45f4d94-gfjhx;3.06m;142.05Mi;{"auth-service": {"cpu": "182435n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1602846n", "memory": "15436Ki"}, "nginx": {"cpu": "1271751n", "memory": "41236Ki"}}
+1785910133.312124;mnsec-router-4391cadb27ee4e;18.53m;190.08Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "18472803n", "memory": "193672Ki"}, "mnsec-sidecar": {"cpu": "53595n", "memory": "972Ki"}}
+1785910133.312124;mnsec-sw1-4391cadb27ee4e;19.08m;164.60Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "19024122n", "memory": "167552Ki"}, "mnsec-sidecar": {"cpu": "51888n", "memory": "996Ki"}}
+1785910133.312124;mnsec-sw2-4391cadb27ee4e;18.22m;160.96Mi;{"mnsec-sidecar": {"cpu": "48126n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18168442n", "memory": "163832Ki"}}
+1785910133.312124;mnsec-sw3-4391cadb27ee4e;21.93m;161.15Mi;{"mnsec-sidecar": {"cpu": "53996n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "21880149n", "memory": "164020Ki"}}
+1785910138.646969;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.82m;273.48Mi;{"mininet-sec": {"cpu": "18817440n", "memory": "280044Ki"}}
+1785910138.646969;mnsec-proxy-7d45f4d94-gfjhx;3.06m;142.05Mi;{"kubectl-service": {"cpu": "1602846n", "memory": "15436Ki"}, "nginx": {"cpu": "1271751n", "memory": "41236Ki"}, "auth-service": {"cpu": "182435n", "memory": "88792Ki"}}
+1785910138.646969;mnsec-router-4391cadb27ee4e;18.53m;190.08Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "18472803n", "memory": "193672Ki"}, "mnsec-sidecar": {"cpu": "53595n", "memory": "972Ki"}}
+1785910138.646969;mnsec-sw1-4391cadb27ee4e;19.08m;164.60Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "19024122n", "memory": "167552Ki"}, "mnsec-sidecar": {"cpu": "51888n", "memory": "996Ki"}}
+1785910138.646969;mnsec-sw2-4391cadb27ee4e;18.22m;160.96Mi;{"mnsec-sidecar": {"cpu": "48126n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18168442n", "memory": "163832Ki"}}
+1785910138.646969;mnsec-sw3-4391cadb27ee4e;21.93m;161.15Mi;{"mnsec-sidecar": {"cpu": "53996n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "21880149n", "memory": "164020Ki"}}
+1785910144.006971;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.29m;273.48Mi;{"mininet-sec": {"cpu": "18286054n", "memory": "280044Ki"}}
+1785910144.006971;mnsec-proxy-7d45f4d94-gfjhx;3.12m;142.05Mi;{"nginx": {"cpu": "1228701n", "memory": "41236Ki"}, "auth-service": {"cpu": "181825n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1705885n", "memory": "15436Ki"}}
+1785910144.006971;mnsec-router-4391cadb27ee4e;17.25m;190.08Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17201622n", "memory": "193668Ki"}, "mnsec-sidecar": {"cpu": "53095n", "memory": "972Ki"}}
+1785910144.006971;mnsec-sw1-4391cadb27ee4e;21.66m;164.72Mi;{"mnsec-sidecar": {"cpu": "50524n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "21605646n", "memory": "167676Ki"}}
+1785910144.006971;mnsec-sw2-4391cadb27ee4e;18.95m;160.97Mi;{"mnsec-sidecar": {"cpu": "52365n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18898724n", "memory": "163836Ki"}}
+1785910144.006971;mnsec-sw3-4391cadb27ee4e;17.96m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "17908078n", "memory": "163892Ki"}, "mnsec-sidecar": {"cpu": "50037n", "memory": "996Ki"}}
+1785910149.335658;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.29m;273.48Mi;{"mininet-sec": {"cpu": "18286054n", "memory": "280044Ki"}}
+1785910149.335658;mnsec-proxy-7d45f4d94-gfjhx;3.12m;142.05Mi;{"nginx": {"cpu": "1228701n", "memory": "41236Ki"}, "auth-service": {"cpu": "181825n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "1705885n", "memory": "15436Ki"}}
+1785910149.335658;mnsec-router-4391cadb27ee4e;17.25m;190.08Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17201622n", "memory": "193668Ki"}, "mnsec-sidecar": {"cpu": "53095n", "memory": "972Ki"}}
+1785910149.335658;mnsec-sw1-4391cadb27ee4e;21.66m;164.72Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "21605646n", "memory": "167676Ki"}, "mnsec-sidecar": {"cpu": "50524n", "memory": "996Ki"}}
+1785910149.335658;mnsec-sw2-4391cadb27ee4e;18.95m;160.97Mi;{"mnsec-sidecar": {"cpu": "52365n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18898724n", "memory": "163836Ki"}}
+1785910149.335658;mnsec-sw3-4391cadb27ee4e;17.96m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "17908078n", "memory": "163892Ki"}, "mnsec-sidecar": {"cpu": "50037n", "memory": "996Ki"}}
+1785910154.701304;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.29m;273.48Mi;{"mininet-sec": {"cpu": "18286054n", "memory": "280044Ki"}}
+1785910154.701304;mnsec-proxy-7d45f4d94-gfjhx;3.12m;142.05Mi;{"kubectl-service": {"cpu": "1705885n", "memory": "15436Ki"}, "nginx": {"cpu": "1228701n", "memory": "41236Ki"}, "auth-service": {"cpu": "181825n", "memory": "88792Ki"}}
+1785910154.701304;mnsec-router-4391cadb27ee4e;17.25m;190.08Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17201622n", "memory": "193668Ki"}, "mnsec-sidecar": {"cpu": "53095n", "memory": "972Ki"}}
+1785910154.701304;mnsec-sw1-4391cadb27ee4e;21.66m;164.72Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "21605646n", "memory": "167676Ki"}, "mnsec-sidecar": {"cpu": "50524n", "memory": "996Ki"}}
+1785910154.701304;mnsec-sw2-4391cadb27ee4e;18.95m;160.97Mi;{"mnsec-sidecar": {"cpu": "52365n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "18898724n", "memory": "163836Ki"}}
+1785910154.701304;mnsec-sw3-4391cadb27ee4e;17.96m;161.02Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "17908078n", "memory": "163892Ki"}, "mnsec-sidecar": {"cpu": "50037n", "memory": "996Ki"}}
+1785910160.028219;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.14m;273.48Mi;{"mininet-sec": {"cpu": "18137257n", "memory": "280048Ki"}}
+1785910160.028219;mnsec-proxy-7d45f4d94-gfjhx;3.03m;142.05Mi;{"kubectl-service": {"cpu": "1593312n", "memory": "15436Ki"}, "nginx": {"cpu": "1271295n", "memory": "41236Ki"}, "auth-service": {"cpu": "169895n", "memory": "88792Ki"}}
+1785910160.028219;mnsec-router-4391cadb27ee4e;21.24m;190.20Mi;{"mnsec-sidecar": {"cpu": "51233n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "21185616n", "memory": "193796Ki"}}
+1785910160.028219;mnsec-sw1-4391cadb27ee4e;18.17m;164.60Mi;{"mnsec-sidecar": {"cpu": "52845n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18115933n", "memory": "167556Ki"}}
+1785910160.028219;mnsec-sw2-4391cadb27ee4e;18.31m;160.85Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "18254635n", "memory": "163712Ki"}, "mnsec-sidecar": {"cpu": "53980n", "memory": "996Ki"}}
+1785910160.028219;mnsec-sw3-4391cadb27ee4e;16.62m;161.03Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "16564939n", "memory": "163896Ki"}, "mnsec-sidecar": {"cpu": "58567n", "memory": "996Ki"}}
+1785910165.387041;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.14m;273.48Mi;{"mininet-sec": {"cpu": "18137257n", "memory": "280048Ki"}}
+1785910165.387041;mnsec-proxy-7d45f4d94-gfjhx;3.03m;142.05Mi;{"kubectl-service": {"cpu": "1593312n", "memory": "15436Ki"}, "nginx": {"cpu": "1271295n", "memory": "41236Ki"}, "auth-service": {"cpu": "169895n", "memory": "88792Ki"}}
+1785910165.387041;mnsec-router-4391cadb27ee4e;21.24m;190.20Mi;{"mnsec-sidecar": {"cpu": "51233n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "21185616n", "memory": "193796Ki"}}
+1785910165.387041;mnsec-sw1-4391cadb27ee4e;18.17m;164.60Mi;{"mnsec-sidecar": {"cpu": "52845n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18115933n", "memory": "167556Ki"}}
+1785910165.387041;mnsec-sw2-4391cadb27ee4e;18.31m;160.85Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "18254635n", "memory": "163712Ki"}, "mnsec-sidecar": {"cpu": "53980n", "memory": "996Ki"}}
+1785910165.387041;mnsec-sw3-4391cadb27ee4e;16.62m;161.03Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "16564939n", "memory": "163896Ki"}, "mnsec-sidecar": {"cpu": "58567n", "memory": "996Ki"}}
+1785910170.7174551;mininet-sec-4391cadb27ee4e-6dbf799bc7-x98s2;18.14m;273.48Mi;{"mininet-sec": {"cpu": "18137257n", "memory": "280048Ki"}}
+1785910170.7174551;mnsec-proxy-7d45f4d94-gfjhx;3.03m;142.05Mi;{"kubectl-service": {"cpu": "1593312n", "memory": "15436Ki"}, "nginx": {"cpu": "1271295n", "memory": "41236Ki"}, "auth-service": {"cpu": "169895n", "memory": "88792Ki"}}
+1785910170.7174551;mnsec-router-4391cadb27ee4e;21.24m;190.20Mi;{"mnsec-sidecar": {"cpu": "51233n", "memory": "972Ki"}, "mnsec-router-4391cadb27ee4e": {"cpu": "21185616n", "memory": "193796Ki"}}
+1785910170.7174551;mnsec-sw1-4391cadb27ee4e;18.17m;164.60Mi;{"mnsec-sidecar": {"cpu": "52845n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18115933n", "memory": "167556Ki"}}
+1785910170.7174551;mnsec-sw2-4391cadb27ee4e;18.31m;160.85Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "18254635n", "memory": "163712Ki"}, "mnsec-sidecar": {"cpu": "53980n", "memory": "996Ki"}}
+1785910170.7174551;mnsec-sw3-4391cadb27ee4e;16.62m;161.03Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "16564939n", "memory": "163896Ki"}, "mnsec-sidecar": {"cpu": "58567n", "memory": "996Ki"}}
+1785910176.076561;mnsec-proxy-7d45f4d94-gfjhx;4.21m;142.21Mi;{"nginx": {"cpu": "1278605n", "memory": "41236Ki"}, "auth-service": {"cpu": "169093n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "2759691n", "memory": "15596Ki"}}
+1785910176.076561;mnsec-router-4391cadb27ee4e;16.04m;189.95Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "15983750n", "memory": "193540Ki"}, "mnsec-sidecar": {"cpu": "51790n", "memory": "972Ki"}}
+1785910176.076561;mnsec-sw1-4391cadb27ee4e;19.20m;164.60Mi;{"mnsec-sw1-4391cadb27ee4e": {"cpu": "19150865n", "memory": "167552Ki"}, "mnsec-sidecar": {"cpu": "52845n", "memory": "996Ki"}}
+1785910176.076561;mnsec-sw2-4391cadb27ee4e;19.62m;160.97Mi;{"mnsec-sidecar": {"cpu": "51334n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "19568289n", "memory": "160Mi"}}
+1785910176.076561;mnsec-sw3-4391cadb27ee4e;18.69m;161.15Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "18631068n", "memory": "164020Ki"}, "mnsec-sidecar": {"cpu": "55121n", "memory": "996Ki"}}
+1785910181.402962;mnsec-proxy-7d45f4d94-gfjhx;4.21m;142.21Mi;{"auth-service": {"cpu": "169093n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "2759691n", "memory": "15596Ki"}, "nginx": {"cpu": "1278605n", "memory": "41236Ki"}}
+1785910181.402962;mnsec-router-4391cadb27ee4e;16.04m;189.95Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "15983750n", "memory": "193540Ki"}, "mnsec-sidecar": {"cpu": "51790n", "memory": "972Ki"}}
+1785910181.402962;mnsec-sw1-4391cadb27ee4e;19.20m;164.60Mi;{"mnsec-sidecar": {"cpu": "52845n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "19150865n", "memory": "167552Ki"}}
+1785910181.402962;mnsec-sw2-4391cadb27ee4e;19.62m;160.97Mi;{"mnsec-sidecar": {"cpu": "51334n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "19568289n", "memory": "160Mi"}}
+1785910181.402962;mnsec-sw3-4391cadb27ee4e;18.69m;161.15Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "18631068n", "memory": "164020Ki"}, "mnsec-sidecar": {"cpu": "55121n", "memory": "996Ki"}}
+1785910186.759548;mnsec-proxy-7d45f4d94-gfjhx;4.21m;142.21Mi;{"nginx": {"cpu": "1278605n", "memory": "41236Ki"}, "auth-service": {"cpu": "169093n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "2759691n", "memory": "15596Ki"}}
+1785910186.759548;mnsec-router-4391cadb27ee4e;16.04m;189.95Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "15983750n", "memory": "193540Ki"}, "mnsec-sidecar": {"cpu": "51790n", "memory": "972Ki"}}
+1785910186.759548;mnsec-sw1-4391cadb27ee4e;19.20m;164.60Mi;{"mnsec-sidecar": {"cpu": "52845n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "19150865n", "memory": "167552Ki"}}
+1785910186.759548;mnsec-sw2-4391cadb27ee4e;19.62m;160.97Mi;{"mnsec-sidecar": {"cpu": "51334n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "19568289n", "memory": "160Mi"}}
+1785910186.759548;mnsec-sw3-4391cadb27ee4e;18.69m;161.15Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "18631068n", "memory": "164020Ki"}, "mnsec-sidecar": {"cpu": "55121n", "memory": "996Ki"}}
+1785910192.085131;mnsec-proxy-7d45f4d94-gfjhx;1.00m;142.12Mi;{"nginx": {"cpu": "341041n", "memory": "41240Ki"}, "auth-service": {"cpu": "177495n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "485882n", "memory": "15500Ki"}}
+1785910192.085131;mnsec-router-4391cadb27ee4e;17.20m;189.95Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17144117n", "memory": "193540Ki"}, "mnsec-sidecar": {"cpu": "54909n", "memory": "972Ki"}}
+1785910192.085131;mnsec-sw1-4391cadb27ee4e;17.70m;164.72Mi;{"mnsec-sidecar": {"cpu": "51742n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "17643419n", "memory": "167676Ki"}}
+1785910192.085131;mnsec-sw2-4391cadb27ee4e;20.99m;160.84Mi;{"mnsec-sidecar": {"cpu": "52900n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "20933746n", "memory": "163708Ki"}}
+1785910192.085131;mnsec-sw3-4391cadb27ee4e;20.68m;161.03Mi;{"mnsec-sidecar": {"cpu": "52712n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "20624459n", "memory": "163896Ki"}}
+1785910197.449727;mnsec-proxy-7d45f4d94-gfjhx;1.00m;142.12Mi;{"kubectl-service": {"cpu": "485882n", "memory": "15500Ki"}, "nginx": {"cpu": "341041n", "memory": "41240Ki"}, "auth-service": {"cpu": "177495n", "memory": "88792Ki"}}
+1785910197.449727;mnsec-router-4391cadb27ee4e;17.20m;189.95Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17144117n", "memory": "193540Ki"}, "mnsec-sidecar": {"cpu": "54909n", "memory": "972Ki"}}
+1785910197.449727;mnsec-sw1-4391cadb27ee4e;17.70m;164.72Mi;{"mnsec-sidecar": {"cpu": "51742n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "17643419n", "memory": "167676Ki"}}
+1785910197.449727;mnsec-sw2-4391cadb27ee4e;20.99m;160.84Mi;{"mnsec-sidecar": {"cpu": "52900n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "20933746n", "memory": "163708Ki"}}
+1785910197.449727;mnsec-sw3-4391cadb27ee4e;20.68m;161.03Mi;{"mnsec-sidecar": {"cpu": "52712n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "20624459n", "memory": "163896Ki"}}
+1785910202.774507;mnsec-proxy-7d45f4d94-gfjhx;1.00m;142.12Mi;{"kubectl-service": {"cpu": "485882n", "memory": "15500Ki"}, "nginx": {"cpu": "341041n", "memory": "41240Ki"}, "auth-service": {"cpu": "177495n", "memory": "88792Ki"}}
+1785910202.774507;mnsec-router-4391cadb27ee4e;17.20m;189.95Mi;{"mnsec-router-4391cadb27ee4e": {"cpu": "17144117n", "memory": "193540Ki"}, "mnsec-sidecar": {"cpu": "54909n", "memory": "972Ki"}}
+1785910202.774507;mnsec-sw1-4391cadb27ee4e;17.70m;164.72Mi;{"mnsec-sidecar": {"cpu": "51742n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "17643419n", "memory": "167676Ki"}}
+1785910202.774507;mnsec-sw2-4391cadb27ee4e;20.99m;160.84Mi;{"mnsec-sw2-4391cadb27ee4e": {"cpu": "20933746n", "memory": "163708Ki"}, "mnsec-sidecar": {"cpu": "52900n", "memory": "996Ki"}}
+1785910202.774507;mnsec-sw3-4391cadb27ee4e;20.68m;161.03Mi;{"mnsec-sidecar": {"cpu": "52712n", "memory": "996Ki"}, "mnsec-sw3-4391cadb27ee4e": {"cpu": "20624459n", "memory": "163896Ki"}}
+1785910208.138368;mnsec-proxy-7d45f4d94-gfjhx;0.66m;142.12Mi;{"kubectl-service": {"cpu": "485882n", "memory": "15500Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "176554n", "memory": "88792Ki"}}
+1785910208.138368;mnsec-sw1-4391cadb27ee4e;18.33m;164.72Mi;{"mnsec-sidecar": {"cpu": "56263n", "memory": "996Ki"}, "mnsec-sw1-4391cadb27ee4e": {"cpu": "18276678n", "memory": "167676Ki"}}
+1785910208.138368;mnsec-sw2-4391cadb27ee4e;17.63m;160.85Mi;{"mnsec-sidecar": {"cpu": "47887n", "memory": "996Ki"}, "mnsec-sw2-4391cadb27ee4e": {"cpu": "17585203n", "memory": "163712Ki"}}
+1785910208.138368;mnsec-sw3-4391cadb27ee4e;18.85m;161.15Mi;{"mnsec-sw3-4391cadb27ee4e": {"cpu": "18793302n", "memory": "164020Ki"}, "mnsec-sidecar": {"cpu": "53046n", "memory": "996Ki"}}
+1785910213.475978;mnsec-proxy-7d45f4d94-gfjhx;0.66m;142.12Mi;{"kubectl-service": {"cpu": "485882n", "memory": "15500Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "176554n", "memory": "88792Ki"}}
+1785910218.833337;mnsec-proxy-7d45f4d94-gfjhx;0.24m;142.12Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177516n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "64841n", "memory": "15500Ki"}}
+1785910224.1656299;mnsec-proxy-7d45f4d94-gfjhx;0.24m;142.12Mi;{"kubectl-service": {"cpu": "64841n", "memory": "15500Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177516n", "memory": "88792Ki"}}
+1785910229.531457;mnsec-proxy-7d45f4d94-gfjhx;0.24m;142.12Mi;{"kubectl-service": {"cpu": "64841n", "memory": "15500Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177516n", "memory": "88792Ki"}}
+1785910234.8699899;mnsec-proxy-7d45f4d94-gfjhx;0.23m;142.12Mi;{"kubectl-service": {"cpu": "47655n", "memory": "15500Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "182414n", "memory": "88792Ki"}}
+1785910240.239834;mnsec-proxy-7d45f4d94-gfjhx;0.23m;142.12Mi;{"auth-service": {"cpu": "182414n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "47655n", "memory": "15500Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910245.5866728;mnsec-proxy-7d45f4d94-gfjhx;0.23m;142.12Mi;{"kubectl-service": {"cpu": "47655n", "memory": "15500Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "182414n", "memory": "88792Ki"}}
+1785910250.944845;mnsec-proxy-7d45f4d94-gfjhx;0.22m;142.12Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177258n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "43024n", "memory": "15500Ki"}}
+1785910256.268957;mnsec-proxy-7d45f4d94-gfjhx;0.22m;142.12Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177258n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "43024n", "memory": "15500Ki"}}
+1785910261.6283069;mnsec-proxy-7d45f4d94-gfjhx;0.22m;142.12Mi;{"nginx": {"cpu": "0", "memory": "41240Ki"}, "auth-service": {"cpu": "177258n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "43024n", "memory": "15500Ki"}}
+1785910266.9519;mnsec-proxy-7d45f4d94-gfjhx;0.24m;142.12Mi;{"auth-service": {"cpu": "176242n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "62593n", "memory": "15500Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910272.310036;mnsec-proxy-7d45f4d94-gfjhx;0.24m;142.12Mi;{"auth-service": {"cpu": "176242n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "62593n", "memory": "15500Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}
+1785910277.636451;mnsec-proxy-7d45f4d94-gfjhx;0.24m;142.12Mi;{"auth-service": {"cpu": "176242n", "memory": "88792Ki"}, "kubectl-service": {"cpu": "62593n", "memory": "15500Ki"}, "nginx": {"cpu": "0", "memory": "41240Ki"}}

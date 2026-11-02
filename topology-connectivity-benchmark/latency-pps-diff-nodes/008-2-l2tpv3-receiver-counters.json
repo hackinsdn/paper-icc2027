@@ -1,0 +1,38 @@
+{
+  "before": {
+    "rx": {
+      "bytes": 17502410655,
+      "packets": 33588145,
+      "errors": 149034,
+      "dropped": 149034,
+      "over_errors": 0,
+      "multicast": 0
+    },
+    "tx": {
+      "bytes": 80295095,
+      "packets": 1184595,
+      "errors": 0,
+      "dropped": 0,
+      "carrier_errors": 0,
+      "collisions": 0
+    }
+  },
+  "after": {
+    "rx": {
+      "bytes": 17574168573,
+      "packets": 34584783,
+      "errors": 156980,
+      "dropped": 156980,
+      "over_errors": 0,
+      "multicast": 0
+    },
+    "tx": {
+      "bytes": 80295137,
+      "packets": 1184596,
+      "errors": 0,
+      "dropped": 0,
+      "carrier_errors": 0,
+      "collisions": 0
+    }
+  }
+}

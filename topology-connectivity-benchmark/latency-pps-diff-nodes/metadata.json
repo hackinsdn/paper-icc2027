@@ -1,0 +1,102 @@
+{
+  "options": {
+    "mode": "pods",
+    "namespace": "hackinsdn",
+    "pod_a": "tunnel-pod-a",
+    "pod_b": "tunnel-pod-b",
+    "repetitions": 10,
+    "ping_count": 100,
+    "ping_interval": 0.1,
+    "flood_seconds": 20,
+    "payload_bytes": 18,
+    "spoof_source": "127.0.0.1",
+    "source_mode": "native",
+    "udp_port": 49000,
+    "cpu": 2,
+    "cooldown": 3,
+    "output": "results/latency-pps-pods-diff-nodes"
+  },
+  "pods": {
+    "tunnel-pod-a": {
+      "node": "ids-es",
+      "ip": "10.50.95.31",
+      "containers": [
+        {
+          "name": "debian",
+          "image": "hackinsdn/debian:latest",
+          "resources": {
+            "limits": {
+              "cpu": "6",
+              "memory": "34Gi"
+            },
+            "requests": {
+              "cpu": "50m",
+              "memory": "64Mi"
+            }
+          }
+        }
+      ],
+      "image_ids": [
+        "docker.io/hackinsdn/debian@sha256:097d4f33e42304a398ff1da483a8038cf73fb0c1d5b4bc2bb85dd24480ef7125"
+      ]
+    },
+    "tunnel-pod-b": {
+      "node": "ids-mg",
+      "ip": "10.50.59.174",
+      "containers": [
+        {
+          "name": "debian",
+          "image": "hackinsdn/debian:latest",
+          "resources": {
+            "limits": {
+              "cpu": "6",
+              "memory": "34Gi"
+            },
+            "requests": {
+              "cpu": "50m",
+              "memory": "64Mi"
+            }
+          }
+        }
+      ],
+      "image_ids": [
+        "docker.io/hackinsdn/debian@sha256:097d4f33e42304a398ff1da483a8038cf73fb0c1d5b4bc2bb85dd24480ef7125"
+      ]
+    }
+  },
+  "paths": [
+    [
+      "pod-cni",
+      "pod-underlay",
+      "pod-underlay",
+      "eth0",
+      "eth0",
+      "10.50.95.31",
+      "10.50.59.174"
+    ],
+    [
+      "vxlan",
+      "pod-lab",
+      "pod-lab",
+      "vxlan100",
+      "vxlan100",
+      "198.51.100.1",
+      "198.51.100.2"
+    ],
+    [
+      "l2tpv3",
+      "pod-lab",
+      "pod-lab",
+      "l2tpeth0",
+      "l2tpeth0",
+      "203.0.113.1",
+      "203.0.113.2"
+    ]
+  ],
+  "ping": "Idle RTT; individual replies retained in raw ping logs; not measured during flood",
+  "flood": "Single hping3 process, UDP flood, fixed payload; source_mode selects spoofed or real per-path source; not a hardware forwarding-capacity test",
+  "reply_suppression": "In native mode only: temporary receiver raw PREROUTING DROP rule matching interface/source/destination/UDP port, removed in finally. Counts reflect arrival before this drop, not UDP application delivery.",
+  "pps": "Interface counter deltas / sender elapsed time. RX is approximate: before/after sampling includes kubectl latency and drain time, and counters include all interface traffic.",
+  "loopback": "127/8 may be filtered as martian/spoofed traffic. No route_localnet or CNI policy changes. Zero receiver packets is not a valid forwarding-capacity measurement.",
+  "hping_loss": "hping3 received/loss percentage is ignored: responses are not expected with a spoofed source"
+}

@@ -1,0 +1,1 @@
+ip netns exec lab-a iperf3 -c 198.51.100.2 -B 198.51.100.1 -t 30 -O 3 -M 1300 -C cubic -P 1 -J -A 2\,4 

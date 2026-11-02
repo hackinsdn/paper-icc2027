@@ -1,0 +1,159 @@
+https://docs.google.com/spreadsheets/d/1VFVyc19Eu_inn-4wwgmgRfvih7uoKFusHHsPsHDCNR0/edit?gid=0#gid=0
+
+
+italo@megalossauro ~> python3 ~/Dropbox/Doutorado-UFBA/HackInSDN-international-paper/estimate_multi_student-v3.py ~/Dropbox/Doutorado-UFBA/HackInSDN-international-paper/pod-data-lab-scan-ddos-brute-force-student1.txt ~/Dropbox/Doutorado-UFBA/HackInSDN-international-paper/pod-data-lab-scan-ddos-brute-force-student2.txt --students 30 --stagger-window 90 --trials 2000 -o /tmp/capacity_estimate.pdf
+[warn] /Users/italo/Dropbox/Doutorado-UFBA/HackInSDN-international-paper/pod-data-lab-scan-ddos-brute-force-student1.txt:1: expected at least 4 fields, got 1 -> skipped
+[warn] /Users/italo/Dropbox/Doutorado-UFBA/HackInSDN-international-paper/pod-data-lab-scan-ddos-brute-force-student1.txt:2: could not convert string to float: '#time' -> skipped
+[warn] /Users/italo/Dropbox/Doutorado-UFBA/HackInSDN-international-paper/pod-data-lab-scan-ddos-brute-force-student2.txt:1: could not convert string to float: '#time' -> skipped
+==============================================================================
+CAPACITY ESTIMATE FOR 30 CONCURRENT STUDENTS (bootstrapped from 2 trace(s) in pool)
+==============================================================================
+
+Trace pool session durations: min = 50.6 min, mean = 75.3 min, max = 99.9 min
+
+Per-trace summary:
+  trace                           duration      peak CPU      peak Mem
+  pod-data-lab-scan-ddos-brute-force-student1.txt    50.6 min      1,861 m      3,451 Mi
+  pod-data-lab-scan-ddos-brute-force-student2.txt    99.9 min      2,648 m      3,650 Mi
+
+Pooled averages (per student): CPU = 251 m (0.25 cores), Memory = 2,848 Mi (2.78 Gi)
+Highest single-student peak observed in pool: CPU = 2,648 m (2.65 cores), Memory = 3,650 Mi (3.56 Gi)
+
+--- Steady-state estimate (for k8s 'requests' sizing) ---
+  CPU:    7,528 m (7.53 cores)
+  Memory: 85,427 Mi (83.43 Gi)
+
+--- Absolute ceiling (30 x highest single-student peak, fully aligned) ---
+  CPU:    79,425 m (79.43 cores)
+  Memory: 109,500 Mi (106.93 Gi)
+  (extreme, unrealistic bound: assumes every student peaks like the worst-case trace, at the same instant)
+
+--- Scenario 1: SYNCHRONIZED (all students start together, bootstrap over pool) ---
+  CPU  P50: 46,274 m (46.27 cores)   P95: 50,303 m (50.30 cores)   P99: 55,598 m (55.60 cores)
+  Mem  P50: 95,380 Mi (93.15 Gi)   P95: 97,556 Mi (95.27 Gi)   P99: 98,643 Mi (96.33 Gi)
+
+--- Scenario 2: STAGGERED / self-paced (bootstrap + random start offsets) ---
+  CPU  P50: 27,238 m (27.24 cores)   P95: 32,472 m (32.47 cores)   P99: 35,293 m (35.29 cores)
+  Mem  P50: 92,390 Mi (90.23 Gi)   P95: 93,957 Mi (91.75 Gi)   P99: 94,453 Mi (92.24 Gi)
+
+--- Recommended burst capacity target (staggered P99 + 25% margin) ---
+  CPU:    44,116 m (44.12 cores)
+  Memory: 118,067 Mi (115.30 Gi)
+
+Note: if you are not sure students are self-paced, treat SYNCHRONIZED P99 as your
+safety target and the absolute ceiling as a documented worst case; STAGGERED P99 is
+the realistic target if start times are genuinely spread out. Validate with a real
+multi-student load test where possible.
+
+[note] Only 2 trace(s) were provided for 30 students -- the simulation bootstraps (samples with replacement) from this pool, so add more traces (ideally real ones) if you can to better capture true student-to-student variability.
+==============================================================================
+
+Saved figure to /tmp/capacity_estimate.pdf
+
+
+
+
+
+italo@megalossauro ~> python3 ~/Dropbox/Doutorado-UFBA/HackInSDN-international-paper/estimate_multi_student.py ~/pod-top-lab7-core.txt  --students 30 --stagger-window 90 --trials 2000 -o /tmp/capacity_estimate-lab7-core.pdf
+[warn] line 1: could not convert string to float: '#time' -> skipped
+========================================================================
+CAPACITY ESTIMATE FOR 30 CONCURRENT STUDENTS
+========================================================================
+
+Single-student trace: peak CPU = 751 m (0.75 cores), peak Memory = 1,004 Mi (0.98 Gi)
+                        avg  CPU = 454 m (0.45 cores), avg  Memory = 918 Mi (0.90 Gi)
+
+--- Steady-state estimate (for k8s 'requests' sizing) ---
+  CPU:    13,612 m (13.61 cores)
+  Memory: 27,535 Mi (26.89 Gi)
+
+--- Scenario 1: SYNCHRONIZED (worst case, all peaks align) ---
+  CPU:    22,531 m (22.53 cores)
+  Memory: 30,134 Mi (29.43 Gi)
+  (safe upper bound; likely over-provisions if students are self-paced)
+
+--- Scenario 2: STAGGERED / self-paced (Monte Carlo) ---
+  CPU  P50: 18,142 m (18.14 cores)   P95: 18,877 m (18.88 cores)   P99: 19,206 m (19.21 cores)
+  Mem  P50: 30,118 Mi (29.41 Gi)   P95: 30,121 Mi (29.41 Gi)   P99: 30,122 Mi (29.42 Gi)
+
+--- Recommended burst capacity target (staggered P99 + 25% margin) ---
+  CPU:    24,007 m (24.01 cores)
+  Memory: 37,652 Mi (36.77 Gi)
+
+Note: if you are not sure students are self-paced, treat the SYNCHRONIZED
+number as your hard safety ceiling and the STAGGERED P99 as your realistic
+provisioning target -- validate with an actual multi-student load test.
+========================================================================
+
+Saved figure to /tmp/capacity_estimate-lab7-core.pdf
+
+
+
+italo@megalossauro ~> python3 ~/Dropbox/Doutorado-UFBA/HackInSDN-international-paper/estimate_multi_student.py ~/pod-top-lab5-cisco-iol.txt  --students 30 --stagger-window 90 --trials 2000 -o /tmp/capacity_estimate-lab5-cisco-iold-.pdf
+[warn] line 1: could not convert string to float: '#time' -> skipped
+========================================================================
+CAPACITY ESTIMATE FOR 30 CONCURRENT STUDENTS
+========================================================================
+
+Single-student trace: peak CPU = 759 m (0.76 cores), peak Memory = 1,093 Mi (1.07 Gi)
+                        avg  CPU = 124 m (0.12 cores), avg  Memory = 732 Mi (0.71 Gi)
+
+--- Steady-state estimate (for k8s 'requests' sizing) ---
+  CPU:    3,715 m (3.71 cores)
+  Memory: 21,951 Mi (21.44 Gi)
+
+--- Scenario 1: SYNCHRONIZED (worst case, all peaks align) ---
+  CPU:    22,779 m (22.78 cores)
+  Memory: 32,781 Mi (32.01 Gi)
+  (safe upper bound; likely over-provisions if students are self-paced)
+
+--- Scenario 2: STAGGERED / self-paced (Monte Carlo) ---
+  CPU  P50: 12,914 m (12.91 cores)   P95: 14,584 m (14.58 cores)   P99: 15,376 m (15.38 cores)
+  Mem  P50: 32,770 Mi (32.00 Gi)   P95: 32,772 Mi (32.00 Gi)   P99: 32,772 Mi (32.00 Gi)
+
+--- Recommended burst capacity target (staggered P99 + 25% margin) ---
+  CPU:    19,220 m (19.22 cores)
+  Memory: 40,966 Mi (40.01 Gi)
+
+Note: if you are not sure students are self-paced, treat the SYNCHRONIZED
+number as your hard safety ceiling and the STAGGERED P99 as your realistic
+provisioning target -- validate with an actual multi-student load test.
+========================================================================
+
+Saved figure to /tmp/capacity_estimate-lab5-cisco-iold-.pdf
+
+
+
+
+italo@megalossauro ~> python3 ~/Dropbox/Doutorado-UFBA/HackInSDN-international-paper/estimate_multi_student.py ~/pod-top-lab-xss.txt --students 30 --stagger-window 90 --trials 2000 -o /tmp/capacity_estimate-lab-xss.pdf
+[warn] line 1: could not convert string to float: '#time' -> skipped
+========================================================================
+CAPACITY ESTIMATE FOR 30 CONCURRENT STUDENTS
+========================================================================
+
+Single-student trace: peak CPU = 1,929 m (1.93 cores), peak Memory = 2,193 Mi (2.14 Gi)
+                        avg  CPU = 889 m (0.89 cores), avg  Memory = 1,824 Mi (1.78 Gi)
+
+--- Steady-state estimate (for k8s 'requests' sizing) ---
+  CPU:    26,665 m (26.67 cores)
+  Memory: 54,735 Mi (53.45 Gi)
+
+--- Scenario 1: SYNCHRONIZED (worst case, all peaks align) ---
+  CPU:    57,863 m (57.86 cores)
+  Memory: 65,780 Mi (64.24 Gi)
+  (safe upper bound; likely over-provisions if students are self-paced)
+
+--- Scenario 2: STAGGERED / self-paced (Monte Carlo) ---
+  CPU  P50: 49,900 m (49.90 cores)   P95: 51,820 m (51.82 cores)   P99: 52,472 m (52.47 cores)
+  Mem  P50: 64,902 Mi (63.38 Gi)   P95: 65,064 Mi (63.54 Gi)   P99: 65,140 Mi (63.61 Gi)
+
+--- Recommended burst capacity target (staggered P99 + 25% margin) ---
+  CPU:    65,590 m (65.59 cores)
+  Memory: 81,425 Mi (79.52 Gi)
+
+Note: if you are not sure students are self-paced, treat the SYNCHRONIZED
+number as your hard safety ceiling and the STAGGERED P99 as your realistic
+provisioning target -- validate with an actual multi-student load test.
+========================================================================
+
+Saved figure to /tmp/capacity_estimate-lab-xss.pdf

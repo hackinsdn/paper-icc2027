@@ -1,0 +1,94 @@
+kind: ConfigMap
+metadata:
+  name: config-custom-topo-${pod_hash}
+apiVersion: v1
+data:
+  README.txt: |
+    Arquivos relacionados ao laboratorio do curso! Siga o roteiro de laboratório na plataforma HackInSDN.
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: labdata-webtop-${pod_hash}
+data:
+  startup-config.sh: |
+    #!/usr/bin/with-contenv bash
+    # run startup script to setup anything on the host
+    # using /usr/bin/with-contenv to preserve ENVVARs
+    ip link add internet type veth peer name veth0
+    ip link set up internet
+    ip link set up veth0
+    ip addr add 10.0.2.254/24 dev veth0
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: coreemu-${pod_hash}
+  labels:
+    app: coreemu-${pod_hash}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: coreemu-${pod_hash}
+  template:
+    metadata:
+      name: coreemu-${pod_hash}
+      labels:
+        app: coreemu-${pod_hash}
+      annotations:
+        container.apparmor.security.beta.kubernetes.io/coreemu: unconfined
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: kubernetes.io/hostname
+                operator: In
+                values:
+                - ${choose_one_node}
+      containers:
+      - name: coreemu
+        image: hackinsdn/coreemu:latest
+        env:
+        - name: LC_ALL
+          value: "pt_BR.UTF-8"
+        - name: TITLE
+          value: "CORE Emu"
+        ports:
+        - containerPort: 3000
+        - containerPort: 3001
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN", "SYS_MODULE", "SYS_ADMIN"]
+          privileged: true
+        volumeMounts:
+        - name: config-custom-topo-${pod_hash}-volume
+          mountPath: /config/ADR-015/Sessao2
+        - name: labdata-webtop
+          mountPath: /custom-cont-init.d/startup-config.sh
+          subPath: startup-config.sh
+      volumes:
+      - name: config-custom-topo-${pod_hash}-volume
+        configMap:
+          name: config-custom-topo-${pod_hash}
+      - name: labdata-webtop
+        configMap:
+          name: labdata-webtop-${pod_hash}
+          defaultMode: 0755
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: coreemu-${pod_hash}
+  labels:
+    app: coreemu-${pod_hash}
+spec:
+  type: NodePort
+  ports:
+  - port: 3001
+    targetPort: 3001
+    name: https-coreemu
+  selector:
+    app: coreemu-${pod_hash}

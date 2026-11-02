@@ -1,0 +1,676 @@
+{
+  "inputs": [
+    {
+      "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/figures/tunnel-scenarios-final-metadata.json",
+      "sha256": "f6b7260e0db746fbe9bddf8d48b9fcbd0149b5b4a2c66dae6528cc1c587a86a6"
+    },
+    {
+      "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/figures/latency-pps-scenarios-preview-metadata.json",
+      "sha256": "2eec8f1b24aa24272cfaf7bf16afb3f1aee1bc64684e9fce441bf6a78377a774"
+    }
+  ],
+  "throughput_metadata": {
+    "method": "mean +/- t(0.975,n-1) * sample_SD(ddof=1) / sqrt(n)",
+    "interpretation": "Repeated-run CI assumes independent observations; synthetic panels have no empirical interpretation.",
+    "baseline": "Direct veth in one pod; CNI path between pods. Never pool these scenarios.",
+    "scenarios": [
+      {
+        "scenario": "Namespaces in one pod",
+        "simulated": false,
+        "samples_gbps": {
+          "baseline": [
+            26.87193509733004,
+            26.843790768181346,
+            26.74270828938356,
+            26.760767058878898,
+            26.76110662673511,
+            26.7588915398128,
+            26.699179972685613,
+            26.86617334866132,
+            26.720135496041802,
+            26.66839546691906
+          ],
+          "vxlan": [
+            20.921955380753193,
+            21.097557857947155,
+            21.5533214461542,
+            21.5358836295138,
+            20.986225002386632,
+            21.030306558037974,
+            20.92714622089095,
+            21.40890885047926,
+            21.2801111808418,
+            21.35024874439027
+          ],
+          "l2tpv3": [
+            2.6476688805314343,
+            2.6599576802050215,
+            2.634156630423957,
+            2.672213061841337,
+            2.669156568770475,
+            2.6429215857198285,
+            2.6680282639488926,
+            2.6585286059078763,
+            2.662330381760081,
+            2.67579886721387
+          ]
+        },
+        "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/throughput-same-pod/summary.csv",
+        "sha256": "a8f3dd1b71f7a95ad2f23cdb77fc7f243a47e4c81a5d1870688cf19c4639b30e",
+        "failed_runs": []
+      },
+      {
+        "scenario": "Pods on the same node",
+        "simulated": false,
+        "samples_gbps": {
+          "baseline": [
+            13.680351431042716,
+            13.805739372378543,
+            13.649700672402025,
+            14.012261597922123,
+            14.021003867558287,
+            14.018122442313013,
+            14.000739102859049,
+            13.461588691726757,
+            13.751237450714495,
+            13.429829446375265
+          ],
+          "vxlan": [
+            8.45769471922861,
+            8.49552371065328,
+            8.435585621633347,
+            8.638650774592776,
+            8.490068802521446,
+            8.436603115129804,
+            8.424022127100164,
+            8.42118136138992,
+            8.39418107549571,
+            8.427792515817163
+          ],
+          "l2tpv3": [
+            0.8222650258225834,
+            0.8236611639766906,
+            0.8281195162006549,
+            0.8288088282845838,
+            0.684793421698943,
+            0.6467169637788767,
+            0.8296215949321261,
+            0.8273786474516049,
+            0.7065006137293169,
+            0.6740010581633522
+          ]
+        },
+        "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/throughput-same-node/summary.csv",
+        "sha256": "b26f91bc59d1d7a4b7620feee7dfe4c070ec1d1324b5000d269d93b3c6706013",
+        "failed_runs": []
+      },
+      {
+        "scenario": "Pods on different nodes",
+        "simulated": false,
+        "samples_gbps": {
+          "baseline": [
+            0.7233603476805783,
+            0.708387466634409,
+            0.6568854238188517,
+            0.7089726809971425,
+            0.7112639584725932,
+            0.734950781222254,
+            0.7025752132737393,
+            0.684072012582032,
+            0.6962375618456302,
+            0.709780768108329
+          ],
+          "vxlan": [
+            0.5587734787748714,
+            0.5336859273996614,
+            0.5525446097888297,
+            0.5463540632416257,
+            0.5483505667777604,
+            0.452586635612167,
+            0.48547813662690537,
+            0.544541695703228,
+            0.5004331875840925,
+            0.5399106415629816
+          ],
+          "l2tpv3": [
+            0.398413803433316,
+            0.33880760805528076,
+            0.40037482233917804,
+            0.3769166102150074,
+            0.36161683254313165,
+            0.35869977404507275,
+            0.3212679380680503,
+            0.3378208596625836,
+            0.4069758745137309,
+            0.39629511868101747
+          ]
+        },
+        "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/throughput-diff-nodes/summary.csv",
+        "sha256": "35b5b8df641d69102108794ab7d6e656190167308aac8d20dcd1c2878dc51737",
+        "failed_runs": []
+      }
+    ]
+  },
+  "latency_pps_metadata": {
+    "scenarios": [
+      {
+        "scenario": "Namespaces in one pod",
+        "simulated": false,
+        "samples": {
+          "ping": {
+            "baseline": [
+              0.053,
+              0.055,
+              0.053,
+              0.053,
+              0.054,
+              0.053,
+              0.054,
+              0.053,
+              0.055,
+              0.053
+            ],
+            "vxlan": [
+              0.086,
+              0.082,
+              0.085,
+              0.086,
+              0.086,
+              0.08,
+              0.088,
+              0.083,
+              0.088,
+              0.085
+            ],
+            "l2tpv3": [
+              0.077,
+              0.076,
+              0.075,
+              0.073,
+              0.075,
+              0.074,
+              0.079,
+              0.078,
+              0.074,
+              0.078
+            ]
+          },
+          "pps": {
+            "baseline": [
+              181.83045837817127,
+              181.74562820545495,
+              181.668345220398,
+              182.0578323037079,
+              183.07601716865486,
+              181.20715443944314,
+              182.9938890773012,
+              180.86954808524195,
+              184.01866625911094,
+              184.33336678335226
+            ],
+            "vxlan": [
+              118.17510129750299,
+              117.5413452583265,
+              118.54417248171981,
+              128.7329655062764,
+              128.70424043904944,
+              118.0853613727624,
+              118.50021826445033,
+              118.76516333672144,
+              129.30321426946853,
+              119.89622818956698
+            ],
+            "l2tpv3": [
+              130.1501919995161,
+              134.7705170794253,
+              136.59435357662312,
+              129.58260860721535,
+              130.546061794399,
+              135.4055298376551,
+              134.60518189630616,
+              131.12476635874663,
+              131.44112266849874,
+              130.7726512384162
+            ]
+          }
+        },
+        "inputs": [
+          {
+            "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/latency-pps-same-pod/ping-summary.csv",
+            "sha256": "c9b5cbb31fd84675ec331bca6bfd2c04e57401b6840b776c871405ead841ee2f",
+            "source_modes": [],
+            "excluded_rows": []
+          },
+          {
+            "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/latency-pps-same-pod/pps-summary.csv",
+            "sha256": "86e08f675772e6d16430d8850dfebb08045cb931748e9da38f451eb844a31e5f",
+            "source_modes": [
+              "native"
+            ],
+            "excluded_rows": []
+          }
+        ]
+      },
+      {
+        "scenario": "Pods on the same node",
+        "simulated": false,
+        "samples": {
+          "ping": {
+            "baseline": [
+              0.145,
+              0.144,
+              0.144,
+              0.144,
+              0.141,
+              0.142,
+              0.145,
+              0.14,
+              0.142,
+              0.142
+            ],
+            "vxlan": [
+              0.264,
+              0.259,
+              0.267,
+              0.27,
+              0.259,
+              0.272,
+              0.256,
+              0.264,
+              0.265,
+              0.265
+            ],
+            "l2tpv3": [
+              0.17,
+              0.173,
+              0.176,
+              0.177,
+              0.173,
+              0.179,
+              0.174,
+              0.175,
+              0.175,
+              0.179
+            ]
+          },
+          "pps": {
+            "baseline": [
+              44.413162535033294,
+              43.28247917179005,
+              43.08095605923339,
+              44.620357039314484,
+              43.206278938473744,
+              43.41902579882751,
+              43.92506223936633,
+              43.214478124949075,
+              43.246906765460956,
+              44.45233397937209
+            ],
+            "vxlan": [
+              39.217970287751015,
+              39.49320444428607,
+              39.6000548011302,
+              37.426602670348906,
+              39.92541912321893,
+              37.89543161672295,
+              39.749010947587614,
+              39.60990828880582,
+              39.60763167510982,
+              39.372262073450536
+            ],
+            "l2tpv3": [
+              63.08358642944572,
+              59.96447302324211,
+              62.67296438461597,
+              62.416116598972735,
+              63.07506136873285,
+              63.292176016177706,
+              60.239196314093014,
+              62.98039079482791,
+              63.239310323655246,
+              60.418950401701316
+            ]
+          }
+        },
+        "inputs": [
+          {
+            "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/latency-pps-same-node/ping-summary.csv",
+            "sha256": "2a87e3581a64e2e5995975534d1cf83386ed521ddd515e1427f5c4cfcc78103c",
+            "source_modes": [],
+            "excluded_rows": []
+          },
+          {
+            "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/latency-pps-same-node/pps-summary.csv",
+            "sha256": "8c453588e8c8536f18dcded722e4249dbfbc041723e4f202233a408a6111b46d",
+            "source_modes": [
+              "native"
+            ],
+            "excluded_rows": []
+          }
+        ]
+      },
+      {
+        "scenario": "Pods on different nodes",
+        "simulated": false,
+        "samples": {
+          "ping": {
+            "baseline": [
+              15.984,
+              16.015,
+              15.959,
+              16.051,
+              15.979,
+              16.0,
+              16.041,
+              16.037,
+              15.992,
+              15.996
+            ],
+            "vxlan": [
+              16.095,
+              16.119,
+              16.104,
+              16.086,
+              16.116,
+              16.118,
+              16.087,
+              15.911,
+              16.135,
+              15.941
+            ],
+            "l2tpv3": [
+              16.241,
+              16.217,
+              16.048,
+              16.186,
+              16.224,
+              16.177,
+              16.211,
+              16.2,
+              16.215,
+              16.252
+            ]
+          },
+          "pps": {
+            "baseline": [
+              40.16211687824288,
+              40.27960746214844,
+              40.11950712949093,
+              38.145779261844055,
+              40.08542538184944,
+              40.11576270744757,
+              39.79330503196284,
+              40.188755797903525,
+              40.35812265142625,
+              39.69285055494376
+            ],
+            "vxlan": [
+              36.380438185985305,
+              37.07642119559732,
+              36.869853867374246,
+              36.55411399852171,
+              36.31285270989959,
+              37.107075363348265,
+              36.97083718766959,
+              37.176782986331595,
+              37.32876590516072,
+              36.443476885333524
+            ],
+            "l2tpv3": [
+              48.52529719195277,
+              49.81629754949465,
+              50.22417483573112,
+              49.98409657448112,
+              48.93756253242102,
+              48.502066549961675,
+              50.22456342705579,
+              49.63680001860455,
+              48.934219763562616,
+              50.492143969930545
+            ]
+          }
+        },
+        "inputs": [
+          {
+            "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/latency-pps-diff-nodes/ping-summary.csv",
+            "sha256": "609e1e762a8dfcfa51f110bbedec7b8ae17adc24290b330bf9c6047ebc5cd7f3",
+            "source_modes": [],
+            "excluded_rows": []
+          },
+          {
+            "path": "/Users/italo/git/github/hackinsdn/paper-icc2027/topology-connectivity-benchmark/latency-pps-diff-nodes/pps-summary.csv",
+            "sha256": "53883e525d93473ce3a0ce97cccde90095cc97651c31ec51b271a7950ca63f21",
+            "source_modes": [
+              "native"
+            ],
+            "excluded_rows": []
+          }
+        ]
+      }
+    ],
+    "method": "Run-level means; Student-t 95% CI only with n>=2. Synthetic CIs have no empirical interpretation.",
+    "axes": "Independent linear y-axis scales per panel; all RTT in ms, all PPS in kpacket/s",
+    "interpretation": "PPS is approximate receiver-interface arrival rate, not application delivery or loss-free forwarding capacity."
+  },
+  "method": "Run means and Student-t 95% CIs with n>=2; otherwise no CI. Synthetic cells are explicitly labeled.",
+  "axes": "Independent linear y-axis scales per subplot; units indicated on every panel.",
+  "interpretation": "Throughput and idle RTT were measured in separate experiments.",
+  "statistics": [
+    {
+      "scenario": "Namespaces in one pod",
+      "metric": "throughput",
+      "unit": "Tput (Gbps)",
+      "provenance": "MEASURED",
+      "technology": "baseline",
+      "n": 10,
+      "mean": 26.76930836646295,
+      "sd": 0.0698716058782064,
+      "ci95_low": 26.719325230666715,
+      "ci95_high": 26.819291502259187
+    },
+    {
+      "scenario": "Namespaces in one pod",
+      "metric": "throughput",
+      "unit": "Tput (Gbps)",
+      "provenance": "MEASURED",
+      "technology": "vxlan",
+      "n": 10,
+      "mean": 21.209166487139527,
+      "sd": 0.24635047475371744,
+      "ci95_low": 21.032937973735304,
+      "ci95_high": 21.38539500054375
+    },
+    {
+      "scenario": "Namespaces in one pod",
+      "metric": "throughput",
+      "unit": "Tput (Gbps)",
+      "provenance": "MEASURED",
+      "technology": "l2tpv3",
+      "n": 10,
+      "mean": 2.659076052632277,
+      "sd": 0.013571735476039817,
+      "ci95_low": 2.649367417933485,
+      "ci95_high": 2.668784687331069
+    },
+    {
+      "scenario": "Namespaces in one pod",
+      "metric": "ping",
+      "unit": "RTT (ms)",
+      "provenance": "MEASURED",
+      "technology": "baseline",
+      "n": 10,
+      "mean": 0.0536,
+      "sd": 0.0008432740427115686,
+      "ci95_low": 0.05299675808992048,
+      "ci95_high": 0.054203241910079525
+    },
+    {
+      "scenario": "Namespaces in one pod",
+      "metric": "ping",
+      "unit": "RTT (ms)",
+      "provenance": "MEASURED",
+      "technology": "vxlan",
+      "n": 10,
+      "mean": 0.08489999999999999,
+      "sd": 0.0025582111805799823,
+      "ci95_low": 0.08306996596504074,
+      "ci95_high": 0.08673003403495924
+    },
+    {
+      "scenario": "Namespaces in one pod",
+      "metric": "ping",
+      "unit": "RTT (ms)",
+      "provenance": "MEASURED",
+      "technology": "l2tpv3",
+      "n": 10,
+      "mean": 0.0759,
+      "sd": 0.0020248456731316606,
+      "ci95_low": 0.07445151266420044,
+      "ci95_high": 0.07734848733579955
+    },
+    {
+      "scenario": "Pods on the same node",
+      "metric": "throughput",
+      "unit": "Tput (Gbps)",
+      "provenance": "MEASURED",
+      "technology": "baseline",
+      "n": 10,
+      "mean": 13.783057407529224,
+      "sd": 0.22846483200440698,
+      "ci95_low": 13.619623512183443,
+      "ci95_high": 13.946491302875005
+    },
+    {
+      "scenario": "Pods on the same node",
+      "metric": "throughput",
+      "unit": "Tput (Gbps)",
+      "provenance": "MEASURED",
+      "technology": "vxlan",
+      "n": 10,
+      "mean": 8.462130382356222,
+      "sd": 0.06940726682314524,
+      "ci95_low": 8.412479414709736,
+      "ci95_high": 8.511781350002707
+    },
+    {
+      "scenario": "Pods on the same node",
+      "metric": "throughput",
+      "unit": "Tput (Gbps)",
+      "provenance": "MEASURED",
+      "technology": "l2tpv3",
+      "n": 10,
+      "mean": 0.7671866834038732,
+      "sd": 0.07811831699435912,
+      "ci95_low": 0.7113042058591529,
+      "ci95_high": 0.8230691609485935
+    },
+    {
+      "scenario": "Pods on the same node",
+      "metric": "ping",
+      "unit": "RTT (ms)",
+      "provenance": "MEASURED",
+      "technology": "baseline",
+      "n": 10,
+      "mean": 0.14289999999999997,
+      "sd": 0.0017288403306519884,
+      "ci95_low": 0.14166326213014746,
+      "ci95_high": 0.14413673786985248
+    },
+    {
+      "scenario": "Pods on the same node",
+      "metric": "ping",
+      "unit": "RTT (ms)",
+      "provenance": "MEASURED",
+      "technology": "vxlan",
+      "n": 10,
+      "mean": 0.26410000000000006,
+      "sd": 0.004998888765404661,
+      "ci95_low": 0.26052401039948864,
+      "ci95_high": 0.2676759896005115
+    },
+    {
+      "scenario": "Pods on the same node",
+      "metric": "ping",
+      "unit": "RTT (ms)",
+      "provenance": "MEASURED",
+      "technology": "l2tpv3",
+      "n": 10,
+      "mean": 0.17509999999999998,
+      "sd": 0.0028067379246694475,
+      "ci95_low": 0.17309218064233792,
+      "ci95_high": 0.17710781935766204
+    },
+    {
+      "scenario": "Pods on different nodes",
+      "metric": "throughput",
+      "unit": "Tput (Gbps)",
+      "provenance": "MEASURED",
+      "technology": "baseline",
+      "n": 10,
+      "mean": 0.703648621463556,
+      "sd": 0.021449922244818547,
+      "ci95_low": 0.6883042714531913,
+      "ci95_high": 0.7189929714739207
+    },
+    {
+      "scenario": "Pods on different nodes",
+      "metric": "throughput",
+      "unit": "Tput (Gbps)",
+      "provenance": "MEASURED",
+      "technology": "vxlan",
+      "n": 10,
+      "mean": 0.5262658943072123,
+      "sd": 0.03491803932873816,
+      "ci95_low": 0.5012870337304441,
+      "ci95_high": 0.5512447548839804
+    },
+    {
+      "scenario": "Pods on different nodes",
+      "metric": "throughput",
+      "unit": "Tput (Gbps)",
+      "provenance": "MEASURED",
+      "technology": "l2tpv3",
+      "n": 10,
+      "mean": 0.36971892415563684,
+      "sd": 0.030581259570420707,
+      "ci95_low": 0.3478424089286549,
+      "ci95_high": 0.39159543938261876
+    },
+    {
+      "scenario": "Pods on different nodes",
+      "metric": "ping",
+      "unit": "RTT (ms)",
+      "provenance": "MEASURED",
+      "technology": "baseline",
+      "n": 10,
+      "mean": 16.0054,
+      "sd": 0.02989314302645317,
+      "ci95_low": 15.984015733694859,
+      "ci95_high": 16.026784266305143
+    },
+    {
+      "scenario": "Pods on different nodes",
+      "metric": "ping",
+      "unit": "RTT (ms)",
+      "provenance": "MEASURED",
+      "technology": "vxlan",
+      "n": 10,
+      "mean": 16.071199999999997,
+      "sd": 0.07837204717102747,
+      "ci95_low": 16.015136014821145,
+      "ci95_high": 16.12726398517885
+    },
+    {
+      "scenario": "Pods on different nodes",
+      "metric": "ping",
+      "unit": "RTT (ms)",
+      "provenance": "MEASURED",
+      "technology": "l2tpv3",
+      "n": 10,
+      "mean": 16.1971,
+      "sd": 0.05709728539957072,
+      "ci95_low": 16.156255062577237,
+      "ci95_high": 16.23794493742276
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "receiver": "tunnel-pod-b",
+  "namespace": "pod-lab",
+  "cleanup_command": [
+    "iptables",
+    "-w",
+    "5",
+    "-t",
+    "raw",
+    "-D",
+    "PREROUTING",
+    "-i",
+    "vxlan100",
+    "-s",
+    "198.51.100.1",
+    "-d",
+    "198.51.100.2",
+    "-p",
+    "udp",
+    "--dport",
+    "49000",
+    "-m",
+    "comment",
+    "--comment",
+    "pps-bench-a05b67735450441b",
+    "-j",
+    "DROP"
+  ]
+}

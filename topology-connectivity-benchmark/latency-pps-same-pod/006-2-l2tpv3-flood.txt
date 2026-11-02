@@ -1,0 +1,9 @@
+HPING 203.0.113.2 (l2tpeth0 203.0.113.2): udp mode set, 28 headers + 18 data bytes
+
+BENCH_COUNTERS 1793407373013865021 1793407393069995692 98562771 101278482 0 0
+hping in flood mode, no replies will be shown
+
+--- 203.0.113.2 hping statistic ---
+2715709 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+command terminated with exit code 124

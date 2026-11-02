@@ -1,0 +1,174 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-custom-topo-${pod_hash}
+data:
+  customTopology.yaml: |-
+    name: malware lab
+    settings:
+    hosts:
+      outside1:
+        ip: 203.0.113.1/24  
+        defaultRoute: via 203.0.113.254
+        group: AS100 
+      firewall:
+        ip: 198.51.100.254/24
+        kind: iptables
+        rules_v4:
+          filter:
+            - :INPUT ACCEPT
+            - :OUTPUT ACCEPT
+            - :FORWARD ACCEPT
+          nat: []
+        group: AS200
+      misp:
+        ip: 192.168.2.1/24
+        defaultRoute: via 192.168.2.254
+        kind: k8spod
+        image: hackinsdn/misp:latest
+        isolateControlNet: false
+        publish:
+          - 8443:443
+        group: AS200
+      zeek:
+        ip: 192.168.2.2/24
+        defaultRoute: via 192.168.2.254
+        kind: k8spod
+        image: hackinsdn/zeek:latest
+        env:
+          - name: ZEEK_INTERFACE
+            value: br0
+        postStart:
+          - brctl addbr br0
+          - brctl addif br0 zeek-eth1
+          - brctl addif br0 zeek-eth2
+          - ip link set dev br0 up
+        group: "AS200"
+      host1:
+        ip: 198.51.100.1/24
+        defaultRoute: via 198.51.100.254
+        group: AS200
+      host2:
+        ip: 198.51.100.2/24
+        defaultRoute: via 198.51.100.254
+        group: AS200
+    switches:
+      s1:
+        kind: lxbr
+        group: "AS100"
+      s2:
+        kind: lxbr
+        group: "AS200"
+      s3mgmt:
+        kind: lxbr
+        group: "AS200"
+    links:
+      - node1: outside1
+        node2: s1
+      - node1: zeek
+        node2: s3mgmt
+      - node1: firewall
+        node2: zeek
+      - node1: firewall
+        node2: s1
+        ipv4_node1: 203.0.113.254/24
+      - node1: firewall
+        node2: s3mgmt
+        ipv4_node1: 192.168.2.254/24
+      - node1: misp
+        node2: s3mgmt
+      - node1: host1
+        node2: s2
+      - node1: host2
+        node2: s2
+      - node1: zeek
+        node2: s2
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mininet-sec-${pod_hash}
+  labels:
+    app: mininet-sec-${pod_hash}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mininet-sec-${pod_hash}
+  template:
+    metadata:
+      name: mininet-sec-${pod_hash}
+      labels:
+        app: mininet-sec-${pod_hash}
+      annotations:
+        container.apparmor.security.beta.kubernetes.io/mininet-sec: unconfined
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: kubernetes.io/hostname
+                operator: In
+                values: ${allowed_nodes}
+      containers:
+      - name: mininet-sec
+        image: hackinsdn/mininet-sec:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8050
+        - containerPort: 8443
+        args: ["mnsec", "--topofile", "/customTopology.yaml"]
+        env:
+        - name: K8S_POD_HASH
+          value: ${pod_hash}
+        - name: K8S_NODE_AFFINITY
+          value: ${allowed_nodes_str}
+        - name: K8S_PROXY_CERT_FILE
+          value: /usr/local/etc/mnsec-proxy-ca.crt
+        - name: K8S_PROXY_HOST
+          value: mnsec-proxy-service.hackinsdn.svc.cnacv5
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN", "SYS_MODULE", "SYS_ADMIN"]
+        volumeMounts:
+        - name: lib-modules
+          mountPath: /lib/modules
+        - name: config-custom-topo-${pod_hash}-volume
+          readOnly: true
+          mountPath: "/customTopology.yaml"
+          subPath: "customTopology.yaml"
+        - name: mnsec-proxy-ca-volume
+          mountPath: /usr/local/etc/mnsec-proxy-ca.crt
+          readOnly: true
+          subPath: ca.crt
+      volumes:
+      - name: lib-modules
+        hostPath:
+          path: /lib/modules
+          type: Directory
+      - name: config-custom-topo-${pod_hash}-volume
+        configMap:
+          name: config-custom-topo-${pod_hash}
+      - name: mnsec-proxy-ca-volume
+        configMap:
+          defaultMode: 0600
+          name: mnsec-proxy-ca-configmap
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mininet-sec-${pod_hash}
+  labels:
+    app: mininet-sec-${pod_hash}
+spec:
+  type: NodePort
+  ports:
+  - port: 8050
+    targetPort: 8050
+    name: http-mininet-sec
+  - port: 8443
+    targetPort: 8443
+    name: https-misp
+  selector:
+    app: mininet-sec-${pod_hash}

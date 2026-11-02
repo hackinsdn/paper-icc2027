@@ -1,0 +1,122 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: topo-tunnel-overhead-${pod_hash}
+data:
+  customTopology.yaml: |-
+    name: topology used for tunnel overhead experiment
+    hosts:
+      laba:
+        ip: 192.0.2.1/30
+        postStart:
+          - ip link add vxlan100 type vxlan id 100 local 192.0.2.1 remote 192.0.2.2 dstport 4789 nolearning
+          - ip addr add 198.51.100.1/30 dev vxlan100
+          - ip link set vxlan100 mtu 1400 up
+          - ip l2tp add tunnel tunnel_id 1000 peer_tunnel_id 2000 encap udp local 192.0.2.1 remote 192.0.2.2 udp_sport 5000 udp_dport 6000
+          - ip l2tp add session name l2tpeth0 tunnel_id 1000 session_id 100 peer_session_id 200
+          - ip addr add 203.0.113.1/30 dev l2tpeth0
+          - ip link set l2tpeth0 mtu 1400 up
+          - iperf3 -s -D
+      labb:
+        ip: 192.0.2.2/30
+        postStart:
+          - ip link add vxlan100 type vxlan id 100 local 192.0.2.2 remote 192.0.2.1 dstport 4789 nolearning
+          - ip addr add 198.51.100.2/30 dev vxlan100
+          - ip link set vxlan100 mtu 1400 up
+          - ip l2tp add tunnel tunnel_id 2000 peer_tunnel_id 1000 encap udp local 192.0.2.2 remote 192.0.2.1 udp_sport 6000 udp_dport 5000
+          - ip l2tp add session name l2tpeth0 tunnel_id 2000 session_id 200 peer_session_id 100
+          - ip addr add 203.0.113.2/30 dev l2tpeth0
+          - ip link set l2tpeth0 mtu 1400 up
+          - iperf3 -s -D
+    links:
+      - node1: laba
+        node2: labb
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mnsec-tunnel-exp-${pod_hash}
+  labels:
+    app: mnsec-tunnel-exp-${pod_hash}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mnsec-tunnel-exp-${pod_hash}
+  template:
+    metadata:
+      name: mnsec-tunnel-exp-${pod_hash}
+      labels:
+        app: mnsec-tunnel-exp-${pod_hash}
+      annotations:
+        container.apparmor.security.beta.kubernetes.io/mininet-sec: unconfined
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: kubernetes.io/hostname
+                operator: In
+                values: ["ids-es"]
+      containers:
+      - name: mininet-sec
+        image: hackinsdn/mininet-sec:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8050
+        - containerPort: 8443
+        - containerPort: 8080
+        - containerPort: 8000
+        args: ["mnsec", "--topofile", "/customTopology.yaml"]
+        env:
+        - name: K8S_POD_HASH
+          value: ${pod_hash}
+        - name: K8S_NODE_AFFINITY
+          value: "ids-es"
+        - name: K8S_PROXY_CERT_FILE
+          value: /usr/local/etc/mnsec-proxy-ca.crt
+        - name: K8S_PROXY_HOST
+          value: mnsec-proxy-service.hackinsdn.svc.cnacv5
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN", "SYS_MODULE", "SYS_ADMIN"]
+        volumeMounts:
+        - name: lib-modules
+          mountPath: /lib/modules
+        - name: topo-tunnel-overhead-${pod_hash}-volume
+          readOnly: true
+          mountPath: "/customTopology.yaml"
+          subPath: "customTopology.yaml"
+        - name: mnsec-proxy-ca-volume
+          mountPath: /usr/local/etc/mnsec-proxy-ca.crt
+          readOnly: true
+          subPath: ca.crt
+      volumes:
+      - name: lib-modules
+        hostPath:
+          path: /lib/modules
+          type: Directory
+      - name: topo-tunnel-overhead-${pod_hash}-volume
+        configMap:
+          name: topo-tunnel-overhead-${pod_hash}
+      - name: mnsec-proxy-ca-volume
+        configMap:
+          defaultMode: 0600
+          name: mnsec-proxy-ca-configmap
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mnsec-tunnel-exp-${pod_hash}
+  labels:
+    app: mnsec-tunnel-exp-${pod_hash}
+spec:
+  type: NodePort
+  ports:
+  - port: 8050
+    targetPort: 8050
+    name: http-mininet-sec
+  selector:
+    app: mnsec-tunnel-exp-${pod_hash}
+

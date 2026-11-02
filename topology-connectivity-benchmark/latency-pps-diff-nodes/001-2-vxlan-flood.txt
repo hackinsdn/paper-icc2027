@@ -1,0 +1,9 @@
+HPING 198.51.100.2 (vxlan100 198.51.100.2): udp mode set, 28 headers + 18 data bytes
+
+BENCH_COUNTERS 1793385579564984944 1793385599646243896 11534822 12265387 0 0
+hping in flood mode, no replies will be shown
+
+--- 198.51.100.2 hping statistic ---
+730564 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+command terminated with exit code 124

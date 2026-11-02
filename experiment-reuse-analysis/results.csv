@@ -1,0 +1,6 @@
+Fork,Base,#Resources(fork),TES_mean,Key_Jaccard,KV_Jaccard,Graph_Similarity,Unchanged,Modified,Added,Removed,ReuseRatio,CloneType
+LabB,LabA,4,0.97,0.98,0.94,1.0,2,2,0,0,0.97,Type-2 (renamed/parameterized)
+LabC,LabA,4,0.9,0.95,0.88,1.0,1,3,0,0,0.9,Type-2 (renamed/parameterized)
+LabF,LabE,3,0.95,0.96,0.9,1.0,1,2,0,0,0.95,Type-2 (renamed/parameterized)
+LabH,LabG,2,0.45,0.31,0.11,0.38,0,2,0,5,0.45,Type-4 (semantic clone / divergent)
+LabJ,LabI,2,0.72,0.62,0.42,0.8,0,2,0,1,0.72,Type-3 (near-miss)

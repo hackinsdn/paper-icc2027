@@ -1,0 +1,9 @@
+HPING 10.50.59.174 (eth0 10.50.59.174): udp mode set, 28 headers + 18 data bytes
+
+BENCH_COUNTERS 1793386907867512902 1793386927958207027 107895243 108702663 1 1
+hping in flood mode, no replies will be shown
+
+--- 10.50.59.174 hping statistic ---
+807418 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+command terminated with exit code 124

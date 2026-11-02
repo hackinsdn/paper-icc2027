@@ -1,0 +1,86 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mininet-sec-${pod_hash}
+  labels:
+    app: mininet-sec-${pod_hash}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mininet-sec-${pod_hash}
+  template:
+    metadata:
+      name: mininet-sec-${pod_hash}
+      labels:
+        app: mininet-sec-${pod_hash}
+      annotations:
+        container.apparmor.security.beta.kubernetes.io/mininet-sec: unconfined
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: kubernetes.io/hostname
+                operator: In
+                values:
+                - ${choose_one_node}
+      containers:
+      - name: mininet-sec
+        image: hackinsdn/mininet-sec:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8050
+        - containerPort: 8443
+        - containerPort: 8181
+        args: ["python3", "examples/multi-as.py"]
+        env:
+        - name: K8S_POD_HASH
+          value: ${pod_hash}
+        - name: K8S_NODE_AFFINITY
+          value: ${choose_one_node}
+        - name: K8S_PROXY_CERT_FILE
+          value: /usr/local/etc/mnsec-proxy-ca.crt
+        - name: K8S_PROXY_HOST
+          value: mnsec-proxy-service.hackinsdn.svc.cnacv5
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN", "SYS_MODULE", "SYS_ADMIN"]
+        volumeMounts:
+        - name: mnsec-proxy-ca-volume
+          mountPath: /usr/local/etc/mnsec-proxy-ca.crt
+          readOnly: true
+          subPath: ca.crt
+        - name: lib-modules
+          mountPath: /lib/modules
+      volumes:
+      - name: mnsec-proxy-ca-volume
+        configMap:
+          defaultMode: 0600
+          name: mnsec-proxy-ca-configmap
+      - name: lib-modules
+        hostPath:
+          path: /lib/modules
+          type: Directory
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mininet-sec-${pod_hash}
+  labels:
+    app: mininet-sec-${pod_hash}
+spec:
+  type: NodePort
+  ports:
+  - port: 8050
+    targetPort: 8050
+    name: http-mininet-sec
+  - port: 8443
+    targetPort: 8443
+    name: https-secflood
+  - port: 8181
+    targetPort: 8181
+    name: http-kytos-api
+  selector:
+    app: mininet-sec-${pod_hash}

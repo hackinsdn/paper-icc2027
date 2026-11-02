@@ -1,0 +1,226 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: config-custom-topo-${pod_hash}
+data:
+  README.txt: |
+    Arquivos relacionados ao laboratorio do curso! Siga o roteiro de laboratório na plataforma HackInSDN.
+  Rede_Atividade6_2.xml: |
+    <?xml version='1.0' encoding='UTF-8'?>
+    <scenario>
+      <networks>
+        <network id="2" name="Rede0" icon="" canvas="0" type="SWITCH">
+          <position x="357.0" y="183.0" lat="47.57750297821261" lon="-122.12751374040351" alt="2.0"/>
+        </network>
+        <network id="7" name="Rede2" icon="" canvas="0" type="SWITCH">
+          <position x="542.0" y="56.0" lat="47.5786573889384" lon="-122.12502091549008" alt="2.0"/>
+        </network>
+        <network id="4" name="Rede1" icon="" canvas="0" type="SWITCH">
+          <position x="542.0" y="312.0" lat="47.576330361733184" lon="-122.12502091549008" alt="2.0"/>
+        </network>
+      </networks>
+      <devices>
+        <device id="1" name="E1" icon="" canvas="0" type="PC" class="" image="" compose="" compose_name="">
+          <position x="177.0" y="183.0" lat="47.57750297821261" lon="-122.12993919167066" alt="2.0"/>
+          <services>
+            <service name="DefaultRoute"/>
+          </services>
+        </device>
+        <device id="5" name="R3" icon="" canvas="0" type="router" class="" image="" compose="" compose_name="">
+          <position x="357.0" y="311.0" lat="47.576339451884415" lon="-122.12751374040351" alt="2.0"/>
+          <services>
+            <service name="zebra"/>
+            <service name="RIP"/>
+            <service name="IPForward"/>
+          </services>
+        </device>
+        <device id="3" name="R1" icon="" canvas="0" type="router" class="" image="" compose="" compose_name="">
+          <position x="358.0" y="57.0" lat="47.57864829918958" lon="-122.12750026567426" alt="2.0"/>
+          <services>
+            <service name="zebra"/>
+            <service name="RIP"/>
+            <service name="IPForward"/>
+          </services>
+        </device>
+        <device id="6" name="E2" icon="" canvas="0" type="PC" class="" image="" compose="" compose_name="">
+          <position x="726.0" y="312.0" lat="47.576330361733184" lon="-122.12254156530592" alt="2.0"/>
+          <services>
+            <service name="DefaultRoute"/>
+          </services>
+        </device>
+        <device id="9" name="E22" icon="" canvas="0" type="PC" class="" image="" compose="" compose_name="">
+          <position x="727.0" y="56.0" lat="47.5786573889384" lon="-122.12252809057667" alt="2.0"/>
+          <services>
+            <service name="DefaultRoute"/>
+          </services>
+        </device>
+        <device id="8" name="R2" icon="" canvas="0" type="router" class="" image="" compose="" compose_name="">
+          <position x="541.0" y="179.0" lat="47.57753933799374" lon="-122.12503439021934" alt="2.0"/>
+          <services>
+            <service name="zebra"/>
+            <service name="RIP"/>
+            <service name="IPForward"/>
+          </services>
+        </device>
+      </devices>
+      <links>
+        <link node1="2" node2="1">
+          <iface1 id="0" name="veth2.0.1"/>
+          <iface2 id="0" name="eth0" mac="00:00:00:aa:00:00" ip4="10.0.0.10" ip4_mask="24"/>
+          <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+        </link>
+        <link node1="2" node2="5">
+          <iface1 id="1" name="veth2.1.1"/>
+          <iface2 id="0" name="eth0" mac="00:00:00:aa:00:01" ip4="10.0.0.1" ip4_mask="24"/>
+          <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+        </link>
+        <link node1="7" node2="8">
+          <iface1 id="1" name="veth7.1.1"/>
+          <iface2 id="0" name="eth0" mac="00:00:00:aa:00:06" ip4="10.0.2.2" ip4_mask="24"/>
+          <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+        </link>
+        <link node1="2" node2="3">
+          <iface1 id="2" name="veth2.2.1"/>
+          <iface2 id="0" name="eth0" mac="00:00:00:aa:00:04" ip4="10.0.0.2" ip4_mask="24"/>
+          <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+        </link>
+        <link node1="7" node2="3">
+          <iface1 id="0" name="veth7.0.1"/>
+          <iface2 id="1" name="eth1" mac="00:00:00:aa:00:05" ip4="10.0.2.1" ip4_mask="24"/>
+          <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+        </link>
+        <link node1="4" node2="5">
+          <iface1 id="0" name="veth4.0.1"/>
+          <iface2 id="1" name="eth1" mac="00:00:00:aa:00:02" ip4="10.0.1.1" ip4_mask="24"/>
+          <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+        </link>
+        <link node1="7" node2="9">
+          <iface1 id="2" name="veth7.2.1"/>
+          <iface2 id="0" name="eth0" mac="00:00:00:aa:00:08" ip4="10.0.2.10" ip4_mask="24"/>
+          <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+        </link>
+        <link node1="4" node2="6">
+          <iface1 id="1" name="veth4.1.1"/>
+          <iface2 id="0" name="eth0" mac="00:00:00:aa:00:03" ip4="10.0.1.10" ip4_mask="24"/>
+          <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+        </link>
+        <link node1="4" node2="8">
+          <iface1 id="2" name="veth4.2.1"/>
+          <iface2 id="1" name="eth1" mac="00:00:00:aa:00:07" ip4="10.0.1.2" ip4_mask="24"/>
+          <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+        </link>
+      </links>
+      <session_origin lat="47.579166412353516" lon="-122.13232421875" alt="2.0" scale="150.0"/>
+      <session_options>
+        <configuration name="controlnet" value=""/>
+        <configuration name="controlnet0" value=""/>
+        <configuration name="controlnet1" value=""/>
+        <configuration name="controlnet2" value=""/>
+        <configuration name="controlnet3" value=""/>
+        <configuration name="controlnet_updown_script" value=""/>
+        <configuration name="enablerj45" value="1"/>
+        <configuration name="preservedir" value="0"/>
+        <configuration name="enablesdt" value="0"/>
+        <configuration name="sdturl" value="tcp://127.0.0.1:50000/"/>
+        <configuration name="ovs" value="0"/>
+        <configuration name="platform_id_start" value="1"/>
+        <configuration name="nem_id_start" value="1"/>
+        <configuration name="link_enabled" value="1"/>
+        <configuration name="loss_threshold" value="30"/>
+        <configuration name="link_interval" value="1"/>
+        <configuration name="link_timeout" value="4"/>
+        <configuration name="mtu" value="0"/>
+        <configuration name="checksums" value="0"/>
+      </session_options>
+      <session_metadata>
+        <configuration name="shapes" value="[]"/>
+        <configuration name="edges" value="[]"/>
+        <configuration name="hidden" value="[]"/>
+        <configuration name="canvas" value="{&quot;gridlines&quot;: true, &quot;canvases&quot;: [{&quot;id&quot;: 1, &quot;wallpaper&quot;: null, &quot;wallpaper_style&quot;: 1, &quot;fit_image&quot;: false, &quot;dimensions&quot;: [1000, 750]}]}"/>
+      </session_metadata>
+    </scenario>
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: labdata-webtop-${pod_hash}
+data:
+  startup-config.sh: |
+    #!/usr/bin/with-contenv bash
+    # run startup script to setup anything on the host
+    # using /usr/bin/with-contenv to preserve ENVVARs
+    
+    echo "all done!"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: coreemu-${pod_hash}
+  labels:
+    app: coreemu-${pod_hash}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: coreemu-${pod_hash}
+  template:
+    metadata:
+      name: coreemu-${pod_hash}
+      labels:
+        app: coreemu-${pod_hash}
+      annotations:
+        container.apparmor.security.beta.kubernetes.io/coreemu: unconfined
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+            - matchExpressions:
+              - key: kubernetes.io/hostname
+                operator: In
+                values:
+                - ${choose_one_node}
+      containers:
+      - name: coreemu
+        image: hackinsdn/coreemu:latest
+        env:
+        - name: LC_ALL
+          value: "pt_BR.UTF-8"
+        - name: TITLE
+          value: "CORE Emu"
+        ports:
+        - containerPort: 3000
+        - containerPort: 3001
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN", "SYS_MODULE", "SYS_ADMIN"]
+          privileged: true
+        volumeMounts:
+        - name: config-custom-topo-${pod_hash}-volume
+          mountPath: /config/ADR-015/Sessao6
+        - name: labdata-webtop
+          mountPath: /custom-cont-init.d/startup-config.sh
+          subPath: startup-config.sh
+      volumes:
+      - name: config-custom-topo-${pod_hash}-volume
+        configMap:
+          name: config-custom-topo-${pod_hash}
+      - name: labdata-webtop
+        configMap:
+          name: labdata-webtop-${pod_hash}
+          defaultMode: 0755
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: coreemu-${pod_hash}
+  labels:
+    app: coreemu-${pod_hash}
+spec:
+  type: NodePort
+  ports:
+  - port: 3001
+    targetPort: 3001
+    name: https-coreemu
+  selector:
+    app: coreemu-${pod_hash}

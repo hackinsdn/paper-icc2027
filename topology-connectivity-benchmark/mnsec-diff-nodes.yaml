@@ -1,0 +1,114 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: topo-tunnel-overhead-${pod_hash}
+data:
+  customTopology.yaml: |-
+    name: topology used for tunnel overhead experiment
+    hosts:
+      laba:
+        image: hackinsdn/debian:latest
+        kind: k8spod
+        isolateControlNet: false
+        nodeAffinity: ids-pe
+        postStart:
+          - iperf3 -s -D
+      labb:
+        image: hackinsdn/debian:latest
+        kind: k8spod
+        isolateControlNet: false
+        nodeAffinity: ids-mg
+        postStart:
+          - iperf3 -s -D
+    links:
+      - node1: laba
+        node2: labb
+        kind: vxlan
+        ipv4_node1: 198.51.100.1/30
+        ipv4_node2: 198.51.100.2/30
+      - node1: laba
+        node2: labb
+        kind: l2tp
+        ipv4_node1: 203.0.113.1/30
+        ipv4_node1: 203.0.113.2/30
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mnsec-tunnel-exp-${pod_hash}
+  labels:
+    app: mnsec-tunnel-exp-${pod_hash}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mnsec-tunnel-exp-${pod_hash}
+  template:
+    metadata:
+      name: mnsec-tunnel-exp-${pod_hash}
+      labels:
+        app: mnsec-tunnel-exp-${pod_hash}
+      annotations:
+        container.apparmor.security.beta.kubernetes.io/mininet-sec: unconfined
+    spec:
+      containers:
+      - name: mininet-sec
+        image: hackinsdn/mininet-sec:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8050
+        - containerPort: 8443
+        - containerPort: 8080
+        - containerPort: 8000
+        args: ["mnsec", "--topofile", "/customTopology.yaml"]
+        env:
+        - name: K8S_POD_HASH
+          value: ${pod_hash}
+        - name: K8S_NODE_AFFINITY
+          value: "ids-es,ids-mg"
+        - name: K8S_PROXY_CERT_FILE
+          value: /usr/local/etc/mnsec-proxy-ca.crt
+        - name: K8S_PROXY_HOST
+          value: mnsec-proxy-service.hackinsdn.svc.cnacv5
+        securityContext:
+          capabilities:
+            add: ["NET_ADMIN", "SYS_MODULE", "SYS_ADMIN"]
+        volumeMounts:
+        - name: lib-modules
+          mountPath: /lib/modules
+        - name: topo-tunnel-overhead-${pod_hash}-volume
+          readOnly: true
+          mountPath: "/customTopology.yaml"
+          subPath: "customTopology.yaml"
+        - name: mnsec-proxy-ca-volume
+          mountPath: /usr/local/etc/mnsec-proxy-ca.crt
+          readOnly: true
+          subPath: ca.crt
+      volumes:
+      - name: lib-modules
+        hostPath:
+          path: /lib/modules
+          type: Directory
+      - name: topo-tunnel-overhead-${pod_hash}-volume
+        configMap:
+          name: topo-tunnel-overhead-${pod_hash}
+      - name: mnsec-proxy-ca-volume
+        configMap:
+          defaultMode: 0600
+          name: mnsec-proxy-ca-configmap
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mnsec-tunnel-exp-${pod_hash}
+  labels:
+    app: mnsec-tunnel-exp-${pod_hash}
+spec:
+  type: NodePort
+  ports:
+  - port: 8050
+    targetPort: 8050
+    name: http-mininet-sec
+  selector:
+    app: mnsec-tunnel-exp-${pod_hash}
+

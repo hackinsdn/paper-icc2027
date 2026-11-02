@@ -1,0 +1,9 @@
+HPING 192.0.2.2 (under-a 192.0.2.2): udp mode set, 28 headers + 18 data bytes
+
+BENCH_COUNTERS 1793407800455476844 1793407820502201339 210717030 214342872 0 0
+hping in flood mode, no replies will be shown
+
+--- 192.0.2.2 hping statistic ---
+3625840 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+command terminated with exit code 124
